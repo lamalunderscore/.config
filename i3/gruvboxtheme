@@ -1,0 +1,30 @@
+#gruvbox Theme
+
+#set $bg #282828
+#set $red #cc241d
+#set $green #98971a
+#set $yellow #d79921
+#set $blue #458588
+#set $purple #b16286
+#set $aqua #689d68
+#set $gray #a89984
+#set $darkgray #1d2021
+
+
+client.background       #ebdbb2
+
+
+
+# green gruvbox
+# class                  border   bground text    indicator child_border
+#client.focused          $green $green $darkgray $purple $darkgray
+#client.focused_inactive $darkgray $darkgray $yellow $purple $darkgray
+#client.unfocused        $darkgray $darkgray $yellow $purple $darkgray
+#client.urgent           $red $red $white $red $red
+
+# blue gruvbox
+# class                 border  bground  text    indicator child_border
+client.focused          #98971a #282828 #ebdbb2 #282828   #98971a
+client.focused_inactive #d79921 #282828 #ebdbb2 #504945   #282828
+client.urgent           #cc241d #cc241d #ebdbb2 #cc241d   #cc241d
+client.placeholder      #282828 #282828 #ebdbb2 #282828   #282828

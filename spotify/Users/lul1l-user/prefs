@@ -1,0 +1,8 @@
+audio.sync_bitrate_enumeration=4
+audio.play_bitrate_non_metered_migrated=true
+gaia.attached_device_id="91b711496dbfd1bbf282445bf4dc2ea3c537dbbe"
+audio.automix=false
+audio.play_bitrate_enumeration=0
+audio.play_bitrate_non_metered_enumeration=0
+audio.normalize_v2=false
+ui.show_friend_feed=false

@@ -1,0 +1,95 @@
+/*
+ * ROFI color theme
+ *
+ * Based on Something Found in the Internet
+ *
+ * User: Contributors
+ * Copyright: *!
+ */
+
+configuration {
+  display-run: "";
+  drun-display-format: "{name}";
+  modi: "run";
+  show-icons: true;
+}
+
+* {
+  bg: #44475a;
+  bg-alt: #282a36;
+  highlight: none;
+  fg: #f8f8f2;
+  fg-alt: #ff79c6;
+  margin: 0;
+  border-color: @fg; 
+}
+
+element {
+  background-color: @bg;
+  text-color: @fg;
+  margin: -2;
+  border: 1 0 1 0;
+}
+
+element selected {
+  background-color: @fg-alt;
+  text-color: @bg;
+}
+
+
+element-icon {
+  text-color: inherit;
+  background-color: inherit;
+  size: 25;
+  padding: 8 8 8 11;
+}
+
+element-text {
+  
+  font: "Fira Code Nerd Font Mono 12";
+  padding: 10 0 8 0;
+  background-color: inherit;
+  text-color: inherit;
+}
+
+entry {
+  
+  background-color: @bg;
+  font: "Fira Code Nerd Font Mono 20";
+  padding: 15 0 15 0;
+  text-color: @fg;
+}
+
+inputbar {
+  
+  background-color: @bg;
+  children: [prompt, entry];
+}
+
+listview {
+
+  background-color: @bg;
+  columns: 1;
+  lines: 3 ;
+}
+
+mainbox {
+
+  background-color: @bg;
+  children: [inputbar, listview];
+}
+
+prompt {
+
+  background-color: @bg;
+  font: "Fira Code Nerd Font Mono 30";
+  padding: 6 11 0 11 ;
+  text-color: @fg;
+}
+
+
+window {
+
+  background-color: @bg;
+  transparency: "real";
+}
