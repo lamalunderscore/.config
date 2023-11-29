@@ -10,21 +10,10 @@ function fish_prompt
 
 
 	set E
-    set E $E 
-    set E $E 
-    set E $E 
     set E $E 
-    set E $E 
-    set E $E 
     set E $E 
-    set E $E 
     set E $E 
     set E $E 
-    set E $E 
-    set E $E 
-    set E $E ﴣ
-    set E $E 
-    set E $E 
 
 
     set n (math (random)%(count $E))
