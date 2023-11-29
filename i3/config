@@ -253,4 +253,5 @@ gaps top 26
 exec_always picom
 exec_always --no-startup-id /home/main/.config/polybar/launch.sh
 exec --no-startup-id nitrogen --random --set-auto /media/wallpapers/random
+exec --no-startup-id light-locker --lock-on-lid
 include gruvboxtheme
