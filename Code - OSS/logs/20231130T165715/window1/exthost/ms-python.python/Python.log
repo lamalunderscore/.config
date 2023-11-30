@@ -1,0 +1,40 @@
+2023-11-30 17:22:19.407 [info] Default formatter is set to null for workspace /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-11-30 17:22:19.407 [info] Test server listening.
+2023-11-30 17:22:19.407 [info] Python interpreter path: ./.conda/bin/python
+2023-11-30 17:22:19.479 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 85ms, has a falsy return value, Arg 1: <Uri:/home/main/Desktop/uni/oop/assignment_1_OOP/multi_linear_regression.py>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:45185)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:23805)
+  	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+  	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+]
+2023-11-30 17:22:19.479 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:45185)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:23805)
+	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+2023-11-30 17:22:19.479 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:45185)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:23805)
+	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+2023-11-30 17:22:20.771 [info] Starting Jedi language server for assignment_1_OOP.
+2023-11-30 17:24:47.911 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/multi_linear_regression.py
+2023-11-30 17:24:54.760 [info] > conda info --json
+2023-11-30 17:24:54.780 [info] > ~/.conda/bin/conda info --json
+2023-11-30 17:24:54.812 [info] > ~/anaconda3/bin/conda info --json
+2023-11-30 17:24:56.380 [info] > ./.conda/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-11-30 17:24:56.425 [info] > ~/anaconda3/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
