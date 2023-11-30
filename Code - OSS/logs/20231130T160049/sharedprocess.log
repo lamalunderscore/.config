@@ -1,0 +1,14 @@
+2023-11-30 16:05:51.655 [info] Getting Manifest... github.vscode-pull-request-github
+2023-11-30 16:05:51.800 [info] Installing extension: github.vscode-pull-request-github
+2023-11-30 16:05:52.989 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2023-11-30 16:05:53.173 [info] Extracted extension to file:///home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.76.1-universal: github.vscode-pull-request-github
+2023-11-30 16:05:53.203 [info] Renamed to /home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.76.1-universal
+2023-11-30 16:05:53.217 [info] Extracting extension completed. github.vscode-pull-request-github
+2023-11-30 16:05:53.239 [info] Extension installed successfully: github.vscode-pull-request-github
+2023-11-30 16:05:53.324 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/main/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/main/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)

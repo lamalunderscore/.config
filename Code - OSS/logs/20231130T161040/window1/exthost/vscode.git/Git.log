@@ -1,0 +1,43 @@
+2023-11-30 16:10:44.611 [info] Log level: Info
+2023-11-30 16:10:44.611 [info] Validating found git in: "git"
+2023-11-30 16:10:44.611 [info] Using git "2.43.0" from "git"
+2023-11-30 16:10:44.611 [info] > git rev-parse --show-toplevel [8ms]
+2023-11-30 16:10:44.611 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-11-30 16:10:44.611 [info] Open repository: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-11-30 16:10:44.621 [info] > git rev-parse --show-toplevel [23ms]
+2023-11-30 16:10:44.625 [info] > git config --get commit.template [42ms]
+2023-11-30 16:10:44.920 [info] > git rev-parse --show-toplevel [259ms]
+2023-11-30 16:10:44.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2023-11-30 16:10:44.973 [info] > git status -z -uall [14ms]
+2023-11-30 16:10:45.020 [info] > git config --get commit.template [6ms]
+2023-11-30 16:10:45.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-30 16:10:45.064 [info] > git status -z -uall [3ms]
+2023-11-30 16:10:45.448 [info] > git check-ignore -v -z --stdin [2ms]
+2023-11-30 16:11:53.341 [info] > git config --get commit.template [15ms]
+2023-11-30 16:11:53.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-11-30 16:11:53.358 [info] > git status -z -uall [4ms]
+2023-11-30 16:11:53.870 [info] > git clone https://github.com/lamalunderscore/assignment_1_OOP.git /home/main/Desktop/uni/oop/assignment_1_OOP --progress [609ms]
+2023-11-30 16:11:53.870 [info] Cloning into '/home/main/Desktop/uni/oop/assignment_1_OOP'...
+remote: Enumerating objects: 43, done.        
+remote: Counting objects:   6% (1/16)        remote: Counting objects:  12% (2/16)        remote: Counting objects:  18% (3/16)        remote: Counting objects:  25% (4/16)        remote: Counting objects:  31% (5/16)        remote: Counting objects:  37% (6/16)        remote: Counting objects:  43% (7/16)        remote: Counting objects:  50% (8/16)        remote: Counting objects:  56% (9/16)        remote: Counting objects:  62% (10/16)        remote: Counting objects:  68% (11/16)        remote: Counting objects:  75% (12/16)        remote: Counting objects:  81% (13/16)        remote: Counting objects:  87% (14/16)        remote: Counting objects:  93% (15/16)        remote: Counting objects: 100% (16/16)        remote: Counting objects: 100% (16/16), done.        
+remote: Compressing objects:   9% (1/11)        remote: Compressing objects:  18% (2/11)        remote: Compressing objects:  27% (3/11)        remote: Compressing objects:  36% (4/11)        remote: Compressing objects:  45% (5/11)        remote: Compressing objects:  54% (6/11)        remote: Compressing objects:  63% (7/11)        remote: Compressing objects:  72% (8/11)        remote: Compressing objects:  81% (9/11)        remote: Compressing objects:  90% (10/11)        remote: Compressing objects: 100% (11/11)        remote: Compressing objects: 100% (11/11), done.        
+Receiving objects:   2% (1/43)Receiving objects:   4% (2/43)Receiving objects:   6% (3/43)Receiving objects:   9% (4/43)Receiving objects:  11% (5/43)Receiving objects:  13% (6/43)Receiving objects:  16% (7/43)Receiving objects:  18% (8/43)Receiving objects:  20% (9/43)Receiving objects:  23% (10/43)Receiving objects:  25% (11/43)Receiving objects:  27% (12/43)Receiving objects:  30% (13/43)Receiving objects:  32% (14/43)Receiving objects:  34% (15/43)Receiving objects:  37% (16/43)Receiving objects:  39% (17/43)Receiving objects:  41% (18/43)Receiving objects:  44% (19/43)Receiving objects:  46% (20/43)remote: Total 43 (delta 12), reused 5 (delta 5), pack-reused 27        
+Receiving objects:  48% (21/43)Receiving objects:  51% (22/43)Receiving objects:  53% (23/43)Receiving objects:  55% (24/43)Receiving objects:  58% (25/43)Receiving objects:  60% (26/43)Receiving objects:  62% (27/43)Receiving objects:  65% (28/43)Receiving objects:  67% (29/43)Receiving objects:  69% (30/43)Receiving objects:  72% (31/43)Receiving objects:  74% (32/43)Receiving objects:  76% (33/43)Receiving objects:  79% (34/43)Receiving objects:  81% (35/43)Receiving objects:  83% (36/43)Receiving objects:  86% (37/43)Receiving objects:  88% (38/43)Receiving objects:  90% (39/43)Receiving objects:  93% (40/43)Receiving objects:  95% (41/43)Receiving objects:  97% (42/43)Receiving objects: 100% (43/43)Receiving objects: 100% (43/43), 21.04 KiB | 1.17 MiB/s, done.
+Resolving deltas:   0% (0/15)Resolving deltas:   6% (1/15)Resolving deltas:  13% (2/15)Resolving deltas:  20% (3/15)Resolving deltas:  26% (4/15)Resolving deltas:  33% (5/15)Resolving deltas:  40% (6/15)Resolving deltas:  46% (7/15)Resolving deltas:  53% (8/15)Resolving deltas:  60% (9/15)Resolving deltas:  66% (10/15)Resolving deltas:  73% (11/15)Resolving deltas:  80% (12/15)Resolving deltas:  86% (13/15)Resolving deltas:  93% (14/15)Resolving deltas: 100% (15/15)Resolving deltas: 100% (15/15), done.
+2023-11-30 16:12:12.043 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2023-11-30 16:12:19.423 [info] > git show --textconv :.gitignore [20ms]
+2023-11-30 16:12:19.428 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_1_OOP/.gitignore [6ms]
+2023-11-30 16:12:19.446 [info] > git cat-file -s 68bc17f9ff2104a9d7b6777058bb4c343ca72609 [6ms]
+2023-11-30 16:12:21.365 [info] > git show --textconv :src/__init__.py [33ms]
+2023-11-30 16:12:21.368 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_1_OOP/src/__init__.py [8ms]
+2023-11-30 16:12:21.389 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2023-11-30 16:12:22.386 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-30 16:15:29.192 [info] > git show --textconv :src/__init__.py [12ms]
+2023-11-30 16:15:29.195 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_1_OOP/src/__init__.py [4ms]
+2023-11-30 16:15:29.204 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2023-11-30 16:16:19.014 [info] > git push -u origin master [13ms]
+2023-11-30 16:16:19.014 [info] error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/lamalunderscore/assignment_1_OOP.git'
+2023-11-30 16:16:19.028 [info] > git config --get commit.template [2ms]
+2023-11-30 16:16:19.044 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-30 16:16:19.063 [info] > git status -z -uall [4ms]

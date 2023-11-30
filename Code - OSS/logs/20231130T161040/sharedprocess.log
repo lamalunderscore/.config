@@ -1,0 +1,10 @@
+2023-11-30 16:18:48.898 [info] Uninstalling extension from the profile: github.vscode-pull-request-github@0.76.1 vscode-userdata:/home/main/.vscode-oss/extensions/extensions.json
+2023-11-30 16:18:48.976 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.76.1-universal
+2023-11-30 16:18:49.043 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/main/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/main/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-30 16:18:49.112 [info] Successfully uninstalled extension from the profile github.vscode-pull-request-github@0.76.1 vscode-userdata:/home/main/.vscode-oss/extensions/extensions.json

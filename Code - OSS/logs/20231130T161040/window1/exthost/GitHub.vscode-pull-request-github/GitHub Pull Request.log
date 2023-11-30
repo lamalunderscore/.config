@@ -1,0 +1,5 @@
+2023-11-30 16:10:45.422 [warning] /home/main/.ssh/config: ENOENT: no such file or directory, open '/home/main/.ssh/config'
+2023-11-30 16:10:45.422 [info] Activation> Extension version: 0.76.1
+2023-11-30 16:10:45.899 [info] Looking for git repository
+2023-11-30 16:10:45.899 [info] Found 0 repositories during activation
+2023-11-30 16:10:45.900 [info] Registering git provider
