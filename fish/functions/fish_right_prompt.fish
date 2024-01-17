@@ -540,7 +540,7 @@ function __bobthefish_prompt_git -S -a git_root_dir -a real_pwd -d 'Display the 
     #        echo -ns $project_pwd ' '
     #    end
     #end
-
+    set_color normal
 end
 
 function __bobthefish_prompt_dir -S -a real_pwd -d 'Display a shortened form of the current directory'
@@ -580,6 +580,7 @@ function fish_right_prompt -d 'bobthefish, a fish theme optimized for awesome'
     else
       #  __bobthefish_prompt_dir $real_pwd
     end
+    
 
     #__bobthefish_finish_segments
 end
