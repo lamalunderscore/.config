@@ -1,5 +1,0 @@
-{
-    "redhat.telemetry.enabled": false,
-    "git.enableSmartCommit": true,
-    "git.autofetch": true
-}
