@@ -1,0 +1,92 @@
+2023-12-21 10:55:22.266 [info] Activation> Extension version: 0.78.1
+2023-12-21 10:55:25.606 [info] Looking for git repository
+2023-12-21 10:55:25.606 [info] Found 0 repositories during activation
+2023-12-21 10:55:25.606 [info] Git repository found, initializing review manager and pr tree view.
+2023-12-21 10:55:25.620 [info] Registering git provider
+2023-12-21 10:55:25.620 [info] Review+0> Validate state in progress
+2023-12-21 10:55:25.620 [info] Review+0> Validating state...
+2023-12-21 10:55:25.620 [info] Review+1> Validate state in progress
+2023-12-21 10:55:25.620 [info] Review+1> Validating state...
+2023-12-21 10:55:25.834 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-21 10:55:25.849 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-21 10:55:26.478 [info] Trying to use globalState for assignableUsers.
+2023-12-21 10:55:26.744 [info] Review+0> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-21 10:55:26.748 [info] Review+0> current branch main is associated with pull request #3
+2023-12-21 10:55:26.748 [info] Review+0> Resolving pull request
+2023-12-21 10:55:26.751 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 10:55:26.801 [info] Using globalState assignableUsers for 1.
+2023-12-21 10:55:26.854 [info] Trying to use globalState for assignableUsers.
+2023-12-21 10:55:26.935 [info] Review+1> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_2_OOP PR: 1
+2023-12-21 10:55:26.935 [info] Review+1> current branch main is associated with pull request #1
+2023-12-21 10:55:26.935 [info] Review+1> Resolving pull request
+2023-12-21 10:55:26.935 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-21 10:55:26.986 [info] Using globalState assignableUsers for 1.
+2023-12-21 10:55:27.821 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 10:55:27.821 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 10:55:27.924 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-21 10:55:27.924 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 10:55:28.154 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 10:55:28.183 [info] Review+0> Resolved PR #3, state is 0
+2023-12-21 10:55:28.183 [info] Review+0> Fetching pull request data
+2023-12-21 10:55:28.183 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-21 10:55:28.263 [info] Review+0> Register comments provider
+2023-12-21 10:55:28.270 [info] Review+0> Register in memory content provider
+2023-12-21 10:55:28.299 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 10:55:28.324 [info] Review+1> Resolved PR #1, state is 0
+2023-12-21 10:55:28.324 [info] Review+1> Fetching pull request data
+2023-12-21 10:55:28.325 [info] PullRequestTree> Adding PR #1 to tree
+2023-12-21 10:55:28.396 [info] Review+1> Register comments provider
+2023-12-21 10:55:28.452 [info] Review+1> Register in memory content provider
+2023-12-21 10:55:28.452 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 10:55:29.360 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 10:55:29.360 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 10:55:29.406 [info] Review+0> Display pull request status bar indicator.
+2023-12-21 10:55:29.406 [info] Review+0> Using focus mode = true.
+2023-12-21 10:55:29.406 [info] Review+0> State validation silent = true.
+2023-12-21 10:55:29.406 [info] Review+0> PR show should show = false.
+2023-12-21 10:55:29.820 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 10:55:29.902 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_1_OOP changed.
+2023-12-21 10:55:29.902 [info] Repo file:///home/main/Desktop/uni/oop/assignment_1_OOP has already been setup.
+2023-12-21 10:55:29.907 [error] FolderRepositoryManager+0> Error when fetching: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+2023-12-21 10:55:30.677 [info] Review+1> Display pull request status bar indicator.
+2023-12-21 10:55:30.677 [info] Review+1> Using focus mode = true.
+2023-12-21 10:55:30.677 [info] Review+1> State validation silent = true.
+2023-12-21 10:55:30.677 [info] Review+1> PR show should show = false.
+2023-12-21 11:00:25.647 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 11:00:25.663 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-21 11:00:26.270 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 11:00:26.270 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 11:00:26.600 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 11:00:31.444 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-21 11:00:31.444 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 11:00:31.844 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 11:05:28.273 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 11:05:28.927 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 11:05:28.927 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 11:05:29.271 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 11:05:33.939 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-21 11:05:34.667 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-21 11:05:34.667 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 11:05:35.017 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 11:10:29.040 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 11:10:29.692 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 11:10:29.692 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 11:10:30.051 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 11:10:35.474 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-21 11:10:36.104 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-21 11:10:36.104 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 11:10:36.457 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 11:15:31.805 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 11:15:32.440 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 11:15:32.440 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 11:15:32.778 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 11:15:39.001 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-21 11:15:39.785 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-21 11:15:39.785 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 11:15:40.134 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 11:16:42.915 [info] PullRequestTree> Removing PR #1 from tree

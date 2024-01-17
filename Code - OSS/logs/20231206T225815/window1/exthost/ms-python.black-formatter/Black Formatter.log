@@ -1,0 +1,63 @@
+2023-12-06 23:16:06.687 [info] Name: Black Formatter
+2023-12-06 23:16:06.688 [info] Module: black
+2023-12-06 23:16:06.688 [info] Default formatter is set to ms-python.flake8 for workspace /home/main/Desktop/uni
+2023-12-06 23:16:06.688 [warning] Black Formatter is NOT set as the default formatter for workspace /home/main/Desktop/uni
+2023-12-06 23:16:06.688 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2023-12-06 23:16:06.688 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2023-12-06 23:16:06.688 [info] Python extension loading
+2023-12-06 23:16:06.688 [info] Waiting for interpreter from python extension.
+2023-12-06 23:16:06.688 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-06 23:16:06.688 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni
+2023-12-06 23:16:06.688 [info] Python extension loaded
+2023-12-06 23:16:06.688 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-06 23:16:06.688 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-06 23:16:06.688 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni
+2023-12-06 23:16:06.688 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-06 23:16:06.688 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py
+2023-12-06 23:16:06.688 [info] Server: Start requested.
+2023-12-06 23:16:07.853 [info] CWD Server: /home/main/Desktop/uni
+2023-12-06 23:16:07.853 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni",
+        "workspace": "file:///home/main/Desktop/uni",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-06 23:16:07.853 [info] Global settings:
+{
+    "cwd": "/home/main",
+    "workspace": "/home/main",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-06 23:16:07.853 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-06 23:16:07.855 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --version
+2023-12-06 23:16:07.855 [info] CWD formatter: /home/main/Desktop/uni
+2023-12-06 23:16:08.003 [info] Version info for formatter running for /home/main/Desktop/uni:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.10.13
+
+2023-12-06 23:16:08.004 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+

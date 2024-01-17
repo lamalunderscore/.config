@@ -1,0 +1,373 @@
+2023-12-14 21:06:22.958 [info] Extension host with pid 36525 started
+2023-12-14 21:06:22.958 [info] Skipping acquiring lock for /home/main/.config/Code - OSS/User/workspaceStorage/f5217debe11dbd7cad9c316b3e12a84f.
+2023-12-14 21:06:23.628 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-14 21:06:24.083 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-14 21:06:24.518 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-14 21:06:24.845 [info] Eager extensions activated
+2023-12-14 21:06:24.999 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-14 21:06:25.008 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-14 21:06:25.159 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-12-14 21:06:25.500 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-12-14 21:06:27.904 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-14 21:06:28.087 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-14 21:06:28.354 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-14 21:06:32.785 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:07:56.919 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:11:30.257 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:16:32.716 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:21:35.057 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:26:37.459 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:31:39.835 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:36:42.174 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:41:44.404 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:46:46.754 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:51:49.105 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 21:56:51.468 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:01:53.760 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:06:56.111 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:11:58.532 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:17:00.893 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:22:03.361 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:27:05.942 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:32:08.466 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:37:10.735 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:42:13.133 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:47:15.542 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:52:18.287 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-14 22:57:20.856 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)

@@ -1,0 +1,690 @@
+2024-01-17 15:47:07.367 [info] Log level: Info
+2024-01-17 15:47:07.367 [info] Validating found git in: "git"
+2024-01-17 15:47:07.367 [info] Using git "2.43.0" from "git"
+2024-01-17 15:47:07.367 [info] > git rev-parse --show-toplevel [16ms]
+2024-01-17 15:47:07.367 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:07.367 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-17 15:47:07.367 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:07.367 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 15:47:07.367 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:07.367 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-17 15:47:07.367 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-01-17 15:47:07.367 [info] Open repository: /home/main/Desktop/uni/oop/assignment_1_OOP
+2024-01-17 15:47:07.367 [info] > git config --get commit.template [19ms]
+2024-01-17 15:47:07.367 [info] > git rev-parse --show-toplevel [12ms]
+2024-01-17 15:47:07.367 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-01-17 15:47:07.367 [info] Open repository: /home/main/Desktop/uni/oop/assignment_2_OOP
+2024-01-17 15:47:07.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+2024-01-17 15:47:07.369 [info] > git rev-parse --show-toplevel [7ms]
+2024-01-17 15:47:07.370 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:07.370 [info] > git config --get commit.template [20ms]
+2024-01-17 15:47:07.441 [info] > git status -z -uall [17ms]
+2024-01-17 15:47:07.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2024-01-17 15:47:07.442 [info] > git rev-parse --show-toplevel [56ms]
+2024-01-17 15:47:07.524 [info] > git rev-parse --git-dir --git-common-dir [59ms]
+2024-01-17 15:47:07.572 [info] Open repository: /home/main/Desktop/uni/sigsys/assignment1
+2024-01-17 15:47:07.625 [info] > git config --get commit.template [103ms]
+2024-01-17 15:47:07.652 [info] > git rev-parse --show-toplevel [28ms]
+2024-01-17 15:47:07.660 [info] > git config --get commit.template [49ms]
+2024-01-17 15:47:08.164 [info] > git status -z -uall [513ms]
+2024-01-17 15:47:08.295 [info] > git rev-parse --git-dir --git-common-dir [133ms]
+2024-01-17 15:47:08.338 [info] Open repository: /home/main/Desktop/uni/sigsys/assignment2
+2024-01-17 15:47:08.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [197ms]
+2024-01-17 15:47:08.418 [info] > git config --get commit.template [124ms]
+2024-01-17 15:47:08.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [164ms]
+2024-01-17 15:47:08.468 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 15:47:08.469 [info] > git config --get commit.template [59ms]
+2024-01-17 15:47:08.501 [info] > git rev-parse refs/remotes/origin/main [33ms]
+2024-01-17 15:47:08.579 [info] > git status -z -uall [54ms]
+2024-01-17 15:47:08.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [115ms]
+2024-01-17 15:47:08.634 [info] > git status -z -uall [55ms]
+2024-01-17 15:47:08.640 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [90ms]
+2024-01-17 15:47:09.169 [info] > git check-ignore -v -z --stdin [47ms]
+2024-01-17 15:47:09.172 [info] > git check-ignore -v -z --stdin [27ms]
+2024-01-17 15:47:09.174 [info] > git check-ignore -v -z --stdin [12ms]
+2024-01-17 15:47:09.176 [info] > git config --get commit.template [544ms]
+2024-01-17 15:47:09.177 [info] > git fetch [1848ms]
+2024-01-17 15:47:09.177 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:47:09.179 [info] > git fetch [1972ms]
+2024-01-17 15:47:09.180 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:47:09.251 [info] > git config --get commit.template [26ms]
+2024-01-17 15:47:09.251 [info] > git config --get commit.template [46ms]
+2024-01-17 15:47:09.251 [info] > git fetch [1680ms]
+2024-01-17 15:47:09.251 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:47:09.428 [info] > git status -z -uall [23ms]
+2024-01-17 15:47:09.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [183ms]
+2024-01-17 15:47:09.487 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 15:47:09.489 [info] > git config --get commit.template [63ms]
+2024-01-17 15:47:09.674 [info] > git rev-parse refs/remotes/origin/main [188ms]
+2024-01-17 15:47:09.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [216ms]
+2024-01-17 15:47:09.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [235ms]
+2024-01-17 15:47:09.867 [info] > git check-ignore -v -z --stdin [138ms]
+2024-01-17 15:47:09.903 [info] > git check-ignore -v -z --stdin [156ms]
+2024-01-17 15:47:09.904 [info] > git check-ignore -v -z --stdin [141ms]
+2024-01-17 15:47:09.915 [info] > git rev-parse --show-toplevel [255ms]
+2024-01-17 15:47:09.915 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:09.916 [info] > git config --get commit.template [272ms]
+2024-01-17 15:47:09.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [158ms]
+2024-01-17 15:47:09.977 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 15:47:09.984 [info] > git rev-parse --show-toplevel [44ms]
+2024-01-17 15:47:09.984 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:10.059 [info] > git status -z -uall [48ms]
+2024-01-17 15:47:10.059 [info] > git status -z -uall [21ms]
+2024-01-17 15:47:10.059 [info] > git rev-parse refs/remotes/origin/main [82ms]
+2024-01-17 15:47:10.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [132ms]
+2024-01-17 15:47:10.096 [info] > git status -z -uall [10ms]
+2024-01-17 15:47:10.105 [info] > git rev-parse --show-toplevel [48ms]
+2024-01-17 15:47:10.105 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:10.156 [info] > git rev-parse --show-toplevel [25ms]
+2024-01-17 15:47:10.157 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:10.256 [info] > git status -z -uall [101ms]
+2024-01-17 15:47:10.889 [info] > git fetch [1343ms]
+2024-01-17 15:47:10.889 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:47:10.927 [info] > git config --get commit.template [23ms]
+2024-01-17 15:47:10.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-01-17 15:47:10.971 [info] > git status -z -uall [1ms]
+2024-01-17 15:47:11.176 [info] > git rev-parse --show-toplevel [13ms]
+2024-01-17 15:47:11.176 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:11.210 [info] > git rev-parse --show-toplevel [21ms]
+2024-01-17 15:47:11.211 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:11.735 [info] > git config --local branch.main.github-pr-owner-number [424ms]
+2024-01-17 15:47:11.848 [info] > git rev-parse --show-toplevel [11ms]
+2024-01-17 15:47:11.848 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:11.849 [info] > git config --local branch.main.github-pr-owner-number [26ms]
+2024-01-17 15:47:11.990 [info] > git rev-parse --show-toplevel [45ms]
+2024-01-17 15:47:11.990 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:11.990 [info] > git config --local branch.main.github-pr-owner-number [55ms]
+2024-01-17 15:47:12.010 [info] > git config --local branch.main.github-pr-owner-number [86ms]
+2024-01-17 15:47:12.804 [info] > git rev-parse --show-toplevel [94ms]
+2024-01-17 15:47:12.804 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:13.179 [info] > git rev-parse --show-toplevel [45ms]
+2024-01-17 15:47:13.180 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 15:47:14.237 [info] > git config --local -l [177ms]
+2024-01-17 15:47:15.072 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:main.py [206ms]
+2024-01-17 15:47:15.072 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:requirements.txt [177ms]
+2024-01-17 15:47:15.072 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/model_saver.py [152ms]
+2024-01-17 15:47:15.072 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/multi_linear_regression.py [133ms]
+2024-01-17 15:47:15.072 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/regression_plotter.py [116ms]
+2024-01-17 15:47:15.529 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.gitignore [293ms]
+2024-01-17 15:47:15.529 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.vscode/settings.json [264ms]
+2024-01-17 15:47:15.529 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:README.md [241ms]
+2024-01-17 15:47:15.529 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/main.py [224ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeBreaker.py [210ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeMaker.py [198ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeBreaker.py [186ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeMaker.py [170ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/main.py [156ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/model_saver.py [140ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/multi_linear_regression.py [127ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/regression_plotter.py [115ms]
+2024-01-17 15:47:15.530 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:saving_file.sav [103ms]
+2024-01-17 15:47:15.777 [info] > git check-ignore -v -z --stdin [23ms]
+2024-01-17 15:47:15.778 [info] > git check-ignore -v -z --stdin [11ms]
+2024-01-17 15:47:15.779 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- .vscode/ [59ms]
+2024-01-17 15:47:15.781 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [77ms]
+2024-01-17 15:47:15.782 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [91ms]
+2024-01-17 15:47:15.783 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [107ms]
+2024-01-17 15:47:15.784 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [126ms]
+2024-01-17 15:47:15.785 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [148ms]
+2024-01-17 15:47:15.786 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [177ms]
+2024-01-17 15:47:15.787 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [202ms]
+2024-01-17 15:47:15.788 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- ./ [229ms]
+2024-01-17 15:47:15.837 [info] > git fetch origin main [2044ms]
+2024-01-17 15:47:15.837 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:47:15.870 [info] > git config --get commit.template [17ms]
+2024-01-17 15:47:15.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-17 15:47:15.885 [info] > git status -z -uall [2ms]
+2024-01-17 15:47:19.251 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-17 15:47:20.147 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-17 15:47:22.228 [info] > git diff 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/src/model_saver.py [77ms]
+2024-01-17 15:47:22.281 [info] > git show --textconv :part_2/src/model_saver.py [22ms]
+2024-01-17 15:47:22.284 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/model_saver.py [6ms]
+2024-01-17 15:47:22.309 [info] > git cat-file -s 38a8a753b9525fb11ae40dc5116022026394fc96 [3ms]
+2024-01-17 15:47:31.446 [info] > git diff 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/src/multi_linear_regression.py [4ms]
+2024-01-17 15:47:31.766 [info] > git show --textconv :part_2/src/multi_linear_regression.py [18ms]
+2024-01-17 15:47:31.768 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py [3ms]
+2024-01-17 15:47:31.785 [info] > git cat-file -s fcbc929e2669edd71b53c2ae593f49c1f2251f29 [2ms]
+2024-01-17 15:50:11.169 [info] > git fetch [1041ms]
+2024-01-17 15:50:11.169 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:50:11.190 [info] > git config --get commit.template [11ms]
+2024-01-17 15:50:11.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:50:11.191 [info] > git fetch [1053ms]
+2024-01-17 15:50:11.191 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:50:11.200 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 15:50:11.212 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2024-01-17 15:50:11.226 [info] > git config --get commit.template [16ms]
+2024-01-17 15:50:11.235 [info] > git status -z -uall [10ms]
+2024-01-17 15:50:11.241 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-01-17 15:50:11.253 [info] > git status -z -uall [2ms]
+2024-01-17 15:50:11.894 [info] > git fetch [900ms]
+2024-01-17 15:50:11.894 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:50:11.911 [info] > git config --get commit.template [9ms]
+2024-01-17 15:50:11.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:50:11.922 [info] > git status -z -uall [1ms]
+2024-01-17 15:52:10.424 [info] > git config --local branch.main.github-pr-owner-number [10ms]
+2024-01-17 15:52:10.425 [info] > git config --local branch.main.github-pr-owner-number [20ms]
+2024-01-17 15:52:10.440 [info] > git config --local branch.main.github-pr-owner-number [46ms]
+2024-01-17 15:52:10.454 [info] > git config --local branch.main.github-pr-owner-number [31ms]
+2024-01-17 15:52:12.383 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:main.py [66ms]
+2024-01-17 15:52:12.383 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:requirements.txt [56ms]
+2024-01-17 15:52:12.383 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/model_saver.py [46ms]
+2024-01-17 15:52:12.383 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/multi_linear_regression.py [35ms]
+2024-01-17 15:52:12.383 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/regression_plotter.py [25ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.gitignore [140ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.vscode/settings.json [130ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:README.md [121ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/main.py [112ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeBreaker.py [102ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeMaker.py [93ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeBreaker.py [84ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeMaker.py [75ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/main.py [66ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/model_saver.py [57ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/multi_linear_regression.py [48ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/regression_plotter.py [39ms]
+2024-01-17 15:52:12.967 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:saving_file.sav [28ms]
+2024-01-17 15:52:13.077 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- .vscode/ [7ms]
+2024-01-17 15:52:13.077 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [19ms]
+2024-01-17 15:52:13.078 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [35ms]
+2024-01-17 15:52:13.079 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [51ms]
+2024-01-17 15:52:13.079 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [65ms]
+2024-01-17 15:52:13.080 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [78ms]
+2024-01-17 15:52:13.081 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [87ms]
+2024-01-17 15:52:13.081 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [95ms]
+2024-01-17 15:52:13.082 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- ./ [107ms]
+2024-01-17 15:53:12.253 [info] > git fetch [1001ms]
+2024-01-17 15:53:12.253 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:53:12.274 [info] > git config --get commit.template [12ms]
+2024-01-17 15:53:12.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:53:12.285 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 15:53:12.286 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-01-17 15:53:12.296 [info] > git fetch [1028ms]
+2024-01-17 15:53:12.296 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:53:12.305 [info] > git status -z -uall [10ms]
+2024-01-17 15:53:12.310 [info] > git config --get commit.template [6ms]
+2024-01-17 15:53:12.324 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-17 15:53:12.335 [info] > git status -z -uall [2ms]
+2024-01-17 15:53:12.904 [info] > git fetch [956ms]
+2024-01-17 15:53:12.904 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:53:12.922 [info] > git config --get commit.template [10ms]
+2024-01-17 15:53:12.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:53:12.933 [info] > git status -z -uall [1ms]
+2024-01-17 15:54:24.937 [info] > git ls-tree -l 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/src/multi_linear_regression.py [2ms]
+2024-01-17 15:54:24.956 [info] > git hash-object -w --stdin [4ms]
+2024-01-17 15:54:24.983 [info] > git config --get commit.template [17ms]
+2024-01-17 15:54:24.984 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-01-17 15:54:25.015 [info] > git status -z -uall [6ms]
+2024-01-17 15:54:25.051 [info] > git diff fcbc929e2669edd71b53c2ae593f49c1f2251f29 70433e974da2c8e07d2f8025439d49b7eb94e89e [5ms]
+2024-01-17 15:54:27.565 [info] > git ls-tree -l 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/src/multi_linear_regression.py [1ms]
+2024-01-17 15:54:27.578 [info] > git hash-object -w --stdin [3ms]
+2024-01-17 15:54:27.590 [info] > git config --get commit.template [2ms]
+2024-01-17 15:54:27.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:54:27.612 [info] > git status -z -uall [2ms]
+2024-01-17 15:54:27.636 [info] > git diff fcbc929e2669edd71b53c2ae593f49c1f2251f29 fcbc929e2669edd71b53c2ae593f49c1f2251f29 [2ms]
+2024-01-17 15:56:13.308 [info] > git fetch [958ms]
+2024-01-17 15:56:13.308 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:56:13.323 [info] > git config --get commit.template [2ms]
+2024-01-17 15:56:13.333 [info] > git fetch [1005ms]
+2024-01-17 15:56:13.333 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:56:13.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-01-17 15:56:13.343 [info] > git config --get commit.template [1ms]
+2024-01-17 15:56:13.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-01-17 15:56:13.369 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 15:56:13.369 [info] > git status -z -uall [9ms]
+2024-01-17 15:56:13.374 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-01-17 15:56:13.390 [info] > git status -z -uall [3ms]
+2024-01-17 15:56:13.886 [info] > git fetch [930ms]
+2024-01-17 15:56:13.886 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:56:13.903 [info] > git config --get commit.template [9ms]
+2024-01-17 15:56:13.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-17 15:56:13.915 [info] > git status -z -uall [1ms]
+2024-01-17 15:56:29.580 [info] > git diff 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/main.py [10ms]
+2024-01-17 15:56:29.947 [info] > git show --textconv :part_2/main.py [30ms]
+2024-01-17 15:56:29.951 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py [3ms]
+2024-01-17 15:56:29.971 [info] > git cat-file -s 871fa74955b451a23ab6fcd074c68213e8a1fe3a [4ms]
+2024-01-17 15:56:46.166 [info] > git ls-tree -l 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/main.py [8ms]
+2024-01-17 15:56:46.183 [info] > git hash-object -w --stdin [3ms]
+2024-01-17 15:56:46.209 [info] > git config --get commit.template [17ms]
+2024-01-17 15:56:46.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-01-17 15:56:46.228 [info] > git status -z -uall [3ms]
+2024-01-17 15:56:46.244 [info] > git diff 871fa74955b451a23ab6fcd074c68213e8a1fe3a 1392a3ed68171a1f8f55187c8fd0ae5ade9c1663 [2ms]
+2024-01-17 15:56:46.371 [info] > git ls-tree -l 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/main.py [1ms]
+2024-01-17 15:56:46.387 [info] > git hash-object -w --stdin [2ms]
+2024-01-17 15:56:46.405 [info] > git config --get commit.template [9ms]
+2024-01-17 15:56:46.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:56:46.417 [info] > git status -z -uall [2ms]
+2024-01-17 15:56:46.431 [info] > git diff 871fa74955b451a23ab6fcd074c68213e8a1fe3a 5599ba7f631873fc187713380fd9054656dea079 [2ms]
+2024-01-17 15:57:10.445 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 15:57:10.466 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 15:57:13.099 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 15:57:13.767 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 15:57:14.850 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:main.py [64ms]
+2024-01-17 15:57:14.850 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:requirements.txt [56ms]
+2024-01-17 15:57:14.850 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/model_saver.py [47ms]
+2024-01-17 15:57:14.850 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/multi_linear_regression.py [38ms]
+2024-01-17 15:57:14.850 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/regression_plotter.py [28ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.gitignore [156ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.vscode/settings.json [147ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:README.md [138ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/main.py [128ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeBreaker.py [118ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeMaker.py [107ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeBreaker.py [93ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeMaker.py [83ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/main.py [74ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/model_saver.py [64ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/multi_linear_regression.py [55ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/regression_plotter.py [46ms]
+2024-01-17 15:57:15.775 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:saving_file.sav [37ms]
+2024-01-17 15:57:15.911 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [33ms]
+2024-01-17 15:57:15.912 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [42ms]
+2024-01-17 15:57:15.912 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [56ms]
+2024-01-17 15:57:15.913 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [71ms]
+2024-01-17 15:57:15.913 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [87ms]
+2024-01-17 15:57:15.914 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [101ms]
+2024-01-17 15:57:15.915 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [115ms]
+2024-01-17 15:57:15.915 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- ./ [126ms]
+2024-01-17 15:57:15.917 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- .vscode/ [9ms]
+2024-01-17 15:57:33.930 [info] > git ls-tree -l 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/src/multi_linear_regression.py [5ms]
+2024-01-17 15:57:33.959 [info] > git hash-object -w --stdin [4ms]
+2024-01-17 15:57:33.978 [info] > git config --get commit.template [1ms]
+2024-01-17 15:57:33.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:57:34.013 [info] > git status -z -uall [4ms]
+2024-01-17 15:57:34.035 [info] > git diff fcbc929e2669edd71b53c2ae593f49c1f2251f29 fcbc929e2669edd71b53c2ae593f49c1f2251f29 [3ms]
+2024-01-17 15:57:34.189 [info] > git show --textconv :part_2/src/multi_linear_regression.py [14ms]
+2024-01-17 15:57:34.192 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py [5ms]
+2024-01-17 15:57:34.210 [info] > git cat-file -s fcbc929e2669edd71b53c2ae593f49c1f2251f29 [2ms]
+2024-01-17 15:59:14.432 [info] > git fetch [1033ms]
+2024-01-17 15:59:14.432 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:59:14.444 [info] > git fetch [1033ms]
+2024-01-17 15:59:14.444 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:59:14.455 [info] > git config --get commit.template [13ms]
+2024-01-17 15:59:14.468 [info] > git config --get commit.template [14ms]
+2024-01-17 15:59:14.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-01-17 15:59:14.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:59:14.496 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 15:59:14.507 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2024-01-17 15:59:14.521 [info] > git status -z -uall [15ms]
+2024-01-17 15:59:14.529 [info] > git status -z -uall [11ms]
+2024-01-17 15:59:14.841 [info] > git fetch [900ms]
+2024-01-17 15:59:14.841 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:59:14.859 [info] > git config --get commit.template [9ms]
+2024-01-17 15:59:14.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:59:14.870 [info] > git status -z -uall [2ms]
+2024-01-17 15:59:15.048 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-17 15:59:19.152 [info] > git check-ignore -v -z --stdin [1ms]
+2024-01-17 15:59:23.119 [info] > git show --textconv :testing/src/main.py [13ms]
+2024-01-17 15:59:23.121 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/main.py [3ms]
+2024-01-17 15:59:23.305 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-17 15:59:28.686 [info] > git show --textconv :testing/main.py [15ms]
+2024-01-17 15:59:28.688 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [3ms]
+2024-01-17 15:59:28.922 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-17 15:59:40.062 [info] > git show --textconv :testing/src/test.py [17ms]
+2024-01-17 15:59:40.064 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [4ms]
+2024-01-17 15:59:40.268 [info] > git check-ignore -v -z --stdin [1ms]
+2024-01-17 15:59:42.537 [info] > git fetch origin main [748581ms]
+2024-01-17 15:59:42.537 [info] Received disconnect from 140.82.121.4 port 22:11: Bye Bye
+Disconnected from 140.82.121.4 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:59:42.556 [info] > git config --get commit.template [10ms]
+2024-01-17 15:59:42.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 15:59:42.570 [info] > git status -z -uall [3ms]
+2024-01-17 15:59:43.550 [info] > git fetch [957ms]
+2024-01-17 15:59:43.550 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 15:59:43.570 [info] > git config --get commit.template [10ms]
+2024-01-17 15:59:43.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-17 15:59:43.582 [info] > git status -z -uall [3ms]
+2024-01-17 15:59:43.803 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [2ms]
+2024-01-17 15:59:43.814 [info] > git show --textconv :testing/src/test.py [2ms]
+2024-01-17 15:59:56.498 [info] > git show --textconv :testing/main.py [10ms]
+2024-01-17 15:59:56.500 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [2ms]
+2024-01-17 16:00:06.215 [info] > git show --textconv :testing/src/test.py [22ms]
+2024-01-17 16:00:06.218 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [5ms]
+2024-01-17 16:00:09.539 [info] > git ls-tree -l 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/src/multi_linear_regression.py [3ms]
+2024-01-17 16:00:09.558 [info] > git hash-object -w --stdin [4ms]
+2024-01-17 16:00:09.573 [info] > git config --get commit.template [3ms]
+2024-01-17 16:00:09.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-17 16:00:09.604 [info] > git status -z -uall [3ms]
+2024-01-17 16:00:09.630 [info] > git diff fcbc929e2669edd71b53c2ae593f49c1f2251f29 fcbc929e2669edd71b53c2ae593f49c1f2251f29 [3ms]
+2024-01-17 16:00:09.907 [info] > git show --textconv :part_2/src/multi_linear_regression.py [23ms]
+2024-01-17 16:00:09.907 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py [5ms]
+2024-01-17 16:00:09.924 [info] > git cat-file -s fcbc929e2669edd71b53c2ae593f49c1f2251f29 [5ms]
+2024-01-17 16:00:11.098 [info] > git diff 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/src/regression_plotter.py [8ms]
+2024-01-17 16:00:11.385 [info] > git show --textconv :part_2/src/regression_plotter.py [17ms]
+2024-01-17 16:00:11.387 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/regression_plotter.py [3ms]
+2024-01-17 16:00:11.409 [info] > git cat-file -s 7b6016dc4ff05164914f9803c076cdbc21999ac3 [3ms]
+2024-01-17 16:00:18.444 [info] > git show --textconv :testing/main.py [10ms]
+2024-01-17 16:00:18.446 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [3ms]
+2024-01-17 16:00:20.326 [info] > git show --textconv :testing/src/test.py [14ms]
+2024-01-17 16:00:20.328 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [3ms]
+2024-01-17 16:01:36.509 [info] > git config --get commit.template [10ms]
+2024-01-17 16:01:36.510 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:01:36.522 [info] > git status -z -uall [3ms]
+2024-01-17 16:01:53.540 [info] > git config --get commit.template [9ms]
+2024-01-17 16:01:53.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-17 16:01:53.553 [info] > git status -z -uall [2ms]
+2024-01-17 16:01:56.606 [info] > git show --textconv :testing/main.py [15ms]
+2024-01-17 16:01:56.608 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [3ms]
+2024-01-17 16:02:10.466 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 16:02:10.477 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 16:02:15.598 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 16:02:15.675 [info] > git fetch [1138ms]
+2024-01-17 16:02:15.675 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 16:02:15.695 [info] > git fetch [1147ms]
+2024-01-17 16:02:15.695 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 16:02:15.710 [info] > git config --get commit.template [17ms]
+2024-01-17 16:02:15.729 [info] > git config --get commit.template [19ms]
+2024-01-17 16:02:15.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-01-17 16:02:15.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:02:15.775 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 16:02:15.776 [info] > git status -z -uall [17ms]
+2024-01-17 16:02:15.781 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-01-17 16:02:15.797 [info] > git status -z -uall [2ms]
+2024-01-17 16:02:16.068 [info] > git ls-tree -l 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/main.py [5ms]
+2024-01-17 16:02:16.085 [info] > git fetch [1194ms]
+2024-01-17 16:02:16.085 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 16:02:16.097 [info] > git hash-object -w --stdin [14ms]
+2024-01-17 16:02:16.107 [info] > git config --get commit.template [12ms]
+2024-01-17 16:02:16.124 [info] > git config --get commit.template [18ms]
+2024-01-17 16:02:16.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-01-17 16:02:16.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-01-17 16:02:16.182 [info] > git status -z -uall [22ms]
+2024-01-17 16:02:16.195 [info] > git status -z -uall [15ms]
+2024-01-17 16:02:16.226 [info] > git diff 871fa74955b451a23ab6fcd074c68213e8a1fe3a 5599ba7f631873fc187713380fd9054656dea079 [4ms]
+2024-01-17 16:02:16.430 [info] > git show --textconv :part_2/main.py [20ms]
+2024-01-17 16:02:16.431 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py [1ms]
+2024-01-17 16:02:16.469 [info] > git cat-file -s 871fa74955b451a23ab6fcd074c68213e8a1fe3a [10ms]
+2024-01-17 16:02:16.731 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 16:02:17.711 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:main.py [73ms]
+2024-01-17 16:02:17.711 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:requirements.txt [62ms]
+2024-01-17 16:02:17.711 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/model_saver.py [48ms]
+2024-01-17 16:02:17.711 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/multi_linear_regression.py [37ms]
+2024-01-17 16:02:17.711 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/regression_plotter.py [28ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.gitignore [151ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.vscode/settings.json [141ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:README.md [132ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/main.py [122ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeBreaker.py [111ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeMaker.py [102ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeBreaker.py [92ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeMaker.py [81ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/main.py [71ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/model_saver.py [60ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/multi_linear_regression.py [51ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/regression_plotter.py [41ms]
+2024-01-17 16:02:19.066 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:saving_file.sav [32ms]
+2024-01-17 16:02:19.204 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- .vscode/ [4ms]
+2024-01-17 16:02:19.205 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [35ms]
+2024-01-17 16:02:19.205 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [46ms]
+2024-01-17 16:02:19.206 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [61ms]
+2024-01-17 16:02:19.207 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [76ms]
+2024-01-17 16:02:19.208 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [92ms]
+2024-01-17 16:02:19.208 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [106ms]
+2024-01-17 16:02:19.209 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [119ms]
+2024-01-17 16:02:19.210 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- ./ [131ms]
+2024-01-17 16:02:29.642 [info] > git show --textconv :testing/main.py [18ms]
+2024-01-17 16:02:29.642 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [1ms]
+2024-01-17 16:02:44.594 [info] > git fetch [988ms]
+2024-01-17 16:02:44.594 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 16:02:44.613 [info] > git config --get commit.template [10ms]
+2024-01-17 16:02:44.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:02:44.625 [info] > git status -z -uall [2ms]
+2024-01-17 16:02:44.855 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [1ms]
+2024-01-17 16:02:44.867 [info] > git show --textconv :testing/main.py [2ms]
+2024-01-17 16:03:45.083 [info] > git config --get commit.template [11ms]
+2024-01-17 16:03:45.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:03:45.094 [info] > git status -z -uall [2ms]
+2024-01-17 16:03:46.935 [info] > git show --textconv :testing/src/test.py [10ms]
+2024-01-17 16:03:46.937 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [2ms]
+2024-01-17 16:03:49.771 [info] > git show --textconv :testing/main.py [10ms]
+2024-01-17 16:03:49.772 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [2ms]
+2024-01-17 16:03:53.301 [info] > git config --get commit.template [11ms]
+2024-01-17 16:03:53.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:03:53.314 [info] > git status -z -uall [2ms]
+2024-01-17 16:03:53.362 [info] > git check-ignore -v -z --stdin [1ms]
+2024-01-17 16:03:57.666 [info] > git show --textconv :testing/src/test.py [10ms]
+2024-01-17 16:03:57.667 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [2ms]
+2024-01-17 16:04:04.163 [info] > git show --textconv :testing/main.py [10ms]
+2024-01-17 16:04:04.164 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [2ms]
+2024-01-17 16:04:11.252 [info] > git config --get commit.template [15ms]
+2024-01-17 16:04:11.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:04:11.269 [info] > git status -z -uall [2ms]
+2024-01-17 16:04:11.769 [info] > git show --textconv :testing/src/test.py [11ms]
+2024-01-17 16:04:11.771 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [2ms]
+2024-01-17 16:04:46.375 [info] > git show --textconv :testing/main.py [10ms]
+2024-01-17 16:04:46.377 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [2ms]
+2024-01-17 16:05:16.816 [info] > git fetch [1020ms]
+2024-01-17 16:05:16.816 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 16:05:16.828 [info] > git config --get commit.template [2ms]
+2024-01-17 16:05:16.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:05:16.851 [info] > git status -z -uall [2ms]
+2024-01-17 16:05:16.855 [info] > git fetch [1040ms]
+2024-01-17 16:05:16.855 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 16:05:16.875 [info] > git config --get commit.template [9ms]
+2024-01-17 16:05:16.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-17 16:05:16.884 [warning] ENOENT: no such file or directory, open '/home/main/Desktop/uni/sigsys/assignment1/.git/refs/remotes/origin/main'
+2024-01-17 16:05:16.885 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-01-17 16:05:16.897 [info] > git status -z -uall [3ms]
+2024-01-17 16:05:17.137 [info] > git fetch [926ms]
+2024-01-17 16:05:17.137 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 16:05:17.157 [info] > git config --get commit.template [10ms]
+2024-01-17 16:05:17.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:05:17.169 [info] > git status -z -uall [2ms]
+2024-01-17 16:05:22.328 [info] > git show --textconv :testing/src/test.py [11ms]
+2024-01-17 16:05:22.330 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [3ms]
+2024-01-17 16:05:42.107 [info] > git config --get commit.template [9ms]
+2024-01-17 16:05:42.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:05:42.119 [info] > git status -z -uall [2ms]
+2024-01-17 16:05:45.592 [info] > git fetch [954ms]
+2024-01-17 16:05:45.592 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-01-17 16:05:45.611 [info] > git config --get commit.template [10ms]
+2024-01-17 16:05:45.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-17 16:05:45.623 [info] > git status -z -uall [3ms]
+2024-01-17 16:05:45.891 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [1ms]
+2024-01-17 16:05:45.905 [info] > git show --textconv :testing/src/test.py [2ms]
+2024-01-17 16:07:10.505 [info] > git config --local branch.main.github-pr-owner-number [14ms]
+2024-01-17 16:07:10.507 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-01-17 16:07:18.527 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-01-17 16:07:19.897 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-01-17 16:07:20.375 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:main.py [64ms]
+2024-01-17 16:07:20.376 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:requirements.txt [54ms]
+2024-01-17 16:07:20.376 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/model_saver.py [45ms]
+2024-01-17 16:07:20.376 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/multi_linear_regression.py [36ms]
+2024-01-17 16:07:20.376 [info] > git show --textconv e7de2ef916f7d711b54ef03ac5509bfe98318616:src/regression_plotter.py [26ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.gitignore [145ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:.vscode/settings.json [134ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:README.md [124ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/main.py [113ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeBreaker.py [103ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/codeMaker.py [95ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeBreaker.py [85ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_1/src/tests/test_codeMaker.py [76ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/main.py [66ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/model_saver.py [56ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/multi_linear_regression.py [47ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:part_2/src/regression_plotter.py [37ms]
+2024-01-17 16:07:22.167 [info] > git show --textconv 5a2f345891ffe719a697853d376f106c57641bf0:saving_file.sav [28ms]
+2024-01-17 16:07:22.253 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- .vscode/ [5ms]
+2024-01-17 16:07:22.253 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [15ms]
+2024-01-17 16:07:22.254 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/ [25ms]
+2024-01-17 16:07:22.255 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [35ms]
+2024-01-17 16:07:22.256 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_1/src/tests/ [44ms]
+2024-01-17 16:07:22.256 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [53ms]
+2024-01-17 16:07:22.257 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [63ms]
+2024-01-17 16:07:22.258 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- part_2/src/ [73ms]
+2024-01-17 16:07:22.259 [info] > git ls-tree -l 5a2f345891ffe719a697853d376f106c57641bf0 -- ./ [82ms]
+2024-01-17 16:07:50.993 [info] > git show --textconv :testing/main.py [14ms]
+2024-01-17 16:07:50.995 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py [5ms]
+2024-01-17 16:07:53.328 [info] > git config --get commit.template [16ms]
+2024-01-17 16:07:53.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:07:53.345 [info] > git status -z -uall [3ms]
+2024-01-17 16:07:53.766 [info] > git show --textconv :testing/src/test.py [18ms]
+2024-01-17 16:07:53.769 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [5ms]
+2024-01-17 16:07:53.858 [info] > git ls-tree -l 4a54e890b5c60db870177d632644420a36f86de6 -- part_2/main.py [3ms]
+2024-01-17 16:07:53.875 [info] > git hash-object -w --stdin [3ms]
+2024-01-17 16:07:53.898 [info] > git config --get commit.template [11ms]
+2024-01-17 16:07:53.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-17 16:07:53.914 [info] > git status -z -uall [4ms]
+2024-01-17 16:07:53.935 [info] > git diff 871fa74955b451a23ab6fcd074c68213e8a1fe3a 5599ba7f631873fc187713380fd9054656dea079 [5ms]
+2024-01-17 16:07:54.097 [info] > git show --textconv :part_2/main.py [14ms]
+2024-01-17 16:07:54.102 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py [5ms]
+2024-01-17 16:07:54.118 [info] > git cat-file -s 871fa74955b451a23ab6fcd074c68213e8a1fe3a [4ms]
+2024-01-17 16:07:59.751 [info] > git show --textconv :testing/src/test.py [20ms]
+2024-01-17 16:07:59.754 [info] > git ls-files --stage -- /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py [4ms]

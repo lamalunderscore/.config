@@ -1,0 +1,134 @@
+2023-12-06 22:01:09.760 [info] Default formatter is set to ms-python.black-formatter for workspace /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:01:09.760 [info] Test server listening.
+2023-12-06 22:01:09.760 [info] Python interpreter path: ~/.conda/envs/assignment1/bin/python
+2023-12-06 22:01:09.906 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 1579ms, has a falsy return value, Arg 1: <Uri:/home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:45185)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:23805)
+  	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+  	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+]
+2023-12-06 22:01:09.907 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:45185)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:23805)
+	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+2023-12-06 22:01:09.907 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:45185)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:23805)
+	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+2023-12-06 22:01:14.970 [info] Starting Jedi language server for assignment_1_OOP.
+2023-12-06 22:01:22.941 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:02:06.252 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:02:11.889 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:02:35.298 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:02:35.734 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:02:36.009 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:03:09.107 [info] Discover tests for workspace name: undefined - uri: /home/main/.config/Code - OSS/User/settings.json
+2023-12-06 22:03:29.460 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/.vscode/settings.json
+2023-12-06 22:03:34.036 [info] > conda info --json
+2023-12-06 22:03:35.739 [info] Send text to terminal: source /usr/bin/activate assignment1
+2023-12-06 22:03:36.244 [info] Send text to terminal: python -m pip install -U black
+2023-12-06 22:03:36.616 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:04:07.315 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:04:10.081 [info] Discover tests for workspace name: undefined - uri: /home/main/.config/Code - OSS/User/settings.json
+2023-12-06 22:04:21.286 [info] Discover tests for workspace name: undefined - uri: /home/main/.config/Code - OSS/User/settings.json
+2023-12-06 22:04:44.876 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/.vscode/settings.json
+2023-12-06 22:05:17.174 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:05:22.326 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:05:25.607 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:05:27.967 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:05:30.798 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:10:42.755 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/.vscode/settings.json
+2023-12-06 22:10:45.924 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:10:49.996 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:11:07.311 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:11:08.819 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:11:11.550 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:11:15.392 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:15:48.739 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/.vscode/settings.json
+2023-12-06 22:16:03.663 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:16:05.030 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:16:06.113 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:17:10.089 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:17:21.882 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:17:33.038 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:17:36.681 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:17:48.465 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:17:56.868 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:18:08.152 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:18:25.803 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:18:34.237 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:18:41.249 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:18:48.851 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:19:22.748 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:19:35.961 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:19:47.770 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:19:54.440 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:20:53.724 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:21:02.356 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:21:12.007 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:21:19.967 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:21:26.246 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:21:38.505 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:21:44.673 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:21:47.995 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:22:05.899 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:22:11.475 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:22:56.896 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:22:59.889 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:23:12.410 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:23:20.588 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:23:22.156 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:24:03.806 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/.vscode/settings.json
+2023-12-06 22:24:04.818 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/.vscode/settings.json
+2023-12-06 22:24:08.440 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:24:16.120 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:24:16.805 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:24:19.920 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:24:25.025 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:25:18.113 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:25:25.594 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:26:35.631 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:27:21.165 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:27:30.860 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:27:38.679 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:27:43.274 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:27:59.471 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:28:00.617 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:28:11.471 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:28:31.143 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:28:44.060 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:28:52.042 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:30:06.859 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:30:10.659 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:30:40.061 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-06 22:31:17.750 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-06 22:31:19.473 [info] > conda info --json
+2023-12-06 22:31:21.570 [info] Send text to terminal: source /usr/bin/activate assignment1
+2023-12-06 22:31:22.073 [info] Send text to terminal: /home/main/.conda/envs/assignment1/bin/python /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-06 22:32:08.978 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:32:17.254 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+2023-12-06 22:33:14.641 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-06 22:33:23.116 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-06 22:33:26.186 [info] Send text to terminal: /home/main/.conda/envs/assignment1/bin/python /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-06 22:33:38.180 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:33:41.004 [info] Send text to terminal: /home/main/.conda/envs/assignment1/bin/python /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-06 22:33:51.178 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-06 22:33:54.108 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:37:53.274 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+2023-12-06 22:39:51.078 [info] Discover tests for workspace name: assignment_1_OOP - uri: /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py

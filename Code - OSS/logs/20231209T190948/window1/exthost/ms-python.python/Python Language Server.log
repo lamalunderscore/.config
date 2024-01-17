@@ -1,0 +1,126 @@
+2023-12-14 13:19:03.941 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "36"
+
+2023-12-14 13:20:55.486 [info] Exception in thread Thread-59:
+Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2023-12-14 13:20:55.486 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py", line 7
+    class MultiLinearRegression(MlModel):
+IndentationError: unexpected unindent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2023-12-14 13:20:55.489 [info]     self.run()
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/threading.py", line 1378, in run
+
+2023-12-14 13:20:55.490 [info]     self.function(*self.args, **self.kwargs)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2023-12-14 13:20:55.490 [info]     return func(*args, **kwargs)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2023-12-14 13:20:55.491 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2023-12-14 13:20:55.491 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2023-12-14 13:20:55.492 [info]   File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+
+2023-12-14 13:20:55.492 [info]     raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2023-12-14 13:20:57.650 [info] Exception in thread Thread-63:
+Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2023-12-14 13:20:57.651 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py", line 7
+    class MultiLinearRegression(MlModel):
+IndentationError: unexpected unindent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2023-12-14 13:20:57.651 [info]     self.run()
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/threading.py", line 1378, in run
+
+2023-12-14 13:20:57.651 [info]     self.function(*self.args, **self.kwargs)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2023-12-14 13:20:57.651 [info]     return func(*args, **kwargs)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2023-12-14 13:20:57.652 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2023-12-14 13:20:57.652 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2023-12-14 13:20:57.652 [info]   File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+
+2023-12-14 13:20:57.652 [info]     raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2023-12-14 13:20:59.434 [info] Exception in thread Thread-64:
+Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2023-12-14 13:20:59.434 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py", line 8
+    class MultiLinearRegression(MlModel):
+IndentationError: unexpected unindent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2023-12-14 13:20:59.434 [info]     self.run()
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/threading.py", line 1378, in run
+
+2023-12-14 13:20:59.435 [info]     self.function(*self.args, **self.kwargs)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2023-12-14 13:20:59.435 [info]     return func(*args, **kwargs)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2023-12-14 13:20:59.435 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2023-12-14 13:20:59.435 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2023-12-14 13:20:59.435 [info]   File "/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+
+2023-12-14 13:20:59.435 [info]     raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2023-12-14 13:22:40.606 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "152"
+
+2023-12-14 13:22:45.602 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "164"
+
+2023-12-14 13:23:20.608 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "242"
+
+2023-12-14 13:23:24.248 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "251"
+
+2023-12-14 13:23:32.544 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "272"
+
+2023-12-14 13:23:33.181 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "274"
+
+2023-12-14 13:23:33.766 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "275"
+
+2023-12-14 13:23:35.384 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "279"
+
+2023-12-14 13:23:44.401 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "298"
+
+2023-12-14 13:23:54.483 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "319"
+
+2023-12-14 13:24:01.786 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "339"
+

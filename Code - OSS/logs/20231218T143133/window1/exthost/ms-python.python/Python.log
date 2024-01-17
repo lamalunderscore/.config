@@ -1,0 +1,35 @@
+2023-12-18 14:32:35.568 [info] Default formatter is set to ms-python.black-formatter for workspace /home/main/Desktop/uni/oop
+2023-12-18 14:32:35.597 [info] Test server listening.
+2023-12-18 14:32:35.601 [info] Python interpreter path: ./assignment_1_OOP/.conda/bin/python
+2023-12-18 14:32:36.046 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 450ms, has a falsy return value, Arg 1: <Uri:/home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+  	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+  	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+]
+2023-12-18 14:32:36.046 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+2023-12-18 14:32:36.047 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+2023-12-18 14:32:38.304 [info] Starting Jedi language server for oop.
+2023-12-19 12:40:59.059 [info] Discover tests for workspace name: oop - uri: /home/main/Desktop/uni/oop/assignment_2_OOP/.vscode/settings.json

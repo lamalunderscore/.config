@@ -1,0 +1,15 @@
+2023-12-06 22:10:19.206 [info] Getting Manifest... ms-python.black-formatter
+2023-12-06 22:10:19.563 [info] Installing extension: ms-python.black-formatter
+2023-12-06 22:10:19.906 [info] Getting Manifest... ms-python.python
+2023-12-06 22:10:20.981 [info] Extension signature verification is not done: ms-python.black-formatter
+2023-12-06 22:10:21.624 [info] Extracted extension to file:///home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal: ms-python.black-formatter
+2023-12-06 22:10:21.643 [info] Renamed to /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal
+2023-12-06 22:10:21.646 [info] Extracting extension completed. ms-python.black-formatter
+2023-12-06 22:10:21.665 [info] Extension installed successfully: ms-python.black-formatter
+2023-12-06 22:10:21.754 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/main/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/main/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)

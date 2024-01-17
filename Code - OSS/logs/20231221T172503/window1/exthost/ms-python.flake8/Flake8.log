@@ -1,0 +1,1719 @@
+2023-12-22 12:36:35.350 [info] Name: Flake8
+2023-12-22 12:36:35.350 [info] Module: flake8
+2023-12-22 12:36:35.350 [info] Python extension loading
+2023-12-22 12:36:35.350 [info] Waiting for interpreter from Python extension.
+2023-12-22 12:36:35.350 [info] Python extension loaded
+2023-12-22 12:36:35.350 [info] No interpreter found from setting flake8.interpreter
+2023-12-22 12:36:35.350 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-22 12:36:35.350 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 12:36:35.350 [info] No interpreter found from setting flake8.interpreter
+2023-12-22 12:36:35.350 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-22 12:36:35.350 [info] No interpreter found from setting flake8.interpreter
+2023-12-22 12:36:35.350 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/sigsys
+2023-12-22 12:36:35.350 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 12:36:35.350 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/sigsys: /bin/python
+2023-12-22 12:36:35.350 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/tool/lsp_server.py
+2023-12-22 12:36:35.350 [info] Server: Start requested.
+2023-12-22 12:36:36.936 [info] CWD Server: /home/main/Desktop/uni/oop
+2023-12-22 12:36:36.937 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-22 12:36:36.937 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop",
+        "workspace": "file:///home/main/Desktop/uni/oop",
+        "args": [
+            "--max-line-length",
+            "79"
+        ],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "cwd": "/home/main/Desktop/uni/sigsys",
+        "workspace": "file:///home/main/Desktop/uni/sigsys",
+        "args": [],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-22 12:36:36.937 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/main",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-22 12:36:36.942 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --version
+2023-12-22 12:36:36.942 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-22 12:36:37.041 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.10.13 on
+Linux
+
+
+2023-12-22 12:36:37.043 [info] Version info for linter running for /home/main/Desktop/uni/oop:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.10.13 on
+Linux
+
+2023-12-22 12:36:37.043 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2023-12-22 12:36:37.043 [info] /bin/python -m flake8 --version
+2023-12-22 12:36:37.043 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 12:36:37.420 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.11.6 on
+Linux
+
+
+2023-12-22 12:36:37.421 [info] Version info for linter running for /home/main/Desktop/uni/sigsys:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.11.6 on
+Linux
+
+2023-12-22 12:36:37.421 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2023-12-22 12:36:37.461 [info] [Trace - 12:36:37 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-22 12:36:37.464 [info] [Trace - 12:36:37 PM] Received notification 'window/logMessage'.
+2023-12-22 12:36:37.464 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_filter.py
+2023-12-22 12:36:37.464 [info] [Trace - 12:36:37 PM] Received notification 'window/logMessage'.
+2023-12-22 12:36:37.464 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 12:36:37.488 [info] [Trace - 12:36:37 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 12:36:37.495 [info] [Trace - 12:36:37 PM] Received response 'textDocument/codeAction - (1)' in 34ms.
+2023-12-22 12:37:00.856 [info] [Trace - 12:37:00 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 12:37:00.862 [info] [Trace - 12:37:00 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 12:37:13.564 [info] [Trace - 12:37:13 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 12:37:13.570 [info] [Trace - 12:37:13 PM] Received notification 'window/logMessage'.
+2023-12-22 12:37:13.570 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_filter.py
+2023-12-22 12:37:13.570 [info] [Trace - 12:37:13 PM] Received notification 'window/logMessage'.
+2023-12-22 12:37:13.570 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 12:37:13.580 [info] [Trace - 12:37:13 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-22 12:37:13.608 [info] [Trace - 12:37:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 12:37:13.609 [info] [Trace - 12:37:13 PM] Received response 'textDocument/codeAction - (2)' in 32ms.
+2023-12-22 12:37:31.130 [info] [Trace - 12:37:31 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 12:37:31.138 [info] [Trace - 12:37:31 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 12:37:31.161 [info] [Trace - 12:37:31 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 12:37:31.168 [info] [Trace - 12:37:31 PM] Received notification 'window/logMessage'.
+2023-12-22 12:37:31.168 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 12:37:31.169 [info] [Trace - 12:37:31 PM] Received notification 'window/logMessage'.
+2023-12-22 12:37:31.169 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 12:37:31.185 [info] [Trace - 12:37:31 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-22 12:37:31.224 [info] [Trace - 12:37:31 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 12:37:31.224 [info] [Trace - 12:37:31 PM] Received response 'textDocument/codeAction - (3)' in 39ms.
+2023-12-22 12:45:35.590 [info] [Trace - 12:45:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:31:58.774 [info] [Trace - 2:31:58 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:31:58.781 [info] [Trace - 2:31:58 PM] Received notification 'window/logMessage'.
+2023-12-22 14:31:58.781 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 14:31:58.781 [info] [Trace - 2:31:58 PM] Received notification 'window/logMessage'.
+2023-12-22 14:31:58.781 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:31:58.818 [info] [Trace - 2:31:58 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:32:01.953 [info] [Trace - 2:32:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.067 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.155 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.280 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.363 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.617 [info] [Trace - 2:32:02 PM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-22 14:32:02.622 [info] [Trace - 2:32:02 PM] Received response 'textDocument/codeAction - (4)' in 5ms.
+2023-12-22 14:32:02.872 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:03.128 [info] [Trace - 2:32:03 PM] Sending request 'textDocument/codeAction - (5)'.
+2023-12-22 14:32:03.134 [info] [Trace - 2:32:03 PM] Received response 'textDocument/codeAction - (5)' in 6ms.
+2023-12-22 14:32:05.448 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.517 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.659 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.737 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.819 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:06.073 [info] [Trace - 2:32:06 PM] Sending request 'textDocument/codeAction - (6)'.
+2023-12-22 14:32:06.075 [info] [Trace - 2:32:06 PM] Received response 'textDocument/codeAction - (6)' in 2ms.
+2023-12-22 14:32:06.605 [info] [Trace - 2:32:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:06.860 [info] [Trace - 2:32:06 PM] Sending request 'textDocument/codeAction - (7)'.
+2023-12-22 14:32:06.865 [info] [Trace - 2:32:06 PM] Received response 'textDocument/codeAction - (7)' in 5ms.
+2023-12-22 14:32:06.910 [info] [Trace - 2:32:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:07.163 [info] [Trace - 2:32:07 PM] Sending request 'textDocument/codeAction - (8)'.
+2023-12-22 14:32:07.166 [info] [Trace - 2:32:07 PM] Received response 'textDocument/codeAction - (8)' in 3ms.
+2023-12-22 14:32:07.446 [info] [Trace - 2:32:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:07.620 [info] [Trace - 2:32:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:07.874 [info] [Trace - 2:32:07 PM] Sending request 'textDocument/codeAction - (9)'.
+2023-12-22 14:32:07.890 [info] [Trace - 2:32:07 PM] Received response 'textDocument/codeAction - (9)' in 16ms.
+2023-12-22 14:32:08.078 [info] [Trace - 2:32:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:08.282 [info] [Trace - 2:32:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:08.530 [info] [Trace - 2:32:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:08.783 [info] [Trace - 2:32:08 PM] Sending request 'textDocument/codeAction - (10)'.
+2023-12-22 14:32:08.790 [info] [Trace - 2:32:08 PM] Received response 'textDocument/codeAction - (10)' in 7ms.
+2023-12-22 14:32:09.058 [info] [Trace - 2:32:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:09.312 [info] [Trace - 2:32:09 PM] Sending request 'textDocument/codeAction - (11)'.
+2023-12-22 14:32:09.317 [info] [Trace - 2:32:09 PM] Received response 'textDocument/codeAction - (11)' in 4ms.
+2023-12-22 14:32:09.757 [info] [Trace - 2:32:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:10.010 [info] [Trace - 2:32:10 PM] Sending request 'textDocument/codeAction - (12)'.
+2023-12-22 14:32:10.012 [info] [Trace - 2:32:10 PM] Received response 'textDocument/codeAction - (12)' in 2ms.
+2023-12-22 14:32:10.813 [info] [Trace - 2:32:10 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:11.073 [info] [Trace - 2:32:11 PM] Sending request 'textDocument/codeAction - (13)'.
+2023-12-22 14:32:11.080 [info] [Trace - 2:32:11 PM] Received response 'textDocument/codeAction - (13)' in 7ms.
+2023-12-22 14:32:12.082 [info] [Trace - 2:32:12 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 14:32:12.088 [info] [Trace - 2:32:12 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:12.088 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 14:32:12.088 [info] [Trace - 2:32:12 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:12.088 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:32:12.102 [info] [Trace - 2:32:12 PM] Sending request 'textDocument/codeAction - (14)'.
+2023-12-22 14:32:12.103 [info] [Trace - 2:32:12 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:12.103 [info] file:///home/main/Desktop/uni/sigsys/assignment2/test.py :
+'1,16,W,W292:no newline at end of file'
+
+2023-12-22 14:32:12.104 [info] [Trace - 2:32:12 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:32:12.105 [info] [Trace - 2:32:12 PM] Received response 'textDocument/codeAction - (14)' in 3ms.
+2023-12-22 14:32:12.373 [info] [Trace - 2:32:12 PM] Sending request 'textDocument/codeAction - (15)'.
+2023-12-22 14:32:12.376 [info] [Trace - 2:32:12 PM] Received response 'textDocument/codeAction - (15)' in 2ms.
+2023-12-22 14:32:20.734 [info] [Trace - 2:32:20 PM] Sending request 'textDocument/codeAction - (16)'.
+2023-12-22 14:32:20.741 [info] [Trace - 2:32:20 PM] Received response 'textDocument/codeAction - (16)' in 7ms.
+2023-12-22 14:32:21.196 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.407 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.496 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.594 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.849 [info] [Trace - 2:32:21 PM] Sending request 'textDocument/codeAction - (17)'.
+2023-12-22 14:32:21.851 [info] [Trace - 2:32:21 PM] Received response 'textDocument/codeAction - (17)' in 2ms.
+2023-12-22 14:32:21.906 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:22.158 [info] [Trace - 2:32:22 PM] Sending request 'textDocument/codeAction - (18)'.
+2023-12-22 14:32:22.162 [info] [Trace - 2:32:22 PM] Received response 'textDocument/codeAction - (18)' in 4ms.
+2023-12-22 14:32:23.173 [info] [Trace - 2:32:23 PM] Sending request 'textDocument/codeAction - (19)'.
+2023-12-22 14:32:23.175 [info] [Trace - 2:32:23 PM] Received response 'textDocument/codeAction - (19)' in 3ms.
+2023-12-22 14:32:23.822 [info] [Trace - 2:32:23 PM] Sending request 'textDocument/codeAction - (20)'.
+2023-12-22 14:32:23.825 [info] [Trace - 2:32:23 PM] Received response 'textDocument/codeAction - (20)' in 3ms.
+2023-12-22 14:32:24.554 [info] [Trace - 2:32:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:24.806 [info] [Trace - 2:32:24 PM] Sending request 'textDocument/codeAction - (21)'.
+2023-12-22 14:32:24.811 [info] [Trace - 2:32:24 PM] Received response 'textDocument/codeAction - (21)' in 6ms.
+2023-12-22 14:32:25.096 [info] [Trace - 2:32:25 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 14:32:25.109 [info] [Trace - 2:32:25 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:25.109 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 14:32:25.109 [info] [Trace - 2:32:25 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:25.109 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:32:25.132 [info] [Trace - 2:32:25 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:25.132 [info] file:///home/main/Desktop/uni/sigsys/assignment2/test.py :
+'1,22,W,W292:no newline at end of file'
+
+2023-12-22 14:32:25.133 [info] [Trace - 2:32:25 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:32:25.390 [info] [Trace - 2:32:25 PM] Sending request 'textDocument/codeAction - (22)'.
+2023-12-22 14:32:25.393 [info] [Trace - 2:32:25 PM] Received response 'textDocument/codeAction - (22)' in 3ms.
+2023-12-22 14:32:26.354 [info] [Trace - 2:32:26 PM] Sending request 'textDocument/codeAction - (23)'.
+2023-12-22 14:32:26.357 [info] [Trace - 2:32:26 PM] Received response 'textDocument/codeAction - (23)' in 3ms.
+2023-12-22 14:32:32.364 [info] [Trace - 2:32:32 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 14:32:32.373 [info] [Trace - 2:32:32 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:32:32.402 [info] [Trace - 2:32:32 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:32:32.407 [info] [Trace - 2:32:32 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:32.407 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/template.py
+2023-12-22 14:32:32.409 [info] [Trace - 2:32:32 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:32.409 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:32:32.415 [info] [Trace - 2:32:32 PM] Sending request 'textDocument/codeAction - (24)'.
+2023-12-22 14:32:32.435 [info] [Trace - 2:32:32 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:32.435 [info] file:///home/main/Desktop/uni/sigsys/assignment2/template.py :
+'1,1,F,F401:'numpy as np' imported but unused'
+'2,1,F,F401:'PIL.Image' imported but unused'
+'3,1,F,F401:'math' imported but unused'
+'5,1,E,E302:expected 2 blank lines, found 1'
+'9,1,E,E302:expected 2 blank lines, found 1'
+'13,1,E,E302:expected 2 blank lines, found 1'
+'18,1,E,E302:expected 2 blank lines, found 1'
+'24,1,E,E302:expected 2 blank lines, found 1'
+'25,33,W,W292:no newline at end of file'
+
+2023-12-22 14:32:32.437 [info] [Trace - 2:32:32 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:32:32.438 [info] [Trace - 2:32:32 PM] Received response 'textDocument/codeAction - (24)' in 23ms.
+2023-12-22 14:32:32.844 [info] [Trace - 2:32:32 PM] Sending request 'textDocument/codeAction - (25)'.
+2023-12-22 14:32:32.848 [info] [Trace - 2:32:32 PM] Received response 'textDocument/codeAction - (25)' in 4ms.
+2023-12-22 14:32:36.438 [info] [Trace - 2:32:36 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 14:32:36.440 [info] [Trace - 2:32:36 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:32:36.460 [info] [Trace - 2:32:36 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:32:36.467 [info] [Trace - 2:32:36 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:36.467 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:32:36.468 [info] [Trace - 2:32:36 PM] Received notification 'window/logMessage'.
+2023-12-22 14:32:36.468 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:32:36.478 [info] [Trace - 2:32:36 PM] Sending request 'textDocument/codeAction - (26)'.
+2023-12-22 14:32:36.512 [info] [Trace - 2:32:36 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:32:36.513 [info] [Trace - 2:32:36 PM] Received response 'textDocument/codeAction - (26)' in 35ms.
+2023-12-22 14:33:49.170 [info] [Trace - 2:33:49 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 14:33:49.174 [info] [Trace - 2:33:49 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:33:49.190 [info] [Trace - 2:33:49 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:33:49.194 [info] [Trace - 2:33:49 PM] Received notification 'window/logMessage'.
+2023-12-22 14:33:49.195 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/template.py
+2023-12-22 14:33:49.195 [info] [Trace - 2:33:49 PM] Received notification 'window/logMessage'.
+2023-12-22 14:33:49.195 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:33:49.206 [info] [Trace - 2:33:49 PM] Sending request 'textDocument/codeAction - (27)'.
+2023-12-22 14:33:49.229 [info] [Trace - 2:33:49 PM] Received notification 'window/logMessage'.
+2023-12-22 14:33:49.229 [info] file:///home/main/Desktop/uni/sigsys/assignment2/template.py :
+'1,1,F,F401:'numpy as np' imported but unused'
+'2,1,F,F401:'PIL.Image' imported but unused'
+'3,1,F,F401:'math' imported but unused'
+'5,1,E,E302:expected 2 blank lines, found 1'
+'9,1,E,E302:expected 2 blank lines, found 1'
+'13,1,E,E302:expected 2 blank lines, found 1'
+'18,1,E,E302:expected 2 blank lines, found 1'
+'24,1,E,E302:expected 2 blank lines, found 1'
+'25,33,W,W292:no newline at end of file'
+
+2023-12-22 14:33:49.229 [info] [Trace - 2:33:49 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:33:49.231 [info] [Trace - 2:33:49 PM] Received response 'textDocument/codeAction - (27)' in 25ms.
+2023-12-22 14:33:49.609 [info] [Trace - 2:33:49 PM] Sending request 'textDocument/codeAction - (28)'.
+2023-12-22 14:33:49.622 [info] [Trace - 2:33:49 PM] Received response 'textDocument/codeAction - (28)' in 16ms.
+2023-12-22 14:34:00.011 [info] [Trace - 2:34:00 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 14:34:00.014 [info] [Trace - 2:34:00 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:34:00.036 [info] [Trace - 2:34:00 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:34:00.039 [info] [Trace - 2:34:00 PM] Received notification 'window/logMessage'.
+2023-12-22 14:34:00.039 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:34:00.041 [info] [Trace - 2:34:00 PM] Received notification 'window/logMessage'.
+2023-12-22 14:34:00.041 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:34:00.048 [info] [Trace - 2:34:00 PM] Sending request 'textDocument/codeAction - (29)'.
+2023-12-22 14:34:00.082 [info] [Trace - 2:34:00 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:34:00.083 [info] [Trace - 2:34:00 PM] Received response 'textDocument/codeAction - (29)' in 35ms.
+2023-12-22 14:34:14.361 [info] [Trace - 2:34:14 PM] Sending request 'textDocument/codeAction - (30)'.
+2023-12-22 14:34:14.372 [info] [Trace - 2:34:14 PM] Received response 'textDocument/codeAction - (30)' in 12ms.
+2023-12-22 14:34:14.875 [info] [Trace - 2:34:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.456 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.645 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.713 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.867 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.922 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:16.139 [info] [Trace - 2:34:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:16.393 [info] [Trace - 2:34:16 PM] Sending request 'textDocument/codeAction - (31)'.
+2023-12-22 14:34:16.396 [info] [Trace - 2:34:16 PM] Received response 'textDocument/codeAction - (31)' in 3ms.
+2023-12-22 14:34:16.828 [info] [Trace - 2:34:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:17.082 [info] [Trace - 2:34:17 PM] Sending request 'textDocument/codeAction - (32)'.
+2023-12-22 14:34:17.084 [info] [Trace - 2:34:17 PM] Received response 'textDocument/codeAction - (32)' in 2ms.
+2023-12-22 14:34:17.994 [info] [Trace - 2:34:17 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:18.082 [info] [Trace - 2:34:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:18.334 [info] [Trace - 2:34:18 PM] Sending request 'textDocument/codeAction - (33)'.
+2023-12-22 14:34:18.337 [info] [Trace - 2:34:18 PM] Received response 'textDocument/codeAction - (33)' in 3ms.
+2023-12-22 14:34:18.701 [info] [Trace - 2:34:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:18.954 [info] [Trace - 2:34:18 PM] Sending request 'textDocument/codeAction - (34)'.
+2023-12-22 14:34:18.957 [info] [Trace - 2:34:18 PM] Received response 'textDocument/codeAction - (34)' in 2ms.
+2023-12-22 14:34:20.284 [info] [Trace - 2:34:20 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:20.345 [info] [Trace - 2:34:20 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:20.603 [info] [Trace - 2:34:20 PM] Sending request 'textDocument/codeAction - (35)'.
+2023-12-22 14:34:20.605 [info] [Trace - 2:34:20 PM] Received response 'textDocument/codeAction - (35)' in 2ms.
+2023-12-22 14:34:21.675 [info] [Trace - 2:34:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:21.927 [info] [Trace - 2:34:21 PM] Sending request 'textDocument/codeAction - (36)'.
+2023-12-22 14:34:21.930 [info] [Trace - 2:34:21 PM] Received response 'textDocument/codeAction - (36)' in 4ms.
+2023-12-22 14:34:23.574 [info] [Trace - 2:34:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:23.816 [info] [Trace - 2:34:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:23.963 [info] [Trace - 2:34:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.075 [info] [Trace - 2:34:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.155 [info] [Trace - 2:34:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.332 [info] [Trace - 2:34:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.343 [info] [Trace - 2:34:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.597 [info] [Trace - 2:34:24 PM] Sending request 'textDocument/codeAction - (37)'.
+2023-12-22 14:34:24.600 [info] [Trace - 2:34:24 PM] Received response 'textDocument/codeAction - (37)' in 3ms.
+2023-12-22 14:34:25.334 [info] [Trace - 2:34:25 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 14:34:25.337 [info] [Trace - 2:34:25 PM] Received notification 'window/logMessage'.
+2023-12-22 14:34:25.337 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:34:25.337 [info] [Trace - 2:34:25 PM] Received notification 'window/logMessage'.
+2023-12-22 14:34:25.337 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:34:25.369 [info] [Trace - 2:34:25 PM] Received notification 'window/logMessage'.
+2023-12-22 14:34:25.369 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'26,29,F,F821:undefined name 'x_lenght''
+
+2023-12-22 14:34:25.369 [info] [Trace - 2:34:25 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:34:25.683 [info] [Trace - 2:34:25 PM] Sending request 'textDocument/codeAction - (38)'.
+2023-12-22 14:34:25.688 [info] [Trace - 2:34:25 PM] Received response 'textDocument/codeAction - (38)' in 5ms.
+2023-12-22 14:34:27.023 [info] [Trace - 2:34:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:27.224 [info] [Trace - 2:34:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:27.477 [info] [Trace - 2:34:27 PM] Sending request 'textDocument/codeAction - (39)'.
+2023-12-22 14:34:27.480 [info] [Trace - 2:34:27 PM] Received response 'textDocument/codeAction - (39)' in 3ms.
+2023-12-22 14:34:27.724 [info] [Trace - 2:34:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:27.777 [info] [Trace - 2:34:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:28.030 [info] [Trace - 2:34:28 PM] Sending request 'textDocument/codeAction - (40)'.
+2023-12-22 14:34:28.033 [info] [Trace - 2:34:28 PM] Received response 'textDocument/codeAction - (40)' in 3ms.
+2023-12-22 14:34:28.853 [info] [Trace - 2:34:28 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 14:34:28.858 [info] [Trace - 2:34:28 PM] Received notification 'window/logMessage'.
+2023-12-22 14:34:28.858 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:34:28.858 [info] [Trace - 2:34:28 PM] Received notification 'window/logMessage'.
+2023-12-22 14:34:28.858 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:34:28.895 [info] [Trace - 2:34:28 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 14:34:29.149 [info] [Trace - 2:34:29 PM] Sending request 'textDocument/codeAction - (41)'.
+2023-12-22 14:34:29.152 [info] [Trace - 2:34:29 PM] Received response 'textDocument/codeAction - (41)' in 3ms.
+2023-12-22 14:38:26.795 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:38:26.795 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:39:35.166 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:39:35.166 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:39:35.198 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,15,E,E711:comparison to None should be 'if cond is None:''
+
+2023-12-22 14:39:41.571 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:39:41.571 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:42:38.918 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:42:38.918 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:43:47.096 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_filter.py
+2023-12-22 14:43:47.096 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:44:01.666 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/template.py
+2023-12-22 14:44:01.666 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:44:01.698 [info] file:///home/main/Desktop/uni/sigsys/assignment2/template.py :
+'1,1,F,F401:'numpy as np' imported but unused'
+'2,1,F,F401:'PIL.Image' imported but unused'
+'3,1,F,F401:'math' imported but unused'
+'5,1,E,E302:expected 2 blank lines, found 1'
+'9,1,E,E302:expected 2 blank lines, found 1'
+'13,1,E,E302:expected 2 blank lines, found 1'
+'18,1,E,E302:expected 2 blank lines, found 1'
+'24,1,E,E302:expected 2 blank lines, found 1'
+'25,33,W,W292:no newline at end of file'
+
+2023-12-22 14:44:04.730 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/template.py
+2023-12-22 14:44:04.730 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:44:04.767 [info] file:///home/main/Desktop/uni/sigsys/assignment2/template.py :
+'1,1,F,F401:'numpy as np' imported but unused'
+'2,1,F,F401:'PIL.Image' imported but unused'
+'3,1,F,F401:'math' imported but unused'
+'5,1,E,E302:expected 2 blank lines, found 1'
+'9,1,E,E302:expected 2 blank lines, found 1'
+'13,1,E,E302:expected 2 blank lines, found 1'
+'18,1,E,E302:expected 2 blank lines, found 1'
+'24,1,E,E302:expected 2 blank lines, found 1'
+'25,33,W,W292:no newline at end of file'
+
+2023-12-22 14:44:12.682 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_filter.py
+2023-12-22 14:44:12.682 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:45:07.939 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment1/multiPathFading.py
+2023-12-22 14:45:07.939 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:45:59.128 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:45:59.128 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:46:26.214 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:46:26.215 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:46:26.231 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'34,23,E,E999:SyntaxError: invalid syntax. Perhaps you forgot a comma?'
+
+2023-12-22 14:46:31.292 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:46:31.292 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:46:55.151 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:46:55.151 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:50:55.161 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:50:55.161 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:50:55.180 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'32,10,E,E999:IndentationError: expected an indented block after 'if' statement on line 31'
+
+2023-12-22 14:51:08.795 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:51:08.795 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:51:55.734 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:51:55.734 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:53:00.116 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:00.116 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:53:00.138 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'19,5,F,F841:local variable 'h_length' is assigned to but never used'
+
+2023-12-22 14:53:08.262 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:08.262 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:53:41.811 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:41.811 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:53:41.830 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'32,28,E,E999:SyntaxError: invalid syntax'
+
+2023-12-22 14:53:57.853 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:57.853 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:53:57.882 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'38,1,W,W293:blank line contains whitespace'
+'40,5,E,E303:too many blank lines (3)'
+
+2023-12-22 14:59:21.827 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:59:21.827 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 14:59:21.841 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'32,10,E,E999:IndentationError: expected an indented block after 'if' statement on line 31'
+
+2023-12-22 15:55:50.938 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_filter.py
+2023-12-22 15:55:50.939 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 15:56:02.991 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_filter copy.py
+2023-12-22 15:56:02.992 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 15:56:11.035 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 15:56:11.035 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 15:59:42.241 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 15:59:42.241 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 15:59:42.257 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'16,1,E,E999:IndentationError: expected an indented block after 'for' statement on line 12'
+
+2023-12-22 16:00:11.511 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:00:11.511 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:00:11.525 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,1,E,E999:IndentationError: expected an indented block after 'for' statement on line 13'
+
+2023-12-22 16:00:50.527 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:00:50.527 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:00:50.540 [info] file:///home/main/Desktop/uni/sigsys/assignment2/test.py :
+'2,1,W,W391:blank line at end of file'
+
+2023-12-22 16:01:00.680 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:01:00.680 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:01:24.378 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:01:24.378 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:01:46.933 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:01:46.934 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:01:46.954 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,1,E,E999:IndentationError: expected an indented block after 'for' statement on line 13'
+
+2023-12-22 16:02:10.771 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:02:10.771 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:02:10.785 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'13,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-22 16:02:14.446 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:02:14.446 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:02:14.458 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'18,1,E,E999:IndentationError: expected an indented block after 'for' statement on line 13'
+
+2023-12-22 16:02:25.891 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:02:25.891 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:02:25.907 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'19,1,E,E999:IndentationError: expected an indented block after 'for' statement on line 13'
+
+2023-12-22 16:06:09.418 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:06:09.419 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:06:09.433 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,10,E,E999:IndentationError: expected an indented block after 'for' statement on line 15'
+
+2023-12-22 16:07:42.220 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:07:42.220 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:07:42.255 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'19,33,E,E999:SyntaxError: invalid syntax'
+
+2023-12-22 16:08:32.780 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:32.780 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:08:32.794 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'18,18,E,E999:SyntaxError: '(' was never closed'
+
+2023-12-22 16:08:35.670 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:35.670 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:08:35.695 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'17,1,W,W293:blank line contains whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:08:39.687 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:39.687 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:08:39.737 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'17,1,W,W293:blank line contains whitespace'
+'25,1,E,E303:too many blank lines (5)'
+'28,1,W,W391:blank line at end of file'
+
+2023-12-22 16:08:46.039 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:46.039 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:08:46.066 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'17,1,W,W293:blank line contains whitespace'
+'25,1,E,E303:too many blank lines (5)'
+'28,1,W,W391:blank line at end of file'
+
+2023-12-22 16:08:57.280 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:57.280 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:08:57.305 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:04.101 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:04.101 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:04.114 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:04.904 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:04.904 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:04.928 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:05.309 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:05.309 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:05.323 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:05.624 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:05.624 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:05.642 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:05.902 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:05.902 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:05.922 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:06.178 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:06.178 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:06.194 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:06.447 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:06.447 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:06.467 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:06.766 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:06.766 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:06.783 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:06.948 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:06.948 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:06.962 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:07.472 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:07.472 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:07.506 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'18,12,F,F821:undefined name 'hs''
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:09.230 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:09.230 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:09.258 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'11,18,E,E231:missing whitespace after ':''
+'11,30,E,E231:missing whitespace after ':''
+'11,37,E,E231:missing whitespace after ':''
+'11,49,E,E231:missing whitespace after ':''
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:26.005 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:26.005 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:26.016 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,54,E,E999:SyntaxError: invalid syntax. Perhaps you forgot a comma?'
+
+2023-12-22 16:09:28.915 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:28.915 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:28.934 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:30.832 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:30.832 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:30.846 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'11,1,E,E302:expected 2 blank lines, found 1'
+'16,37,W,W291:trailing whitespace'
+'24,1,E,E303:too many blank lines (5)'
+'27,1,W,W391:blank line at end of file'
+
+2023-12-22 16:09:50.577 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:50.577 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:09:50.598 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+'21,1,E,E305:expected 2 blank lines after class or function definition, found 1'
+'24,1,W,W391:blank line at end of file'
+
+2023-12-22 16:10:27.577 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:27.577 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:10:27.590 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+'21,1,E,E305:expected 2 blank lines after class or function definition, found 1'
+'24,1,W,W391:blank line at end of file'
+
+2023-12-22 16:10:35.422 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:35.422 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:10:35.451 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+'21,1,E,E305:expected 2 blank lines after class or function definition, found 1'
+'25,1,W,W293:blank line contains whitespace'
+'25,5,W,W292:no newline at end of file'
+
+2023-12-22 16:10:36.906 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:36.906 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:10:36.927 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+'21,1,E,E305:expected 2 blank lines after class or function definition, found 1'
+'27,1,W,W293:blank line contains whitespace'
+'27,1,E,E303:too many blank lines (3)'
+'27,5,W,W292:no newline at end of file'
+
+2023-12-22 16:10:38.662 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:38.662 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:10:38.686 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+'21,1,E,E305:expected 2 blank lines after class or function definition, found 1'
+
+2023-12-22 16:10:50.702 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:50.702 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:10:50.731 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+
+2023-12-22 16:11:05.903 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:11:05.903 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:11:05.919 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'34,9,E,E999:IndentationError: unexpected indent'
+
+2023-12-22 16:11:06.815 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:11:06.815 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:11:06.825 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'34,9,E,E999:IndentationError: unexpected indent'
+
+2023-12-22 16:11:10.026 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:11:10.026 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:11:11.016 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:11:11.016 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:11:44.382 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment1/prodsin.py
+2023-12-22 16:11:44.382 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:11:46.680 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:11:46.680 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:11:46.710 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+
+2023-12-22 16:11:50.366 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:11:50.366 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:11:50.392 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+'24,28,W,W292:no newline at end of file'
+
+2023-12-22 16:11:51.410 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:11:51.410 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:11:51.428 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'17,37,W,W291:trailing whitespace'
+'24,28,W,W292:no newline at end of file'
+
+2023-12-22 16:12:21.205 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:12:21.205 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:12:44.584 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:12:44.584 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:13:41.004 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:13:41.004 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:14:12.316 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:12.316 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:14:44.582 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:44.582 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:14:45.744 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:45.744 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:14:46.687 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:46.687 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:15:24.944 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:15:24.945 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:15:41.271 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:15:41.272 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:16:34.329 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:16:34.329 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:17:17.232 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:17:17.232 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:18:24.458 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:18:24.458 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:18:24.479 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'29,8,F,F821:undefined name 'is_finite''
+
+2023-12-22 16:19:14.039 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:19:14.039 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:19:42.973 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:19:42.973 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:20:21.797 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:20:21.797 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:21:03.575 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:21:03.576 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:21:13.880 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:21:13.880 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:24:34.914 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:24:34.915 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:24:34.965 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'14,5,F,F841:local variable 'h_r' is assigned to but never used'
+
+2023-12-22 16:24:38.438 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:24:38.438 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:25:11.146 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:25:11.146 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:25:34.164 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:25:34.164 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:26:13.246 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:26:13.246 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:26:41.500 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:26:41.500 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:27:13.202 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:27:13.202 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:27:51.724 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:27:51.724 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:27:51.750 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'14,5,F,F841:local variable 'h_r' is assigned to but never used'
+
+2023-12-22 16:28:13.385 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:28:13.385 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:28:13.417 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'14,5,F,F841:local variable 'h_r' is assigned to but never used'
+
+2023-12-22 16:28:34.091 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:28:34.091 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:28:34.170 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'14,5,F,F841:local variable 'h_r' is assigned to but never used'
+
+2023-12-22 16:28:38.076 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:28:38.076 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:28:38.190 [info] [Warn  - 4:28:38 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-22 16:28:54.909 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:28:54.909 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:29:02.210 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:29:02.210 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:29:24.727 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:29:24.727 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:30:11.420 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:11.421 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:30:38.241 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:38.241 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:30:38.256 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'36,24,E,E999:SyntaxError: invalid syntax'
+
+2023-12-22 16:30:43.253 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:43.253 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:30:49.933 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:49.933 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:33:04.230 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:04.230 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:33:04.254 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'26,13,E,E999:SyntaxError: invalid syntax'
+
+2023-12-22 16:33:22.636 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:22.637 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:33:43.675 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:43.675 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:33:43.692 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'26,31,E,E999:SyntaxError: invalid syntax'
+
+2023-12-22 16:33:46.116 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:46.116 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:33:46.130 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'27,9,E,E999:IndentationError: unexpected indent'
+
+2023-12-22 16:33:48.310 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:48.311 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:34:23.436 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:34:23.436 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:35:31.419 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:35:31.419 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:37:17.507 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:17.507 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:37:26.090 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:26.090 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:37:36.276 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:36.276 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:37:54.475 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:54.475 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:38:23.644 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:38:23.644 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:39:04.393 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:39:04.393 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:39:24.582 [info] [Warn  - 4:39:24 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-22 16:39:24.784 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:39:24.784 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:40:51.133 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_filter.py
+2023-12-22 16:40:51.133 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:41:10.450 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:41:10.450 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:41:10.494 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'47,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 16:41:55.700 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:41:55.701 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:41:55.730 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 16:42:12.379 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:42:12.379 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:42:12.399 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 16:45:24.207 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:45:24.207 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:45:24.270 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 16:45:37.589 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:45:37.589 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:45:37.616 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 16:46:42.933 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:46:42.933 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:46:42.948 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'36,40,E,E999:SyntaxError: invalid decimal literal'
+
+2023-12-22 16:46:51.040 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:46:51.040 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:47:05.451 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:47:05.451 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:47:21.416 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:47:21.417 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:48:20.797 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:20.797 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:48:20.837 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'36,36,F,F821:undefined name 'i''
+
+2023-12-22 16:48:29.561 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:29.561 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:48:49.900 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:49.900 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:48:59.126 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:59.126 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:48:59.139 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'35,55,E,E999:SyntaxError: unmatched ')''
+
+2023-12-22 16:49:01.388 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:01.391 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:49:01.421 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'35,29,E,E999:SyntaxError: Generator expression must be parenthesized'
+
+2023-12-22 16:49:03.792 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:03.792 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:49:03.802 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'35,29,E,E999:SyntaxError: Generator expression must be parenthesized'
+
+2023-12-22 16:49:11.200 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:11.200 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:50:56.190 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:50:56.190 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:50:56.212 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py :
+'35,48,F,F821:undefined name 'lst''
+
+2023-12-22 16:51:08.063 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:51:08.063 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:51:26.817 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:51:26.817 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:11:37.343 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 17:11:37.344 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:12:55.690 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 17:12:55.690 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:14:37.411 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 17:14:37.411 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:15:19.018 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 17:15:19.019 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:17:34.418 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse copy.py
+2023-12-22 17:17:34.418 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:17:41.946 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_.py
+2023-12-22 17:17:41.946 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:14:43.179 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+2023-12-22 18:14:43.185 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:14:43.265 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem4.py :
+'6,1,E,E302:expected 2 blank lines, found 0'
+'12,1,E,E302:expected 2 blank lines, found 1'
+'16,1,E,E302:expected 2 blank lines, found 1'
+'22,1,E,E302:expected 2 blank lines, found 1'
+'31,5,E,E303:too many blank lines (2)'
+'34,1,E,E302:expected 2 blank lines, found 1'
+'34,22,E,E201:whitespace after '(''
+'47,1,E,E302:expected 2 blank lines, found 1'
+'56,11,W,W292:no newline at end of file'
+
+2023-12-22 18:23:54.779 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:23:54.781 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:27.849 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:27.849 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:27.867 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:29.249 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:29.250 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:29.263 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:43.424 [info] No interpreter found from setting flake8.interpreter
+2023-12-22 18:27:43.424 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-22 18:27:43.427 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 18:27:43.433 [info] Server: Stop requested
+2023-12-22 18:27:43.870 [info] No interpreter found from setting flake8.interpreter
+2023-12-22 18:27:43.870 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-22 18:27:43.871 [info] No interpreter found from setting flake8.interpreter
+2023-12-22 18:27:43.871 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:43.876 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 18:27:43.876 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/sigsys: /bin/python
+2023-12-22 18:27:43.953 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/tool/lsp_server.py
+2023-12-22 18:27:43.955 [info] Server: Start requested.
+2023-12-22 18:27:45.740 [info] CWD Server: /home/main/Desktop/uni/oop
+2023-12-22 18:27:45.741 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-22 18:27:45.741 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop",
+        "workspace": "file:///home/main/Desktop/uni/oop",
+        "args": [
+            "--max-line-length",
+            "79"
+        ],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "cwd": "/home/main/Desktop/uni/sigsys",
+        "workspace": "file:///home/main/Desktop/uni/sigsys",
+        "args": [
+            "--max-line-length",
+            "79"
+        ],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-22 18:27:45.742 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/main",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-22 18:27:45.742 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --version
+2023-12-22 18:27:45.742 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-22 18:27:45.817 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.10.13 on
+Linux
+
+
+2023-12-22 18:27:45.818 [info] Version info for linter running for /home/main/Desktop/uni/oop:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.10.13 on
+Linux
+
+2023-12-22 18:27:45.818 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2023-12-22 18:27:45.818 [info] /bin/python -m flake8 --version
+2023-12-22 18:27:45.818 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:46.239 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.11.6 on
+Linux
+
+
+2023-12-22 18:27:46.239 [info] Version info for linter running for /home/main/Desktop/uni/sigsys:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.11.6 on
+Linux
+
+2023-12-22 18:27:46.239 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2023-12-22 18:27:46.257 [info] [Trace - 6:27:46 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-22 18:27:46.266 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.266 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 18:27:46.266 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.266 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:46.291 [info] [Trace - 6:27:46 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:46.294 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.294 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 18:27:46.295 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.295 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:46.331 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.331 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 18:27:46.332 [info] [Trace - 6:27:46 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:46.335 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.335 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 18:27:46.335 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.335 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:46.360 [info] [Trace - 6:27:46 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:46.362 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.362 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+2023-12-22 18:27:46.362 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.362 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:46.389 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.389 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem4.py :
+'6,1,E,E302:expected 2 blank lines, found 0'
+'12,1,E,E302:expected 2 blank lines, found 1'
+'16,1,E,E302:expected 2 blank lines, found 1'
+'22,1,E,E302:expected 2 blank lines, found 1'
+'31,5,E,E303:too many blank lines (2)'
+'34,1,E,E302:expected 2 blank lines, found 1'
+'34,22,E,E201:whitespace after '(''
+'47,1,E,E302:expected 2 blank lines, found 1'
+'56,11,W,W292:no newline at end of file'
+
+2023-12-22 18:27:46.391 [info] [Trace - 6:27:46 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:46.396 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.396 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:46.396 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.396 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:46.410 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.410 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:46.410 [info] [Trace - 6:27:46 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:46.416 [info] [Trace - 6:27:46 PM] Received response 'textDocument/codeAction - (1)' in 159ms.
+2023-12-22 18:27:46.520 [info] [Trace - 6:27:46 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:46.527 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.527 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:46.527 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.527 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:46.539 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.539 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:46.541 [info] [Trace - 6:27:46 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:46.798 [info] [Trace - 6:27:46 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-22 18:27:46.800 [info] [Trace - 6:27:46 PM] Received response 'textDocument/codeAction - (2)' in 2ms.
+2023-12-22 18:27:47.298 [info] [Trace - 6:27:47 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:47.302 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.302 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:47.302 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.302 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:47.321 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.321 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:47.321 [info] [Trace - 6:27:47 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:47.516 [info] [Trace - 6:27:47 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:47.519 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.519 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:47.519 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.519 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:47.541 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.541 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:47.542 [info] [Trace - 6:27:47 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:47.706 [info] [Trace - 6:27:47 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:47.710 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.710 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:47.710 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.710 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:47.722 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.722 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:47.723 [info] [Trace - 6:27:47 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:47.981 [info] [Trace - 6:27:47 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-22 18:27:47.983 [info] [Trace - 6:27:47 PM] Received response 'textDocument/codeAction - (3)' in 2ms.
+2023-12-22 18:27:48.296 [info] [Trace - 6:27:48 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:48.298 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.298 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:48.298 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.298 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:48.308 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.308 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:48.309 [info] [Trace - 6:27:48 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:48.568 [info] [Trace - 6:27:48 PM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-22 18:27:48.570 [info] [Trace - 6:27:48 PM] Received response 'textDocument/codeAction - (4)' in 3ms.
+2023-12-22 18:27:48.586 [info] [Trace - 6:27:48 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:48.592 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.592 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:48.592 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.592 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:48.607 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.607 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:48.608 [info] [Trace - 6:27:48 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:48.781 [info] [Trace - 6:27:48 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:48.785 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.785 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:48.785 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.785 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:48.794 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.794 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:48.794 [info] [Trace - 6:27:48 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:49.025 [info] [Trace - 6:27:49 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:49.028 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.028 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:49.028 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.028 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:49.038 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.038 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:49.038 [info] [Trace - 6:27:49 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:27:49.294 [info] [Trace - 6:27:49 PM] Sending request 'textDocument/codeAction - (5)'.
+2023-12-22 18:27:49.296 [info] [Trace - 6:27:49 PM] Received response 'textDocument/codeAction - (5)' in 2ms.
+2023-12-22 18:27:49.499 [info] [Trace - 6:27:49 PM] Sending notification 'textDocument/didSave'.
+2023-12-22 18:27:49.505 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.505 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:49.506 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.506 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:49.522 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.522 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:27:49.523 [info] [Trace - 6:27:49 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-22 18:29:24.133 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:24.133 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:24.145 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:29:24.963 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:24.963 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:24.972 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:29:38.282 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:38.282 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:38.294 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:29:39.153 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:39.154 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:39.163 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:29:39.436 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:39.437 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:39.453 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:29:42.569 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:42.569 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:42.583 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:29:43.009 [info] [Warn  - 6:29:43 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-22 18:29:43.353 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:43.353 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:43.367 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:29:43.585 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:43.586 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:43.595 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:29:43.907 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:43.907 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:29:43.920 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'16,2,E,E999:IndentationError: expected an indented block after function definition on line 12'
+
+2023-12-22 18:30:02.981 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:02.981 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:30:02.996 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'20,2,E,E999:IndentationError: expected an indented block after function definition on line 15'
+
+2023-12-22 18:30:04.724 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:04.725 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:30:04.742 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'20,2,E,E999:IndentationError: expected an indented block after function definition on line 15'
+
+2023-12-22 18:30:05.006 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:05.006 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:30:05.022 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'20,2,E,E999:IndentationError: expected an indented block after function definition on line 15'
+
+2023-12-22 18:30:24.999 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:24.999 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:30:25.026 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'1,1,F,F401:'cmath' imported but unused'
+'2,1,F,F401:'math' imported but unused'
+'17,5,F,F841:local variable 'gain' is assigned to but never used'
+'32,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:31:31.058 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:31:31.058 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:31:31.072 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'19,21,E,E999:SyntaxError: invalid syntax'
+
+2023-12-22 18:32:07.392 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:32:07.393 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:32:07.477 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'19,48,F,F821:undefined name 'omega''
+'34,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:32:27.269 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:32:27.269 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:32:27.292 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'19,48,F,F821:undefined name 'omega''
+'34,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:32:35.496 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:32:35.496 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:32:35.536 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'34,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:33:23.586 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:33:23.586 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:33:23.612 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'36,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:33:47.157 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:33:47.157 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:33:47.187 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'36,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:34:30.404 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:34:30.404 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:34:30.437 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'21,80,E,E501:line too long (87 > 79 characters)'
+'37,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:34:39.712 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:34:39.712 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:34:39.739 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'38,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:36:31.407 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:36:31.408 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:36:31.441 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'17,5,F,F841:local variable 'response' is assigned to but never used'
+'20,9,F,F821:undefined name 'frequency_response''
+'38,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:36:46.100 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:36:46.100 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:36:46.130 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'38,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:37:22.385 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:37:22.385 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:37:22.403 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'38,9,F,F821:undefined name 'reverse_fir''
+
+2023-12-22 18:37:57.004 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+2023-12-22 18:37:57.005 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:37:57.048 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem4.py :
+'6,1,E,E302:expected 2 blank lines, found 0'
+'12,1,E,E302:expected 2 blank lines, found 1'
+'16,1,E,E302:expected 2 blank lines, found 1'
+'22,1,E,E302:expected 2 blank lines, found 1'
+'31,5,E,E303:too many blank lines (2)'
+'34,1,E,E302:expected 2 blank lines, found 1'
+'34,22,E,E201:whitespace after '(''
+'47,1,E,E302:expected 2 blank lines, found 1'
+'56,11,W,W292:no newline at end of file'
+
+2023-12-22 18:38:36.821 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:38:36.827 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:38:36.862 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+
+2023-12-22 18:40:02.913 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:40:02.913 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:40:02.943 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'29,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+'31,5,F,F841:local variable 'phi_y' is assigned to but never used'
+
+2023-12-22 18:40:18.346 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment1/polcart.py
+2023-12-22 18:40:18.346 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:40:22.214 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment1/prodsin.py
+2023-12-22 18:40:22.215 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:40:31.497 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment1/multiPathFading.py
+2023-12-22 18:40:31.497 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:40:44.268 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment1/aliasing.py
+2023-12-22 18:40:44.268 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:41:12.953 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:41:12.953 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:41:12.981 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'29,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+'31,5,F,F841:local variable 'phi_y' is assigned to but never used'
+
+2023-12-22 18:42:57.601 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:42:57.601 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:42:57.630 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'2,1,F,F401:'math' imported but unused'
+'29,16,F,F821:undefined name 'alias''
+'31,16,F,F821:undefined name 'alias''
+'38,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+
+2023-12-22 18:44:39.807 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:44:39.808 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:44:39.845 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'31,16,F,F821:undefined name 'alias''
+'31,22,F,F821:undefined name 'f''
+'32,12,F,F821:undefined name 'f''
+'38,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+
+2023-12-22 18:44:43.987 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:44:43.987 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:44:44.011 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'31,26,F,F821:undefined name 'f''
+'32,12,F,F821:undefined name 'f''
+'38,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+
+2023-12-22 18:44:51.643 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:44:51.643 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:44:51.666 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'38,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+
+2023-12-22 18:45:02.536 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:45:02.537 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:45:02.571 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'38,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+
+2023-12-22 18:45:27.229 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:45:27.229 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:45:27.274 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'38,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+
+2023-12-22 18:45:46.711 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:45:46.711 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:45:46.745 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'38,5,F,F841:local variable 'amplitude_y' is assigned to but never used'
+
+2023-12-22 18:47:28.902 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:47:28.903 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:48:19.582 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:48:19.583 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:48:26.010 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:48:26.019 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:48:58.734 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:48:58.735 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:49:00.088 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:49:00.088 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:49:41.243 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:49:41.244 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:49:53.438 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:49:53.438 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:49:53.477 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'52,25,F,F821:undefined name 'amplitude_x''
+'52,38,F,F821:undefined name 'phi_x''
+'52,45,F,F821:undefined name 'radian''
+'52,53,F,F821:undefined name 'h''
+
+2023-12-22 18:50:33.667 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:50:33.667 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:50:33.696 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'52,25,F,F821:undefined name 'amplitude_x''
+'52,38,F,F821:undefined name 'phi_x''
+'52,45,F,F821:undefined name 'radian''
+
+2023-12-22 18:51:02.202 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:51:02.202 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:51:02.226 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'51,34,F,F821:undefined name 'get_input_data''
+
+2023-12-22 18:51:04.673 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/template.py
+2023-12-22 18:51:04.673 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:51:04.703 [info] file:///home/main/Desktop/uni/sigsys/assignment2/template.py :
+'1,1,F,F401:'numpy as np' imported but unused'
+'2,1,F,F401:'PIL.Image' imported but unused'
+'3,1,F,F401:'math' imported but unused'
+'5,1,E,E302:expected 2 blank lines, found 1'
+'9,1,E,E302:expected 2 blank lines, found 1'
+'13,1,E,E302:expected 2 blank lines, found 1'
+'18,1,E,E302:expected 2 blank lines, found 1'
+'24,1,E,E302:expected 2 blank lines, found 1'
+'25,33,W,W292:no newline at end of file'
+
+2023-12-22 18:51:22.056 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+2023-12-22 18:51:22.057 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:51:22.099 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem4.py :
+'19,1,F,F811:redefinition of unused 'get_input_data' from line 7'
+
+2023-12-22 18:51:53.454 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:51:53.454 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:51:53.482 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py :
+'47,34,F,F821:undefined name 'get_input_data''
+
+2023-12-22 18:52:15.782 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+2023-12-22 18:52:15.782 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:52:28.087 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:52:28.087 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:52:29.467 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:52:29.467 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:52:36.336 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 18:52:36.339 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:52:49.713 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+2023-12-22 18:52:49.758 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:53:07.288 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:53:07.288 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:53:52.261 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:53:52.262 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:54:15.976 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:54:15.976 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:54:21.851 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:54:21.851 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:54:26.956 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:54:26.956 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:55:42.015 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:55:42.015 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:56:43.019 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:56:43.020 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:56:57.919 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:56:57.919 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:01:50.334 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr copy.py
+2023-12-22 19:01:50.335 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:01:59.171 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr copy.py
+2023-12-22 19:01:59.172 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:02:01.257 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:02:01.257 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:02:34.227 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:02:34.227 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:02:34.264 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py :
+'54,53,F,F821:undefined name 'h''
+
+2023-12-22 19:03:16.937 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:03:16.937 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:03:16.974 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py :
+'53,9,F,F821:undefined name 'combine_fir''
+
+2023-12-22 19:03:35.053 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:03:35.053 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:03:35.073 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py :
+'52,2,E,E999:IndentationError: expected an indented block after function definition on line 49'
+
+2023-12-22 19:03:36.003 [info] [Warn  - 7:03:36 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-22 19:03:36.204 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:03:36.204 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:03:36.228 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py :
+'52,2,E,E999:IndentationError: expected an indented block after function definition on line 49'
+
+2023-12-22 19:04:18.411 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:18.412 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:04:18.433 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py :
+'50,36,E,E999:SyntaxError: expected ':''
+
+2023-12-22 19:04:26.697 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:26.698 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:04:26.714 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py :
+'54,1,E,E999:IndentationError: expected an indented block after 'for' statement on line 50'
+
+2023-12-22 19:04:33.429 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:33.429 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:04:33.453 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py :
+'54,1,E,E999:IndentationError: expected an indented block after 'for' statement on line 50'
+
+2023-12-22 19:05:59.207 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:05:59.208 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:06:07.887 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:06:07.888 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:47:47.582 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 19:47:47.582 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:47:54.599 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 19:47:54.599 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:48:51.027 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 19:48:51.027 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:48:51.755 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 19:48:51.755 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:49:19.927 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:49:19.927 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:49:19.968 [info] file:///home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py :
+'28,16,F,F821:undefined name 'math''
+
+2023-12-22 19:51:25.581 [info] [Warn  - 7:51:25 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-22 19:51:25.708 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:51:25.708 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:51:46.508 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_filter.py
+2023-12-22 19:51:46.508 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:04:04.128 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_cascade.py
+2023-12-22 20:04:04.132 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:04:20.681 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 20:04:20.682 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:04:20.721 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 20:04:22.973 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/template.py
+2023-12-22 20:04:22.975 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:04:23.002 [info] file:///home/main/Desktop/uni/sigsys/assignment2/template.py :
+'1,1,F,F401:'numpy as np' imported but unused'
+'2,1,F,F401:'PIL.Image' imported but unused'
+'3,1,F,F401:'math' imported but unused'
+'5,1,E,E302:expected 2 blank lines, found 1'
+'9,1,E,E302:expected 2 blank lines, found 1'
+'13,1,E,E302:expected 2 blank lines, found 1'
+'18,1,E,E302:expected 2 blank lines, found 1'
+'24,1,E,E302:expected 2 blank lines, found 1'
+'25,33,W,W292:no newline at end of file'
+
+2023-12-22 20:04:23.594 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 20:04:23.594 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:04:23.668 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 20:04:35.675 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 20:04:35.675 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:04:35.720 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 20:04:38.168 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 20:04:38.169 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:04:41.535 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 20:04:41.539 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:04:41.600 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 20:06:36.720 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 20:06:36.721 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:06:40.335 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 20:06:40.343 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:06:40.389 [info] file:///home/main/Desktop/uni/sigsys/assignment2/problem3.py :
+'48,80,E,E501:line too long (102 > 79 characters)'
+
+2023-12-22 20:06:52.910 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 20:06:52.910 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:06:56.953 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 20:06:56.953 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:16:28.241 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/SOBEL.py
+2023-12-22 20:16:28.241 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:16:42.913 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 20:16:42.913 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:18:58.967 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 20:18:58.968 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:45.177 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 20:19:45.177 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:46.719 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 20:19:46.719 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:53.298 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 20:19:53.298 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:53.762 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 20:19:53.773 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:59.199 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 20:19:59.200 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:20:20.295 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 20:20:20.295 [info] CWD Linter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:20:30.956 [info] /bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 20:20:30.956 [info] CWD Linter: /home/main/Desktop/uni/sigsys

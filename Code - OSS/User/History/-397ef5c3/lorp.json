@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/home/main/Desktop/uni/oop"
+		},
+		{
+			"path": "../../../../Desktop/uni/sigsys"
+		}
+	],
+	"settings": {
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	}
+}

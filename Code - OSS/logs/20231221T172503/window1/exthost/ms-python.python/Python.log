@@ -1,0 +1,479 @@
+2023-12-22 12:36:35.051 [info] Default formatter is set to ms-python.black-formatter for workspace /home/main/Desktop/uni/oop
+2023-12-22 12:36:35.051 [info] Default formatter is set to ms-python.flake8 for workspace /home/main/Desktop/uni/sigsys
+2023-12-22 12:36:35.051 [info] Test server listening.
+2023-12-22 12:36:35.051 [info] Python interpreter path: ./assignment_1_OOP/.conda/bin/python
+2023-12-22 12:36:35.166 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-22 12:36:35.166 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-22 12:36:35.261 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-22 12:36:35.306 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 523ms, has a falsy return value, Arg 1: <Uri:/home/main/Desktop/uni/sigsys/assignment2/FIR_filter.py>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+  	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+  	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+]
+2023-12-22 12:36:35.307 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+2023-12-22 12:36:35.307 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+	at T.activate (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:791840)
+	at /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2376)]
+2023-12-22 12:36:35.316 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-22 12:36:35.316 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-22 12:36:37.174 [info] Starting Jedi language server for sigsys.
+2023-12-22 12:36:57.692 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/.vscode/settings.json
+2023-12-22 12:37:00.890 [info] Python interpreter path: /bin/python
+2023-12-22 14:32:12.334 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 14:32:13.538 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 14:32:25.348 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 14:32:26.500 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 14:34:25.586 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:34:29.105 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:34:31.805 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:35:09.216 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:35:20.782 [info] Discover tests for workspace name: undefined - uri: /home/main/.config/Code - OSS/User/settings.json
+2023-12-22 14:38:27.041 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:38:31.705 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:39:35.416 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:39:41.820 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:42:39.166 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:45:59.377 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:46:26.474 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:46:31.539 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:46:55.400 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:50:55.410 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:51:09.044 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:51:12.375 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:51:55.984 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:52:01.740 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:00.363 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:08.511 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:15.916 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:42.060 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:53:58.102 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 14:59:22.075 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 15:59:42.489 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:00:11.761 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:00:50.775 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:01:00.929 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:01:24.629 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:01:27.119 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:01:47.184 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:02:11.015 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:02:14.694 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:02:26.140 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:06:09.668 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:07:42.465 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:33.029 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:35.920 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:39.935 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:46.286 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:08:57.531 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:04.349 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:05.155 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:05.559 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:05.872 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:06.153 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:06.428 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:06.696 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:07.197 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:07.721 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:09.477 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:26.252 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:29.164 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:31.082 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:09:50.825 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:05.791 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/.vscode/settings.json
+2023-12-22 16:10:27.825 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:35.671 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:37.156 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:38.909 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:10:50.950 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:11:06.151 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:11:07.066 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:11:10.272 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:11:11.263 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:11:46.928 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:11:50.613 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:11:51.657 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:12:02.443 [info] Discover tests for workspace name: undefined - uri: /home/main/.config/Code - OSS/User/settings.json
+2023-12-22 16:12:21.449 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:12:44.828 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:12:58.903 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:13:41.253 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:13:43.199 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:12.566 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:15.218 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:44.831 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:45.994 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:46.935 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:14:47.959 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:15:25.192 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:15:27.151 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:15:41.519 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:15:45.188 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:16:34.578 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:17:17.479 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:18:24.706 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:19:14.287 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:19:25.168 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:19:43.222 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:19:45.219 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:20:22.046 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:20:24.687 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:21:03.822 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:21:06.221 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:21:14.127 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:21:14.913 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:24:35.162 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:24:38.687 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:25:11.396 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:25:34.412 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:26:13.494 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:26:41.751 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:27:13.451 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:27:51.971 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:28:13.638 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:28:34.332 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:28:38.319 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:28:55.159 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:29:02.460 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:29:24.974 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:11.669 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:38.491 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:43.502 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:50.179 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:04.478 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:22.886 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:43.925 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:46.365 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:48.560 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:34:23.684 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:35:31.671 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:37:17.752 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:26.341 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:28.142 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:36.523 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:37.971 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:54.717 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:37:56.017 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/test.py
+2023-12-22 16:38:23.897 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:39:04.642 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:39:06.342 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:39:25.033 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:39:27.426 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:40:56.172 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:41:10.696 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:41:13.107 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:41:55.946 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:42:12.626 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:44:31.226 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:45:24.454 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:45:25.457 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:45:37.838 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:45:38.833 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 16:46:43.182 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:46:51.289 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:47:05.699 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:47:14.787 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:47:21.665 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:21.046 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:29.810 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:31.666 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:50.150 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:48:59.372 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:01.628 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:04.042 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:11.443 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:50:56.440 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:51:08.312 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:51:27.067 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 17:11:37.593 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 17:12:55.939 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 17:14:37.660 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 17:15:19.262 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 18:27:28.097 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:29.499 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:44.196 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:44.511 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:27:44.511 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:27:46.774 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:46.797 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:27:46.797 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:27:47.957 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:47.980 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:27:47.980 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:27:48.548 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:48.566 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:27:48.566 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:27:49.277 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:49.293 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:27:49.293 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:27:49.751 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:49.766 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:27:49.766 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:28:39.404 [info] Discover tests for workspace name: undefined - uri: /home/main/.config/Code - OSS/User/settings.json
+2023-12-22 18:28:53.496 [info] Discover tests for workspace name: undefined - uri: /home/main/.config/Code - OSS/User/settings.json
+2023-12-22 18:29:09.414 [info] Discover tests for workspace name: undefined - uri: /home/main/.config/Code - OSS/User/settings.json
+2023-12-22 18:29:20.051 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/.vscode/settings.json
+2023-12-22 18:29:20.189 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:20.189 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:21.533 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/.vscode/settings.json
+2023-12-22 18:29:21.556 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:21.556 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:24.382 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:24.416 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:24.416 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:25.213 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:25.229 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:25.229 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:38.532 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:38.552 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:38.552 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:39.403 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:39.424 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:39.424 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:39.686 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:39.703 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:39.704 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:42.819 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:42.845 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:42.845 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:43.834 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:43.851 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:43.851 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:29:44.156 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:44.180 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:29:44.180 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:30:03.230 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:03.266 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:30:03.266 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:30:04.974 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:05.000 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:30:05.000 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:30:05.255 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:05.271 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:30:05.271 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:30:25.249 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:25.275 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:30:25.275 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:31:31.308 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:31:31.343 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:31:31.343 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:32:07.631 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:32:07.651 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:32:07.652 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:32:27.520 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:32:27.547 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:32:27.547 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:32:35.747 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:32:35.768 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:32:35.768 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:33:23.835 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:33:23.855 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:33:23.855 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:33:47.408 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:33:47.428 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:33:47.428 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:34:30.653 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:34:30.671 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:34:30.671 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:34:39.962 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:34:39.982 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:34:39.983 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:36:31.656 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:36:31.677 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:36:31.677 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:36:46.349 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:36:46.366 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:36:46.366 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:37:22.636 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:37:22.654 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:37:22.654 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:38:37.070 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:38:37.089 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:38:37.089 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:40:03.162 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:40:03.185 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:40:03.185 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:41:13.196 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:41:13.212 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:41:13.212 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:42:57.849 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:42:57.865 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:42:57.865 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:44:40.052 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:44:40.072 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:44:40.072 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:44:44.238 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:44:44.260 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:44:44.260 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:44:51.893 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:44:51.914 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:44:51.914 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:45:02.783 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:45:02.803 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:45:02.803 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:45:27.478 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:45:27.495 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:45:27.495 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:45:46.959 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:45:46.976 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:45:46.976 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:47:29.151 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:47:29.177 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:47:29.177 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:48:19.832 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:48:19.864 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:48:19.864 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:48:26.260 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:48:26.309 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:48:26.309 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:48:58.983 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:48:59.007 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:48:59.007 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:49:00.338 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:49:00.355 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:49:00.355 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:49:41.492 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:49:41.513 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:49:41.513 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:49:53.686 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:49:53.706 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:49:53.706 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:50:33.918 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:50:33.940 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:50:33.940 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:51:02.451 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:51:02.471 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:51:02.471 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:51:22.305 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+2023-12-22 18:51:22.327 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:51:22.327 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:51:53.702 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:51:53.726 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:51:53.726 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:52:16.029 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+2023-12-22 18:52:16.049 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:52:16.049 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:52:28.339 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:52:28.357 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:52:28.357 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:52:29.707 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:52:29.723 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:52:29.723 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:53:07.537 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:53:07.553 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:53:07.553 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:53:33.814 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:53:39.287 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:53:52.510 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:53:52.534 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:53:52.534 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:53:56.109 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:54:16.225 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:54:16.246 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:54:16.247 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:54:22.097 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:54:22.114 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:54:22.114 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:54:27.204 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:54:27.235 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:54:27.235 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:54:29.432 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:55:42.263 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:55:42.314 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:55:42.314 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:56:43.269 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:56:43.288 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:56:43.288 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 18:56:46.677 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:56:58.169 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:56:58.213 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 18:56:58.213 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:01:59.419 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr copy.py
+2023-12-22 19:01:59.437 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:01:59.437 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:02:34.477 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:02:34.509 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:02:34.509 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:03:17.188 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:03:17.218 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:03:17.218 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:03:35.302 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:03:35.324 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:03:35.324 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:03:36.452 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:03:36.469 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:03:36.469 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:04:18.657 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:18.684 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:04:18.684 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:04:26.949 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:26.968 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:04:26.968 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:04:33.683 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:33.700 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:04:33.700 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:05:59.457 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:05:59.475 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:05:59.475 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:06:08.139 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:06:08.155 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:06:08.155 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:06:40.594 [info] Send text to terminal: /bin/python /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:47:47.830 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 19:47:47.849 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:47:47.849 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:47:54.849 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 19:47:54.875 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:47:54.875 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:48:51.277 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 19:48:51.308 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:48:51.308 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:48:52.003 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 19:48:52.021 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:48:52.021 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:49:20.177 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:49:20.224 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:49:20.225 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 19:51:25.956 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:51:25.977 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 19:51:25.977 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 20:05:55.248 [info] Python interpreter path: ~/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 20:06:32.209 [info] Python interpreter path: /bin/python
+2023-12-22 20:06:53.160 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+2023-12-22 20:06:53.182 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 20:06:53.182 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 20:19:45.428 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 20:19:45.447 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 20:19:45.447 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 20:19:53.548 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 20:19:53.564 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 20:19:53.564 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 20:19:59.450 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 20:19:59.469 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 20:19:59.469 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 20:20:20.543 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 20:20:20.568 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 20:20:20.568 [info] cwd: ~/Desktop/uni/sigsys
+2023-12-22 20:20:31.206 [info] Discover tests for workspace name: sigsys - uri: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 20:20:31.223 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/testing_tools/unittest_discovery.py . *test.py
+2023-12-22 20:20:31.223 [info] cwd: ~/Desktop/uni/sigsys

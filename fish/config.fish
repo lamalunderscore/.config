@@ -12,7 +12,7 @@ alias pac="sudo pacman -S"
 alias pacm="sudo pacman"
 alias nv="nvim"
 alias gccc="gcc -std=c99 -Wall -pedantic"
-alias codeg="code --enable-proposed-api GitHub.vscode-pull-request-github"
+alias codeg="code --enable-proposed-api GitHub.vscode-pull-request-github ms-toolsai.jupyter ms-python.python"
 
 #wallpaper shortcuts
 alias bg="nitrogen --random --set-auto /media/wallpapers/random"
@@ -23,10 +23,12 @@ alias bga="nitrogen --set-auto /media/wallpapers/random/astronaut_cropped.jpg"
 alias bgt="nitrogen --set-auto /media/wallpapers/random/treealone_cropped.jpg"
 
 #directory shortcuts
+alias oop="cd ~/Desktop/uni/oop/"
 alias imp="cd ~/Desktop/uni/impprog/"
 
 
 #config shortcuts
+alias c="cd ~/.config"
 alias awesomec="nvim ~/.config/awesome/rc.lua"
 alias fishc="nvim ~/.config/fish/config.fish"
 alias kittyc="nvim ~/.config/kitty/confbase.conf"
@@ -42,8 +44,8 @@ alias todo="nvim ~/.todo"
 
 
 #theme shortcuts
-alias dracula="bash ~/.dracula.sh"
-alias gruvbox="bash ~/.gruvbox.sh"
+alias dracula="bash ~/.config/.dracula.sh"
+alias gruvbox="bash ~/.config/.gruvbox.sh"
 
 
 #bobthefish
@@ -87,3 +89,13 @@ set -g fish_prompt_pwd_dir_length 0
 set -g theme_project_dir_length 1
 set -g theme_newline_cursor yes
 set -g theme_newline_prompt '$ '
+
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if test -f /usr/bin/conda
+    eval /usr/bin/conda "shell.fish" "hook" $argv | source
+end
+# <<< conda initialize <<<
+

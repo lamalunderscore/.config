@@ -2,7 +2,10 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/main/Desktop/uni/oop/assignment_1_OOP": "__default__profile__"
+            "file:///home/main/Desktop/uni/oop/assignment_1": "__default__profile__",
+            "file:///home/main/Desktop/uni/oop": "__default__profile__",
+            "file:///home/main/Desktop/uni/oop/assignment_1_OOP": "__default__profile__",
+            "file:///home/main/.config/Code%20-%20OSS/Workspaces/1702557285238/workspace.json": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -10,12 +13,13 @@
     "telemetry.sqmId": "",
     "telemetry.machineId": "947e6a2acfd34ad038a091a24af1021e89f8e29c6414bba3419719d629b26a33",
     "backupWorkspaces": {
-        "workspaces": [],
-        "folders": [
+        "workspaces": [
             {
-                "folderUri": "file:///home/main/Desktop/uni/oop/assignment_1_OOP"
+                "id": "f5217debe11dbd7cad9c316b3e12a84f",
+                "configURIPath": "file:///home/main/.config/Code%20-%20OSS/Workspaces/1702557285238/workspace.json"
             }
         ],
+        "folders": [],
         "emptyWindows": []
     },
     "lastKnownMenubarData": {
@@ -73,6 +77,42 @@
                                     "label": "~/Desktop/uni/oop/assignment_1_OOP"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/main/Desktop/uni/oop",
+                                        "path": "/home/main/Desktop/uni/oop",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/uni/oop"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/main/ms-toolsai.jupyter",
+                                        "path": "/home/main/ms-toolsai.jupyter",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/ms-toolsai.jupyter"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/main/ms-python.python",
+                                        "path": "/home/main/ms-python.python",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/ms-python.python"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -84,7 +124,7 @@
                                 },
                                 {
                                     "id": "workbench.action.clearRecentFiles",
-                                    "label": "&&Clear Recently Opened"
+                                    "label": "&&Clear Recently Opened..."
                                 }
                             ]
                         }
@@ -117,8 +157,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -138,6 +177,10 @@
                                 {
                                     "id": "issue.copyGithubPermalink",
                                     "label": "Copy GitHub Permalink"
+                                },
+                                {
+                                    "id": "pr.copyVscodeDevPrLink",
+                                    "label": "Copy vscode.dev Pull Request Link"
                                 },
                                 {
                                     "id": "issue.copyMarkdownGithubPermalink",
@@ -279,7 +322,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -512,6 +555,10 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.toggleSidebarPosition",
+                                    "label": "&&Move Primary Side Bar Right"
+                                },
+                                {
                                     "id": "submenuitem.ActivityBarPositionMenu",
                                     "label": "Activity Bar Position",
                                     "submenu": {
@@ -527,10 +574,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "id": "workbench.action.toggleSidebarPosition",
-                                    "label": "&&Move Primary Side Bar Right"
                                 },
                                 {
                                     "id": "submenuitem.PanelPositionMenu",
@@ -594,7 +637,24 @@
                                             },
                                             {
                                                 "id": "workbench.action.hideEditorTabs",
-                                                "label": "Hide"
+                                                "label": "Hidden"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "submenuitem.EditorActionsPositionSubmenu",
+                                    "label": "Editor Actions Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.editorActionsDefault",
+                                                "label": "Tab Bar",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorActions",
+                                                "label": "Hidden"
                                             }
                                         ]
                                     }
@@ -671,6 +731,17 @@
                                 {
                                     "id": "workbench.action.splitEditorInGroup",
                                     "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.moveEditorToNewWindow",
+                                    "label": "&&Move Editor into New Window"
+                                },
+                                {
+                                    "id": "workbench.action.copyEditorToNewWindow",
+                                    "label": "&&Copy Editor into New Window"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1650,8 +1721,11 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/main/Desktop/uni/oop/assignment_1_OOP",
-            "backupPath": "/home/main/.config/Code - OSS/Backups/16d97ad4b7c77c97a817cf47d2c8f79d",
+            "workspaceIdentifier": {
+                "id": "f5217debe11dbd7cad9c316b3e12a84f",
+                "configURIPath": "file:///home/main/.config/Code%20-%20OSS/Workspaces/1702557285238/workspace.json"
+            },
+            "backupPath": "/home/main/.config/Code - OSS/Backups/f5217debe11dbd7cad9c316b3e12a84f",
             "uiState": {
                 "mode": 1,
                 "x": 11,
@@ -1663,19 +1737,19 @@
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#1d2021",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#ebdbb2",
+            "background": "#1d2021",
+            "editorBackground": "#1d2021",
+            "titleBarBackground": "#1d2021",
+            "activityBarBackground": "#1d2021",
+            "sideBarBackground": "#1d2021",
+            "statusBarBackground": "#1d2021",
+            "statusBarNoFolderBackground": "#1d2021"
         },
         "layoutInfo": {
             "sideBarSide": "left",

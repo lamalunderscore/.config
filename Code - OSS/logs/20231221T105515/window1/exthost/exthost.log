@@ -1,0 +1,630 @@
+2023-12-21 10:55:19.248 [info] Extension host with pid 13210 started
+2023-12-21 10:55:19.248 [info] Skipping acquiring lock for /home/main/.config/Code - OSS/User/workspaceStorage/f5217debe11dbd7cad9c316b3e12a84f.
+2023-12-21 10:55:19.596 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-21 10:55:19.737 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-21 10:55:20.009 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-21 10:55:20.426 [info] Eager extensions activated
+2023-12-21 10:55:20.611 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-21 10:55:20.630 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-21 10:55:20.715 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-12-21 10:55:21.170 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-12-21 10:55:32.188 [error] Error: Git relative path not found. Was looking for .vscode/settings.json among []
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 10:55:32.209 [error] Error: Git relative path not found. Was looking for part_1/src/codebreaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 10:55:32.215 [error] Error: Git relative path not found. Was looking for part_1/src/codemaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 10:55:32.220 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codebreaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 10:55:32.229 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codemaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 10:55:32.230 [error] Error: Git relative path not found. Was looking for part_2/src/model_saver.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 10:55:32.247 [error] Error: Git relative path not found. Was looking for part_2/src/multi_linear_regression.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 10:55:32.247 [error] Error: Git relative path not found. Was looking for part_2/src/regression_plotter.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 10:55:32.251 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.131 [error] Error: Git relative path not found. Was looking for .vscode/settings.json among []
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.132 [error] Error: Git relative path not found. Was looking for part_1/src/codebreaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.133 [error] Error: Git relative path not found. Was looking for part_1/src/codemaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.134 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codebreaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.134 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codemaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.134 [error] Error: Git relative path not found. Was looking for part_2/src/model_saver.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.135 [error] Error: Git relative path not found. Was looking for part_2/src/multi_linear_regression.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.135 [error] Error: Git relative path not found. Was looking for part_2/src/regression_plotter.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:00:34.136 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.641 [error] Error: Git relative path not found. Was looking for .vscode/settings.json among []
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.642 [error] Error: Git relative path not found. Was looking for part_1/src/codebreaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.643 [error] Error: Git relative path not found. Was looking for part_1/src/codemaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.643 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codebreaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.646 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codemaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.647 [error] Error: Git relative path not found. Was looking for part_2/src/model_saver.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.649 [error] Error: Git relative path not found. Was looking for part_2/src/multi_linear_regression.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.650 [error] Error: Git relative path not found. Was looking for part_2/src/regression_plotter.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:05:37.651 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.267 [error] Error: Git relative path not found. Was looking for .vscode/settings.json among []
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.276 [error] Error: Git relative path not found. Was looking for part_1/src/codebreaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.276 [error] Error: Git relative path not found. Was looking for part_1/src/codemaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.279 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codebreaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.282 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codemaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.283 [error] Error: Git relative path not found. Was looking for part_2/src/model_saver.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.284 [error] Error: Git relative path not found. Was looking for part_2/src/multi_linear_regression.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.284 [error] Error: Git relative path not found. Was looking for part_2/src/regression_plotter.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:10:39.290 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.461 [error] Error: Git relative path not found. Was looking for .vscode/settings.json among []
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.462 [error] Error: Git relative path not found. Was looking for part_1/src/codebreaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.463 [error] Error: Git relative path not found. Was looking for part_1/src/codemaker.py among [
+  "part_1/src/__init__.py",
+  "part_1/src/tests"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.463 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codebreaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.465 [error] Error: Git relative path not found. Was looking for part_1/src/tests/test_codemaker.py among [
+  "part_1/src/tests/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.465 [error] Error: Git relative path not found. Was looking for part_2/src/model_saver.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.466 [error] Error: Git relative path not found. Was looking for part_2/src/multi_linear_regression.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.466 [error] Error: Git relative path not found. Was looking for part_2/src/regression_plotter.py among [
+  "part_2/src/__init__.py"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:15:42.468 [error] Error: Git relative path not found. Was looking for saving_file.sav among [
+  ".github",
+  ".gitignore",
+  "LICENSE",
+  "README.md",
+  "part_1",
+  "part_2",
+  "requirements.txt",
+  "use_template.png"
+]
+	at $.getGitRelativePath (/usr/lib/code/extensions/git/dist/main.js:2:896609)
+	at async /usr/lib/code/extensions/git/dist/main.js:2:988552
+	at async M.eb (/usr/lib/code/extensions/git/dist/main.js:2:993243)
+	at async M.db (/usr/lib/code/extensions/git/dist/main.js:2:992935)
+	at async M.show (/usr/lib/code/extensions/git/dist/main.js:2:988259)
+2023-12-21 11:16:42.883 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-21 11:16:42.928 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/usr/lib/code/extensions/git/dist/main.js:2:924696)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-21 11:16:42.928 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at e (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2077:10038)
+	at Object.n [as setContext] (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2077:10153)
+	at xp.updateActiveReviewCount (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2130:22828)
+	at xp.removeRepo (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2130:23973)
+	at f.value (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2242:4217)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at f.value (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2043:446996)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at /home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2130:27689
+	at f.value (/usr/lib/code/extensions/git/dist/main.js:2:1016450)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-21 11:16:42.929 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/usr/lib/code/extensions/git/dist/main.js:2:924696)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-21 11:16:42.935 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/usr/lib/code/extensions/github/dist/extension.js:2:322364)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323005
+	at f.value (/usr/lib/code/extensions/git/dist/main.js:2:1016450)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-21 11:16:42.942 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at e (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2077:10038)
+	at Object.n [as setContext] (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2077:10153)
+	at _m.setReviewModeContexts (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2229:13442)
+	at _m.removePrFromView (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2229:14091)
+	at Fc.clear (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2111:25780)
+	at Fc.dispose (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2113:167)
+	at Rm.removeReviewManager (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2229:44185)
+	at f.value (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2242:4235)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at f.value (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2043:446996)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at /home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2130:27689
+	at f.value (/usr/lib/code/extensions/git/dist/main.js:2:1016450)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-21 11:16:42.942 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at l2.reset (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2229:7420)
+	at l2.dispose (/home/main/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2229:7691)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-21 11:16:42.942 [info] Extension host with pid 13210 exiting with code 0

@@ -1,0 +1,217 @@
+2023-12-06 22:00:49.777 [info] Activation> Extension version: 0.76.1
+2023-12-06 22:00:50.011 [info] Looking for git repository
+2023-12-06 22:00:50.012 [info] Found 0 repositories during activation
+2023-12-06 22:00:50.012 [info] Git repository found, initializing review manager and pr tree view.
+2023-12-06 22:01:10.783 [info] Activation> Extension version: 0.76.1
+2023-12-06 22:01:13.028 [info] Looking for git repository
+2023-12-06 22:01:13.028 [info] Found 0 repositories during activation
+2023-12-06 22:01:13.028 [info] Git repository found, initializing review manager and pr tree view.
+2023-12-06 22:01:13.141 [info] Registering git provider
+2023-12-06 22:01:13.141 [info] Review> Validate state in progress
+2023-12-06 22:01:13.141 [info] Review> Validating state...
+2023-12-06 22:01:13.558 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:01:14.304 [info] Trying to use globalState for assignableUsers.
+2023-12-06 22:01:14.651 [info] Using globalState assignableUsers for 1.
+2023-12-06 22:01:14.855 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_1_OOP changed.
+2023-12-06 22:01:14.855 [info] Repo file:///home/main/Desktop/uni/oop/assignment_1_OOP has already been setup.
+2023-12-06 22:01:14.861 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:01:14.861 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:01:14.861 [info] Review> Resolving pull request
+2023-12-06 22:01:15.896 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:01:15.897 [info] Review> Fetching pull request data
+2023-12-06 22:01:15.897 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-06 22:01:15.931 [info] Review> Register comments provider
+2023-12-06 22:01:15.934 [info] Review> Register in memory content provider
+2023-12-06 22:01:16.626 [info] Review> Display pull request status bar indicator.
+2023-12-06 22:01:16.626 [info] Review> Using focus mode = true.
+2023-12-06 22:01:16.626 [info] Review> State validation silent = true.
+2023-12-06 22:01:16.626 [info] Review> PR show should show = false.
+2023-12-06 22:01:20.603 [error] FolderRepositoryManager> Error when fetching: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+2023-12-06 22:11:21.098 [error] Failed to get content diff. Failed to execute git
+2023-12-06 22:13:08.242 [error] Failed to get content diff. Failed to execute git
+2023-12-06 22:13:24.251 [info] Review> Validate state in progress
+2023-12-06 22:13:24.251 [info] Review> Validating state...
+2023-12-06 22:13:24.341 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:13:24.345 [info] Trying to use globalState for mentionableUsers.
+2023-12-06 22:13:24.345 [info] Using in-memory cached assignable users.
+2023-12-06 22:13:24.541 [info] Using globalState mentionableUsers for 1.
+2023-12-06 22:13:24.588 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:13:24.588 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:13:24.588 [info] Review> Resolving pull request
+2023-12-06 22:13:25.798 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:13:44.806 [info] Review> Validate state in progress
+2023-12-06 22:13:44.806 [info] Review> Validating state...
+2023-12-06 22:13:44.895 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:13:44.897 [info] Using in-memory cached mentionable users.
+2023-12-06 22:13:44.898 [info] Using in-memory cached assignable users.
+2023-12-06 22:13:45.031 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:13:45.031 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:13:45.031 [info] Review> Resolving pull request
+2023-12-06 22:13:46.012 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:13:46.012 [info] Review> Fetching pull request data
+2023-12-06 22:13:46.012 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-06 22:13:46.012 [info] PullRequestTree> PR #3 already exists in tree
+2023-12-06 22:13:46.013 [info] Review> Register comments provider
+2023-12-06 22:13:46.034 [info] Review> Register in memory content provider
+2023-12-06 22:13:46.954 [info] Review> Display pull request status bar indicator.
+2023-12-06 22:13:46.954 [info] Review> Using focus mode = true.
+2023-12-06 22:13:46.954 [info] Review> State validation silent = true.
+2023-12-06 22:13:46.954 [info] Review> PR show should show = false.
+2023-12-06 22:22:34.575 [info] Review> Validate state in progress
+2023-12-06 22:22:34.575 [info] Review> Validating state...
+2023-12-06 22:22:34.806 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:22:34.809 [info] Using in-memory cached mentionable users.
+2023-12-06 22:22:34.809 [info] Using in-memory cached assignable users.
+2023-12-06 22:22:34.956 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:22:34.956 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:22:34.956 [info] Review> Resolving pull request
+2023-12-06 22:22:35.893 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:22:46.826 [info] Review> Validate state in progress
+2023-12-06 22:22:46.826 [info] Review> Validating state...
+2023-12-06 22:22:46.889 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:22:46.891 [info] Using in-memory cached mentionable users.
+2023-12-06 22:22:46.891 [info] Using in-memory cached assignable users.
+2023-12-06 22:22:47.053 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:22:47.053 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:22:47.053 [info] Review> Resolving pull request
+2023-12-06 22:22:48.047 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:22:48.047 [info] Review> Fetching pull request data
+2023-12-06 22:22:48.047 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-06 22:22:48.047 [info] PullRequestTree> PR #3 already exists in tree
+2023-12-06 22:22:48.047 [info] Review> Register comments provider
+2023-12-06 22:22:48.067 [info] Review> Register in memory content provider
+2023-12-06 22:22:48.999 [info] Review> Display pull request status bar indicator.
+2023-12-06 22:22:48.999 [info] Review> Using focus mode = true.
+2023-12-06 22:22:48.999 [info] Review> State validation silent = true.
+2023-12-06 22:22:48.999 [info] Review> PR show should show = false.
+2023-12-06 22:25:56.592 [info] Review> Validate state in progress
+2023-12-06 22:25:56.592 [info] Review> Validating state...
+2023-12-06 22:25:56.974 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:25:56.976 [info] Using in-memory cached mentionable users.
+2023-12-06 22:25:56.976 [info] Using in-memory cached assignable users.
+2023-12-06 22:25:57.174 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:25:57.174 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:25:57.174 [info] Review> Resolving pull request
+2023-12-06 22:25:58.169 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:26:06.932 [info] Review> Validate state in progress
+2023-12-06 22:26:06.932 [info] Review> Validating state...
+2023-12-06 22:26:07.019 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:26:07.020 [info] Using in-memory cached mentionable users.
+2023-12-06 22:26:07.020 [info] Using in-memory cached assignable users.
+2023-12-06 22:26:07.208 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:26:07.209 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:26:07.209 [info] Review> Resolving pull request
+2023-12-06 22:26:08.242 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:26:36.996 [info] Review> Validate state in progress
+2023-12-06 22:26:36.996 [info] Review> Validating state...
+2023-12-06 22:26:37.239 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:26:37.241 [info] Using in-memory cached mentionable users.
+2023-12-06 22:26:37.241 [info] Using in-memory cached assignable users.
+2023-12-06 22:26:37.466 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:26:37.466 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:26:37.466 [info] Review> Resolving pull request
+2023-12-06 22:26:38.586 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:27:05.440 [info] Review> Validate state in progress
+2023-12-06 22:27:05.440 [info] Review> Validating state...
+2023-12-06 22:27:05.504 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:27:05.505 [info] Using in-memory cached mentionable users.
+2023-12-06 22:27:05.505 [info] Using in-memory cached assignable users.
+2023-12-06 22:27:05.663 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:27:05.663 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:27:05.663 [info] Review> Resolving pull request
+2023-12-06 22:27:06.798 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:27:06.798 [info] Review> Fetching pull request data
+2023-12-06 22:27:06.798 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-06 22:27:06.798 [info] PullRequestTree> PR #3 already exists in tree
+2023-12-06 22:27:06.798 [info] Review> Register comments provider
+2023-12-06 22:27:06.817 [info] Review> Register in memory content provider
+2023-12-06 22:27:07.700 [info] Review> Display pull request status bar indicator.
+2023-12-06 22:27:07.700 [info] Review> Using focus mode = true.
+2023-12-06 22:27:07.700 [info] Review> State validation silent = true.
+2023-12-06 22:27:07.700 [info] Review> PR show should show = false.
+2023-12-06 22:34:19.986 [info] Review> Validate state in progress
+2023-12-06 22:34:19.986 [info] Review> Validating state...
+2023-12-06 22:34:20.194 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:34:20.197 [info] Using in-memory cached mentionable users.
+2023-12-06 22:34:20.197 [info] Using in-memory cached assignable users.
+2023-12-06 22:34:20.363 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:34:20.363 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:34:20.363 [info] Review> Resolving pull request
+2023-12-06 22:34:21.455 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:34:31.906 [info] Review> Validate state in progress
+2023-12-06 22:34:31.906 [info] Review> Validating state...
+2023-12-06 22:34:31.974 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:34:31.976 [info] Using in-memory cached mentionable users.
+2023-12-06 22:34:31.976 [info] Using in-memory cached assignable users.
+2023-12-06 22:34:32.142 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:34:32.142 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:34:32.142 [info] Review> Resolving pull request
+2023-12-06 22:34:32.987 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:34:32.987 [info] Review> Fetching pull request data
+2023-12-06 22:34:32.988 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-06 22:34:32.988 [info] PullRequestTree> PR #3 already exists in tree
+2023-12-06 22:34:32.989 [info] Review> Register comments provider
+2023-12-06 22:34:33.002 [info] Review> Register in memory content provider
+2023-12-06 22:34:33.940 [info] Review> Display pull request status bar indicator.
+2023-12-06 22:34:33.940 [info] Review> Using focus mode = true.
+2023-12-06 22:34:33.940 [info] Review> State validation silent = true.
+2023-12-06 22:34:33.940 [info] Review> PR show should show = false.
+2023-12-06 22:38:08.767 [info] Review> Validate state in progress
+2023-12-06 22:38:08.768 [info] Review> Validating state...
+2023-12-06 22:38:09.161 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:38:09.165 [info] Using in-memory cached mentionable users.
+2023-12-06 22:38:09.165 [info] Using in-memory cached assignable users.
+2023-12-06 22:38:09.365 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:38:09.365 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:38:09.365 [info] Review> Resolving pull request
+2023-12-06 22:38:10.689 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:38:19.405 [info] Review> Validate state in progress
+2023-12-06 22:38:19.406 [info] Review> Validating state...
+2023-12-06 22:38:19.465 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:38:19.466 [info] Using in-memory cached mentionable users.
+2023-12-06 22:38:19.466 [info] Using in-memory cached assignable users.
+2023-12-06 22:38:19.638 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:38:19.638 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:38:19.638 [info] Review> Resolving pull request
+2023-12-06 22:38:20.535 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:38:20.535 [info] Review> Fetching pull request data
+2023-12-06 22:38:20.535 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-06 22:38:20.535 [info] PullRequestTree> PR #3 already exists in tree
+2023-12-06 22:38:20.536 [info] Review> Register comments provider
+2023-12-06 22:38:20.561 [info] Review> Register in memory content provider
+2023-12-06 22:38:21.471 [info] Review> Display pull request status bar indicator.
+2023-12-06 22:38:21.471 [info] Review> Using focus mode = true.
+2023-12-06 22:38:21.471 [info] Review> State validation silent = true.
+2023-12-06 22:38:21.471 [info] Review> PR show should show = false.
+2023-12-06 22:40:03.683 [info] Review> Validate state in progress
+2023-12-06 22:40:03.684 [info] Review> Validating state...
+2023-12-06 22:40:04.088 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:40:04.091 [info] Using in-memory cached mentionable users.
+2023-12-06 22:40:04.091 [info] Using in-memory cached assignable users.
+2023-12-06 22:40:04.278 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:40:04.278 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:40:04.278 [info] Review> Resolving pull request
+2023-12-06 22:40:05.147 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:40:14.914 [info] Review> Validate state in progress
+2023-12-06 22:40:14.914 [info] Review> Validating state...
+2023-12-06 22:40:15.003 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:40:15.006 [info] Using in-memory cached mentionable users.
+2023-12-06 22:40:15.006 [info] Using in-memory cached assignable users.
+2023-12-06 22:40:15.260 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-06 22:40:15.260 [info] Review> current branch main is associated with pull request #3
+2023-12-06 22:40:15.260 [info] Review> Resolving pull request
+2023-12-06 22:40:16.187 [info] Review> Resolved PR #3, state is 0
+2023-12-06 22:40:16.187 [info] Review> Fetching pull request data
+2023-12-06 22:40:16.187 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-06 22:40:16.187 [info] PullRequestTree> PR #3 already exists in tree
+2023-12-06 22:40:16.188 [info] Review> Register comments provider
+2023-12-06 22:40:16.215 [info] Review> Register in memory content provider
+2023-12-06 22:40:17.277 [info] Review> Display pull request status bar indicator.
+2023-12-06 22:40:17.277 [info] Review> Using focus mode = true.
+2023-12-06 22:40:17.277 [info] Review> State validation silent = true.
+2023-12-06 22:40:17.277 [info] Review> PR show should show = false.

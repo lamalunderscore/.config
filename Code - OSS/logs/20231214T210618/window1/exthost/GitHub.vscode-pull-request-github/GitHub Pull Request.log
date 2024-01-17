@@ -1,0 +1,80 @@
+2023-12-14 21:06:26.001 [info] Activation> Extension version: 0.76.1
+2023-12-14 21:06:27.488 [info] Looking for git repository
+2023-12-14 21:06:27.488 [info] Found 0 repositories during activation
+2023-12-14 21:06:27.488 [info] Git repository found, initializing review manager and pr tree view.
+2023-12-14 21:06:27.506 [info] Registering git provider
+2023-12-14 21:06:27.506 [info] Review> Validate state in progress
+2023-12-14 21:06:27.506 [info] Review> Validating state...
+2023-12-14 21:06:27.506 [info] Review> Validate state in progress
+2023-12-14 21:06:27.506 [info] Review> Validating state...
+2023-12-14 21:06:27.670 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-14 21:06:27.707 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 21:06:28.507 [info] Trying to use globalState for assignableUsers.
+2023-12-14 21:06:28.765 [info] Trying to use globalState for assignableUsers.
+2023-12-14 21:06:28.827 [info] Review> No matching pull request metadata found locally for current branch part2
+2023-12-14 21:06:28.860 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-14 21:06:28.860 [info] Review> current branch main is associated with pull request #3
+2023-12-14 21:06:28.860 [info] Review> Resolving pull request
+2023-12-14 21:06:28.962 [info] Using globalState assignableUsers for 1.
+2023-12-14 21:06:28.987 [info] Using globalState assignableUsers for 1.
+2023-12-14 21:06:29.723 [info] Found matching pull request metadata on GitHub for current branch part2. Repo: SerbanDumitru/assignment_2_OOP PR: 2
+2023-12-14 21:06:29.723 [info] PullRequestGitHelper> associate part2 with Pull Request #2
+2023-12-14 21:06:29.770 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_2_OOP changed.
+2023-12-14 21:06:29.770 [info] Repo file:///home/main/Desktop/uni/oop/assignment_2_OOP has already been setup.
+2023-12-14 21:06:29.776 [info] Review> Found matching pull request metadata for current branch part2. Repo: SerbanDumitru/assignment_2_OOP PR: 2
+2023-12-14 21:06:29.776 [info] Review> current branch part2 is associated with pull request #2
+2023-12-14 21:06:29.776 [info] Review> Resolving pull request
+2023-12-14 21:06:30.162 [info] Review> Resolved PR #3, state is 0
+2023-12-14 21:06:30.162 [info] Review> Fetching pull request data
+2023-12-14 21:06:30.163 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-14 21:06:30.192 [info] Review> Register comments provider
+2023-12-14 21:06:30.196 [info] Review> Register in memory content provider
+2023-12-14 21:06:30.732 [info] Review> Resolved PR #2, state is 0
+2023-12-14 21:06:30.732 [info] Review> Fetching pull request data
+2023-12-14 21:06:30.733 [info] PullRequestTree> Adding PR #2 to tree
+2023-12-14 21:06:30.757 [info] Review> Register comments provider
+2023-12-14 21:06:30.778 [info] Review> Register in memory content provider
+2023-12-14 21:06:31.247 [info] Review> Display pull request status bar indicator.
+2023-12-14 21:06:31.247 [info] Review> Using focus mode = true.
+2023-12-14 21:06:31.247 [info] Review> State validation silent = true.
+2023-12-14 21:06:31.247 [info] Review> PR show should show = false.
+2023-12-14 21:06:31.561 [info] Review> Display pull request status bar indicator.
+2023-12-14 21:06:31.561 [info] Review> Using focus mode = true.
+2023-12-14 21:06:31.561 [info] Review> State validation silent = true.
+2023-12-14 21:06:31.561 [info] Review> PR show should show = false.
+2023-12-14 21:06:31.920 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_1_OOP changed.
+2023-12-14 21:06:31.920 [info] Repo file:///home/main/Desktop/uni/oop/assignment_1_OOP has already been setup.
+2023-12-14 21:06:31.922 [error] FolderRepositoryManager> Error when fetching: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+2023-12-14 21:07:36.827 [info] Review> Validate state in progress
+2023-12-14 21:07:36.827 [info] Review> Validating state...
+2023-12-14 21:07:36.968 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 21:07:36.971 [info] Trying to use globalState for mentionableUsers.
+2023-12-14 21:07:36.971 [info] Using in-memory cached assignable users.
+2023-12-14 21:07:37.097 [info] Review> Found matching pull request metadata for current branch part2. Repo: SerbanDumitru/assignment_2_OOP PR: 2
+2023-12-14 21:07:37.098 [info] Review> current branch part2 is associated with pull request #2
+2023-12-14 21:07:37.098 [info] Review> Resolving pull request
+2023-12-14 21:07:37.202 [info] No globalState for mentionableUsers.
+2023-12-14 21:07:38.129 [info] Review> Resolved PR #2, state is 0
+2023-12-14 21:07:53.590 [info] Review> Validate state in progress
+2023-12-14 21:07:53.590 [info] Review> Validating state...
+2023-12-14 21:07:53.637 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 21:07:53.638 [info] Using in-memory cached mentionable users.
+2023-12-14 21:07:53.638 [info] Using in-memory cached assignable users.
+2023-12-14 21:07:53.811 [info] Review> Found matching pull request metadata for current branch part2. Repo: SerbanDumitru/assignment_2_OOP PR: 2
+2023-12-14 21:07:53.811 [info] Review> current branch part2 is associated with pull request #2
+2023-12-14 21:07:53.811 [info] Review> Resolving pull request
+2023-12-14 21:07:54.821 [info] Review> Resolved PR #2, state is 0
+2023-12-14 21:07:54.821 [info] Review> Fetching pull request data
+2023-12-14 21:07:54.821 [info] PullRequestTree> Adding PR #2 to tree
+2023-12-14 21:07:54.821 [info] PullRequestTree> PR #2 already exists in tree
+2023-12-14 21:07:54.822 [info] Review> Register comments provider
+2023-12-14 21:07:54.852 [info] Review> Register in memory content provider
+2023-12-14 21:07:55.748 [info] Review> Display pull request status bar indicator.
+2023-12-14 21:07:55.748 [info] Review> Using focus mode = true.
+2023-12-14 21:07:55.748 [info] Review> State validation silent = true.
+2023-12-14 21:07:55.748 [info] Review> PR show should show = false.

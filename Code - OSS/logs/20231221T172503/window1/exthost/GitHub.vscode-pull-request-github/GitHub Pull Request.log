@@ -1,0 +1,1847 @@
+2023-12-21 17:25:09.623 [info] Activation> Extension version: 0.78.1
+2023-12-21 17:25:12.237 [info] Looking for git repository
+2023-12-21 17:25:12.237 [info] Found 0 repositories during activation
+2023-12-21 17:25:12.237 [info] Git repository found, initializing review manager and pr tree view.
+2023-12-21 17:25:12.255 [info] Registering git provider
+2023-12-21 17:25:12.255 [info] Review+0> Validate state in progress
+2023-12-21 17:25:12.255 [info] Review+0> Validating state...
+2023-12-21 17:25:12.255 [info] Review+1> Validate state in progress
+2023-12-21 17:25:12.255 [info] Review+1> Validating state...
+2023-12-21 17:25:12.333 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-21 17:25:12.346 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-21 17:25:13.071 [info] Trying to use globalState for assignableUsers.
+2023-12-21 17:25:13.269 [info] Review+0> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-21 17:25:13.269 [info] Review+0> current branch main is associated with pull request #3
+2023-12-21 17:25:13.269 [info] Review+0> Resolving pull request
+2023-12-21 17:25:13.269 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 17:25:13.298 [info] Trying to use globalState for assignableUsers.
+2023-12-21 17:25:13.311 [info] Using globalState assignableUsers for 1.
+2023-12-21 17:25:13.341 [info] Review+1> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_2_OOP PR: 1
+2023-12-21 17:25:13.341 [info] Review+1> current branch main is associated with pull request #1
+2023-12-21 17:25:13.341 [info] Review+1> Resolving pull request
+2023-12-21 17:25:13.341 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-21 17:25:13.375 [info] Using globalState assignableUsers for 1.
+2023-12-21 17:25:13.959 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 17:25:13.959 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 17:25:14.153 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-21 17:25:14.153 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 17:25:14.295 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 17:25:14.318 [info] Review+0> Resolved PR #3, state is 0
+2023-12-21 17:25:14.318 [info] Review+0> Fetching pull request data
+2023-12-21 17:25:14.319 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-21 17:25:14.351 [info] Review+0> Register comments provider
+2023-12-21 17:25:14.355 [info] Review+0> Register in memory content provider
+2023-12-21 17:25:14.566 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 17:25:14.577 [info] Review+1> Resolved PR #1, state is 0
+2023-12-21 17:25:14.577 [info] Review+1> Fetching pull request data
+2023-12-21 17:25:14.578 [info] PullRequestTree> Adding PR #1 to tree
+2023-12-21 17:25:14.603 [info] Review+1> Register comments provider
+2023-12-21 17:25:14.625 [info] Review+1> Register in memory content provider
+2023-12-21 17:25:14.625 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 17:25:15.419 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 17:25:15.419 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 17:25:15.445 [info] Review+0> Display pull request status bar indicator.
+2023-12-21 17:25:15.445 [info] Review+0> Using focus mode = true.
+2023-12-21 17:25:15.445 [info] Review+0> State validation silent = true.
+2023-12-21 17:25:15.445 [info] Review+0> PR show should show = false.
+2023-12-21 17:25:15.812 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 17:25:15.918 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_1_OOP changed.
+2023-12-21 17:25:15.918 [info] Repo file:///home/main/Desktop/uni/oop/assignment_1_OOP has already been setup.
+2023-12-21 17:25:15.920 [error] FolderRepositoryManager+0> Error when fetching: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+2023-12-21 17:25:16.399 [info] Review+1> Display pull request status bar indicator.
+2023-12-21 17:25:16.399 [info] Review+1> Using focus mode = true.
+2023-12-21 17:25:16.399 [info] Review+1> State validation silent = true.
+2023-12-21 17:25:16.399 [info] Review+1> PR show should show = false.
+2023-12-21 17:25:38.898 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_2_OOP changed.
+2023-12-21 17:25:38.898 [info] Repo file:///home/main/Desktop/uni/oop/assignment_2_OOP has already been setup.
+2023-12-21 17:30:12.285 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 17:30:12.301 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-21 17:30:13.028 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 17:30:13.028 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 17:30:13.246 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-21 17:30:13.246 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 17:30:13.354 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 17:30:13.602 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 17:35:14.983 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-21 17:35:15.639 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-21 17:35:15.713 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-21 17:35:15.713 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 17:35:16.100 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-21 17:35:16.270 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-21 17:35:16.270 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-21 17:35:16.638 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:30:20.530 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 12:30:21.210 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 12:30:21.362 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 12:30:21.362 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:30:21.803 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:30:22.202 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 12:30:22.202 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:30:22.682 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:35:24.403 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 12:35:25.463 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 12:35:25.463 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:35:25.792 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:35:26.494 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 12:35:27.233 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 12:35:27.233 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:35:27.597 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:36:18.971 [info] Repository file:///home/main/Desktop/uni/sigsys/assignment2 has been opened
+2023-12-22 12:36:18.971 [info] Review+2> Validate state in progress
+2023-12-22 12:36:18.971 [info] Review+2> Validating state...
+2023-12-22 12:36:18.973 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-12-22 12:36:18.973 [info] No GitHub remotes found for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 12:36:19.035 [info] Review+2> Queuing additional validate state
+2023-12-22 12:36:19.035 [info] Repo state for file:///home/main/Desktop/uni/sigsys/assignment2 changed.
+2023-12-22 12:36:19.036 [info] Repo file:///home/main/Desktop/uni/sigsys/assignment2 has already been setup.
+2023-12-22 12:36:19.215 [info] Review+2> Validating state...
+2023-12-22 12:36:19.252 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 12:36:32.408 [info] Trying to use globalState for assignableUsers.
+2023-12-22 12:36:32.422 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 12:36:32.632 [info] No globalState for assignableUsers.
+2023-12-22 12:36:32.781 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 12:40:27.514 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 12:40:28.208 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 12:40:28.208 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:40:28.544 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:40:29.740 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 12:40:30.393 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 12:40:30.393 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:40:30.708 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:45:30.170 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 12:45:30.712 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 12:45:30.712 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:45:31.057 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:45:32.853 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 12:45:33.692 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 12:45:33.692 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:45:34.034 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:50:28.210 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 12:50:28.806 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 12:50:28.806 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:50:29.146 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:50:31.893 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 12:50:32.614 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 12:50:32.614 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:50:32.927 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:55:30.637 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 12:55:31.276 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 12:55:31.276 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:55:31.605 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 12:55:34.979 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 12:55:35.664 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 12:55:35.664 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 12:55:35.982 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:00:33.176 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:00:33.827 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:00:33.827 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:00:34.156 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:00:37.984 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:00:38.724 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:00:38.724 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:00:39.228 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:05:35.938 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:05:36.604 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:05:36.604 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:05:36.908 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:05:41.277 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:05:42.147 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:05:42.147 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:05:42.453 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:10:38.411 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:10:39.029 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:10:39.029 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:10:39.356 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:10:44.533 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:10:45.074 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:10:45.074 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:10:45.390 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:15:40.830 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:15:41.527 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:15:41.527 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:15:41.878 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:15:47.487 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:15:48.056 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:15:48.056 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:15:48.397 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:20:43.381 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:20:44.021 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:20:44.021 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:20:44.349 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:20:50.367 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:20:50.975 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:20:50.975 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:20:51.331 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:25:45.869 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:25:46.574 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:25:46.574 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:25:46.904 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:25:53.536 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:25:54.140 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:25:54.140 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:25:54.441 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:30:48.418 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:30:49.007 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:30:49.007 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:30:49.323 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:30:56.509 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:30:57.154 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:30:57.154 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:30:57.473 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:35:50.786 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:35:51.442 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:35:51.442 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:35:51.760 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:35:59.386 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:36:00.086 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:36:00.086 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:36:00.388 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:40:53.360 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:40:53.960 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:40:53.961 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:40:54.289 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:41:02.259 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:41:02.865 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:41:02.865 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:41:03.165 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:45:55.860 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:45:56.560 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:45:56.560 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:45:56.888 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:46:05.223 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:46:05.863 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:46:05.863 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:46:06.214 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:50:58.380 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:50:59.000 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:50:59.000 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:50:59.319 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:51:08.075 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:51:08.796 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:51:08.796 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:51:09.175 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:56:00.823 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 13:56:01.452 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 13:56:01.452 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:56:01.758 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 13:56:11.172 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 13:56:11.812 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 13:56:11.812 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 13:56:12.145 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:01:03.330 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:01:04.042 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:01:04.042 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:01:04.355 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:01:14.053 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:01:14.662 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:01:14.662 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:01:15.037 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:06:05.910 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:06:06.474 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:06:06.474 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:06:06.816 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:06:16.946 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:06:17.661 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:06:17.661 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:06:18.002 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:11:08.422 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:11:09.022 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:11:09.022 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:11:09.351 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:11:20.103 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:11:20.689 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:11:20.689 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:11:21.027 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:16:11.182 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:16:11.875 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:16:11.875 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:16:12.217 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:16:23.129 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:16:23.724 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:16:23.724 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:16:24.052 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:21:13.695 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:21:14.291 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:21:14.291 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:21:14.619 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:21:26.103 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:21:26.763 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:21:26.763 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:21:27.121 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:26:16.122 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:26:16.740 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:26:16.740 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:26:17.107 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:26:29.104 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:26:29.777 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:26:29.777 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:26:30.126 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:31:18.661 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:31:19.350 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:31:19.350 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:31:19.689 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:31:32.272 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:31:32.995 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:31:32.995 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:31:33.325 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:36:21.297 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:36:21.913 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:36:21.913 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:36:22.249 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:36:39.491 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:36:40.151 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:36:40.151 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:36:40.516 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:41:23.868 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:41:24.490 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:41:24.490 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:41:24.807 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:41:42.528 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:41:43.261 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:41:43.261 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:41:43.632 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:45:01.703 [info] Repository file:///home/main/Desktop/uni/sigsys/assignment1 has been opened
+2023-12-22 14:45:01.704 [info] Review+3> Validate state in progress
+2023-12-22 14:45:01.704 [info] Review+3> Validating state...
+2023-12-22 14:45:01.713 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-12-22 14:45:01.713 [info] No GitHub remotes found for folder /home/main/Desktop/uni/sigsys/assignment1
+2023-12-22 14:45:01.800 [info] Review+3> Queuing additional validate state
+2023-12-22 14:45:01.800 [info] Repo state for file:///home/main/Desktop/uni/sigsys/assignment1 changed.
+2023-12-22 14:45:01.800 [info] Repo file:///home/main/Desktop/uni/sigsys/assignment1 has already been setup.
+2023-12-22 14:45:01.882 [info] Review+3> Validating state...
+2023-12-22 14:45:01.927 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment1
+2023-12-22 14:45:02.310 [info] Trying to use globalState for assignableUsers.
+2023-12-22 14:45:02.337 [info] Review+3> No matching pull request metadata found locally for current branch master
+2023-12-22 14:45:02.340 [info] No globalState for assignableUsers.
+2023-12-22 14:45:02.356 [info] Review+3> Failed to get upstream for branch master from git config.
+2023-12-22 14:45:02.357 [info] Review+3> No matching pull request metadata found on GitHub for current branch master
+2023-12-22 14:45:05.894 [info] Review+3> Validate state in progress
+2023-12-22 14:45:05.894 [info] Review+3> Validating state...
+2023-12-22 14:45:05.947 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment1
+2023-12-22 14:45:05.948 [info] Using in-memory cached assignable users.
+2023-12-22 14:45:05.958 [info] Review+3> No matching pull request metadata found locally for current branch main
+2023-12-22 14:45:06.322 [info] Review+3> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 14:46:26.456 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:46:27.085 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:46:27.085 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:46:27.428 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:46:45.671 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:46:46.473 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:46:46.473 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:46:46.779 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:51:28.942 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:51:29.539 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:51:29.540 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:51:29.927 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:51:48.968 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:51:49.630 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:51:49.630 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:51:49.957 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:56:31.615 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 14:56:32.186 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 14:56:32.186 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:56:32.540 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 14:56:51.906 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 14:56:52.791 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 14:56:52.791 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 14:56:53.096 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:01:34.306 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:01:34.968 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:01:34.968 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:01:35.318 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:01:55.125 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:01:55.713 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:01:55.713 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:01:56.055 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:06:36.911 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:06:37.499 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:06:37.499 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:06:37.876 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:06:58.170 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:06:58.794 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:06:58.794 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:06:59.161 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:11:39.521 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:11:40.163 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:11:40.163 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:11:40.550 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:12:01.232 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:12:01.939 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:12:01.939 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:12:02.328 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:16:43.316 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:16:43.943 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:16:43.943 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:16:44.419 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:17:04.429 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:17:05.144 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:17:05.144 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:17:05.479 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:21:45.860 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:21:46.490 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:21:46.491 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:21:46.834 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:22:07.390 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:22:08.093 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:22:08.093 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:22:08.426 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:26:48.419 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:26:49.056 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:26:49.056 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:26:49.401 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:27:10.528 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:27:11.134 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:27:11.135 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:27:11.505 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:31:50.975 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:31:51.734 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:31:51.734 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:31:52.062 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:32:13.961 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:32:14.661 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:32:14.661 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:32:14.991 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:36:53.660 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:36:54.284 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:36:54.284 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:36:54.598 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:37:16.989 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:37:17.651 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:37:17.651 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:37:18.032 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:41:56.190 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:41:56.950 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:41:56.950 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:41:57.272 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:42:20.013 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:42:20.628 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:42:20.628 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:42:20.970 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:46:58.891 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:46:59.510 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:46:59.510 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:46:59.856 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:47:23.172 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:47:23.846 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:47:23.846 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:47:24.161 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:52:01.477 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:52:02.098 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:52:02.098 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:52:02.410 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:52:26.243 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:52:26.975 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:52:26.975 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:52:27.291 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:57:03.901 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 15:57:04.514 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 15:57:04.514 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:57:04.861 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 15:57:29.500 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 15:57:30.056 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 15:57:30.056 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 15:57:30.381 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:02:06.363 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:02:07.063 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:02:07.063 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:02:07.416 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:02:32.463 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:02:33.148 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:02:33.148 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:02:33.489 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:07:09.059 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:07:09.711 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:07:09.711 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:07:10.043 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:07:35.522 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:07:36.186 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:07:36.186 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:07:36.521 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:12:11.702 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:12:12.375 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:12:12.376 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:12:12.725 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:12:38.732 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:12:39.385 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:12:39.385 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:12:39.727 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:17:14.224 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:17:14.953 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:17:14.953 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:17:15.293 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:17:41.825 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:17:42.489 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:17:42.489 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:17:42.816 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:22:16.854 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:22:25.329 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:22:25.329 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:22:25.673 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:22:44.846 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:22:45.454 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:22:45.454 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:22:45.759 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:27:27.284 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:27:28.001 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:27:28.001 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:27:28.331 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:27:47.815 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:27:48.414 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:27:48.414 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:27:48.727 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:32:29.882 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:32:30.527 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:32:30.527 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:32:30.856 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:32:50.755 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:32:51.491 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:32:51.491 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:32:51.878 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:37:32.462 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:37:33.058 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:37:33.058 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:37:33.397 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:37:53.867 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:37:54.631 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:37:54.631 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:37:55.088 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:42:34.978 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:42:35.608 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:42:35.608 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:42:35.931 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:42:57.223 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:42:57.940 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:42:57.940 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:42:58.311 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:47:37.535 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 16:47:38.116 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 16:47:38.116 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:47:38.450 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 16:48:00.249 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 16:48:00.880 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 16:48:00.880 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 16:48:01.217 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:06:55.456 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:06:56.057 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:06:56.057 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:06:56.374 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:07:18.864 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:07:19.470 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:07:19.470 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:07:19.832 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:11:58.039 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:11:58.644 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:11:58.644 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:11:59.030 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:12:21.960 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:12:22.643 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:12:22.643 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:12:22.972 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:17:00.546 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:17:01.390 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:17:01.390 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:17:01.717 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:17:08.808 [info] Review+2> Validate state in progress
+2023-12-22 17:17:08.808 [info] Review+2> Validating state...
+2023-12-22 17:17:09.030 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 17:17:09.033 [info] Using in-memory cached assignable users.
+2023-12-22 17:17:09.152 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 17:17:09.509 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 17:17:21.561 [info] Review+2> Validate state in progress
+2023-12-22 17:17:21.562 [info] Review+2> Validating state...
+2023-12-22 17:17:21.602 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 17:17:21.606 [info] Using in-memory cached assignable users.
+2023-12-22 17:17:21.650 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 17:17:22.003 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 17:17:24.959 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:17:25.533 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:17:25.533 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:17:25.867 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:22:03.329 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:22:03.981 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:22:03.981 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:22:04.326 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:22:27.965 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:22:28.713 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:22:28.713 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:22:29.071 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:27:06.013 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:27:06.856 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:27:06.856 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:27:07.177 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:27:31.228 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:27:32.064 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:27:32.064 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:27:32.425 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:32:08.932 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:32:09.678 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:32:09.678 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:32:10.069 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:32:34.506 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:32:35.088 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:32:35.088 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:32:35.401 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:37:11.616 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:37:12.217 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:37:12.217 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:37:12.546 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:37:37.369 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:37:38.055 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:37:38.055 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:37:38.378 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:42:14.489 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:42:15.085 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:42:15.085 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:42:15.420 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:42:40.753 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:42:41.326 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:42:41.326 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:42:41.623 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:47:16.968 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:47:17.666 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:47:17.666 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:47:17.989 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:47:43.640 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:47:44.328 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:47:44.328 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:47:44.741 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:52:19.657 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:52:20.276 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:52:20.276 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:52:20.636 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:52:46.949 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:52:47.548 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:52:47.548 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:52:47.871 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:57:22.248 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 17:57:22.827 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 17:57:22.827 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:57:23.167 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 17:57:49.873 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 17:57:50.520 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 17:57:50.520 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 17:57:50.906 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:02:24.706 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:02:25.285 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:02:25.286 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:02:25.658 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:02:52.908 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:02:53.506 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:02:53.506 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:02:53.840 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:07:27.400 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:07:28.016 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:07:28.016 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:07:28.375 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:07:55.880 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:07:56.754 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:07:56.755 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:07:58.245 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:12:29.873 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:12:30.443 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:12:30.443 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:12:30.757 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:13:00.305 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:13:00.938 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:13:00.938 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:13:01.472 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:17:32.315 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:17:32.971 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:17:32.971 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:17:33.344 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:18:03.521 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:18:04.130 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:18:04.130 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:18:04.460 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:22:34.943 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:22:35.505 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:22:35.505 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:22:35.808 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:23:06.507 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:23:07.244 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:23:07.244 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:23:07.551 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:27:37.352 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:27:37.986 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:27:37.986 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:27:38.311 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:27:43.407 [info] Review+0> Validating state...
+2023-12-22 18:27:43.407 [info] Review+1> Validating state...
+2023-12-22 18:27:43.407 [info] Review+2> Validating state...
+2023-12-22 18:27:43.409 [info] Review+3> Validating state...
+2023-12-22 18:27:43.449 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-22 18:27:43.456 [info] Trying to use globalState for mentionableUsers.
+2023-12-22 18:27:43.456 [info] Using in-memory cached assignable users.
+2023-12-22 18:27:43.728 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-22 18:27:43.730 [info] Trying to use globalState for mentionableUsers.
+2023-12-22 18:27:43.730 [info] Using in-memory cached assignable users.
+2023-12-22 18:27:43.747 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 18:27:43.748 [info] Using in-memory cached assignable users.
+2023-12-22 18:27:43.759 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment1
+2023-12-22 18:27:43.760 [info] Using in-memory cached assignable users.
+2023-12-22 18:27:43.775 [info] Review+3> No matching pull request metadata found locally for current branch main
+2023-12-22 18:27:43.792 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 18:27:43.808 [info] Review+1> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_2_OOP PR: 1
+2023-12-22 18:27:43.808 [info] Review+1> current branch main is associated with pull request #1
+2023-12-22 18:27:43.808 [info] Review+1> Resolving pull request
+2023-12-22 18:27:43.808 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:27:43.833 [info] Review+0> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-22 18:27:43.833 [info] Review+0> current branch main is associated with pull request #3
+2023-12-22 18:27:43.833 [info] Review+0> Resolving pull request
+2023-12-22 18:27:43.833 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:27:43.887 [info] Using globalState mentionableUsers for 1.
+2023-12-22 18:27:43.911 [info] Using globalState mentionableUsers for 1.
+2023-12-22 18:27:44.455 [info] Review+3> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 18:27:44.457 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 18:27:44.728 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:27:44.728 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:27:44.785 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:27:44.785 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:27:45.091 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:27:45.091 [info] Review+0> Resolved PR #3, state is 0
+2023-12-22 18:27:45.127 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:27:45.127 [info] Review+1> Resolved PR #1, state is 0
+2023-12-22 18:28:09.532 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:28:10.756 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:28:10.756 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:28:11.069 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:32:39.835 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:32:40.385 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:32:40.385 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:32:40.751 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:33:13.064 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:33:13.635 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:33:13.635 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:33:13.954 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:37:42.301 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:37:42.897 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:37:42.897 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:37:43.242 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:38:16.109 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:38:16.782 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:38:16.782 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:38:17.134 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:42:44.840 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:42:45.429 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:42:45.429 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:42:45.758 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:43:19.260 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:43:19.859 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:43:19.859 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:43:20.202 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:47:47.241 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:47:47.831 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:47:47.831 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:47:48.150 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:48:22.339 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:48:22.943 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:48:22.943 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:48:23.269 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:52:49.715 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:52:55.380 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:52:55.380 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:52:55.691 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:53:25.390 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:53:25.970 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:53:25.970 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:53:26.285 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:57:57.304 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 18:57:57.817 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 18:57:57.817 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:57:58.151 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 18:58:28.443 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 18:58:29.068 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 18:58:29.068 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 18:58:29.399 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:02:59.670 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:03:00.221 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:03:00.221 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:03:00.608 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:03:31.286 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:03:31.916 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:03:31.916 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:03:32.254 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:08:02.332 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:08:02.950 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:08:02.950 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:08:03.304 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:08:34.466 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:08:35.586 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:08:35.586 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:08:35.931 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:13:04.868 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:13:05.449 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:13:05.449 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:13:05.806 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:13:37.925 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:13:38.598 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:13:38.598 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:13:38.947 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:18:07.551 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:18:08.255 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:18:08.255 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:18:08.621 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:18:41.085 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:18:41.819 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:18:41.819 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:18:42.214 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:23:10.106 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:23:10.810 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:23:10.810 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:23:11.146 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:23:44.304 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:23:44.880 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:23:44.880 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:23:45.234 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:28:12.715 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:28:13.359 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:28:13.359 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:28:13.695 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:28:47.293 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:28:47.872 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:28:47.872 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:28:48.195 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:33:15.258 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:33:15.842 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:33:15.842 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:33:16.155 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:33:50.163 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:33:50.776 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:33:50.776 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:33:51.088 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:38:17.811 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:38:18.413 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:38:18.413 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:38:18.746 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:38:53.151 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:38:53.924 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:38:53.924 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:38:54.266 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:43:20.377 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:43:20.960 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:43:20.960 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:43:21.287 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:43:56.234 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:43:56.823 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:43:56.823 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:43:57.155 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:48:22.813 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:48:23.426 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:48:23.426 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:48:23.793 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:48:59.209 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:48:59.969 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:48:59.969 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:49:00.293 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:53:25.379 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:53:25.982 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:53:25.982 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:53:26.314 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:54:02.653 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:54:03.274 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:54:03.274 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:54:03.690 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:58:28.105 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 19:58:28.743 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 19:58:28.743 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:58:29.094 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 19:59:05.910 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 19:59:06.730 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 19:59:06.731 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 19:59:07.187 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:03:30.654 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 20:03:31.234 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 20:03:31.234 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:03:31.591 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:04:09.953 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 20:04:10.578 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 20:04:10.578 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:04:10.914 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:05:42.402 [info] Review+2> Validate state in progress
+2023-12-22 20:05:42.402 [info] Review+2> Validating state...
+2023-12-22 20:05:42.578 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 20:05:42.582 [info] Using in-memory cached assignable users.
+2023-12-22 20:05:42.675 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 20:05:43.111 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 20:05:50.012 [info] Review+2> Validate state in progress
+2023-12-22 20:05:50.012 [info] Review+2> Validating state...
+2023-12-22 20:05:50.062 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 20:05:50.063 [info] Using in-memory cached assignable users.
+2023-12-22 20:05:50.169 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 20:05:50.535 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 20:06:31.928 [info] Review+2> Validate state in progress
+2023-12-22 20:06:31.929 [info] Review+2> Validating state...
+2023-12-22 20:06:32.079 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 20:06:32.081 [info] Using in-memory cached assignable users.
+2023-12-22 20:06:32.164 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 20:06:32.529 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 20:08:33.165 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 20:08:33.751 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 20:08:33.751 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:08:34.077 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:09:13.050 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 20:09:13.780 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 20:09:13.780 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:09:14.121 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:13:35.662 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 20:13:36.292 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 20:13:36.292 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:13:36.651 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:14:16.186 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 20:14:16.915 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 20:14:16.915 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:14:17.275 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:18:38.288 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 20:18:38.868 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 20:18:38.868 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:18:39.180 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:19:19.284 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 20:19:20.042 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 20:19:20.042 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:19:20.380 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:20:39.804 [info] Review+2> Validate state in progress
+2023-12-22 20:20:39.804 [info] Review+2> Validating state...
+2023-12-22 20:20:39.975 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 20:20:39.978 [info] Using in-memory cached assignable users.
+2023-12-22 20:20:40.003 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 20:20:40.470 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 20:20:52.136 [info] Review+2> Validate state in progress
+2023-12-22 20:20:52.136 [info] Review+2> Validating state...
+2023-12-22 20:20:52.172 [info] Found GitHub remote for folder /home/main/Desktop/uni/sigsys/assignment2
+2023-12-22 20:20:52.173 [info] Using in-memory cached assignable users.
+2023-12-22 20:20:52.214 [info] Review+2> No matching pull request metadata found locally for current branch main
+2023-12-22 20:20:52.596 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2023-12-22 20:23:40.833 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 20:23:41.475 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 20:23:41.475 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:23:41.786 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:24:22.453 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 20:24:23.066 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 20:24:23.066 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:24:23.413 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:28:43.423 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 20:28:43.979 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 20:28:43.979 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:28:44.291 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 20:29:25.574 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 20:29:26.167 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 20:29:26.167 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 20:29:26.549 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:16:42.253 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 21:16:42.825 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 21:16:42.825 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:16:43.240 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:17:25.108 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 21:17:25.876 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 21:17:25.876 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:17:26.204 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:21:44.825 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 21:21:45.392 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 21:21:45.392 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:21:45.720 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:22:28.609 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 21:22:29.293 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 21:22:29.293 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:22:29.622 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:26:47.297 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 21:26:47.872 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 21:26:47.872 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:26:48.240 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:27:31.621 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 21:27:32.202 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 21:27:32.202 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:27:32.576 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:31:49.789 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 21:31:50.367 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 21:31:50.367 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:31:50.692 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:32:34.673 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 21:32:35.340 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 21:32:35.340 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:32:35.665 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:36:52.235 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 21:36:52.830 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 21:36:52.831 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:36:53.166 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:37:37.650 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 21:37:38.357 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 21:37:38.357 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:37:38.750 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:41:54.639 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 21:41:55.212 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 21:41:55.212 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:41:55.529 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:42:41.406 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 21:42:42.020 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 21:42:42.020 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:42:42.336 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:46:57.088 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 21:46:57.770 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 21:46:57.770 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:46:58.121 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:47:44.557 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 21:47:45.166 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 21:47:45.166 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:47:45.475 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:52:00.477 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-22 21:52:01.101 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-22 21:52:01.101 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:52:01.456 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-22 21:52:48.415 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-22 21:52:49.150 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-22 21:52:49.150 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-22 21:52:49.507 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:22:26.198 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 13:22:26.797 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 13:22:26.797 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:22:27.133 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:23:14.708 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 13:23:15.837 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 13:23:15.837 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:23:16.151 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:27:27.838 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 13:27:28.421 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 13:27:28.421 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:27:28.734 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:28:17.411 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 13:28:18.116 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 13:28:18.116 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:28:18.450 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:32:30.450 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 13:32:31.015 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 13:32:31.015 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:32:31.329 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:33:20.996 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 13:33:21.804 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 13:33:21.804 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:33:22.108 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:37:32.918 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 13:37:33.525 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 13:37:33.525 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:37:33.863 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:38:24.140 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 13:38:24.893 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 13:38:24.893 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:38:25.195 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:42:35.400 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 13:42:36.075 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 13:42:36.075 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:42:36.406 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:43:27.378 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 13:43:27.935 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 13:43:27.935 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:43:28.296 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:47:37.984 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 13:47:38.553 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 13:47:38.553 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:47:38.918 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:48:30.602 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 13:48:31.214 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 13:48:31.214 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:48:31.563 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:52:40.525 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 13:52:46.223 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 13:52:46.223 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:52:46.563 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:53:33.584 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 13:53:34.273 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 13:53:34.273 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:53:34.594 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:57:48.151 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 13:57:48.714 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 13:57:48.714 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:57:49.035 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 13:58:36.632 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 13:58:37.254 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 13:58:37.254 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 13:58:37.633 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:08:22.211 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:08:22.763 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:08:22.763 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:08:23.060 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:09:11.334 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:09:12.517 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:09:12.517 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:09:12.855 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:13:24.549 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:13:25.120 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:13:25.120 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:13:25.477 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:14:14.800 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:14:15.421 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:14:15.421 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:14:15.796 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:18:27.084 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:18:27.718 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:18:27.718 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:18:28.083 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:19:17.992 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:19:18.577 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:19:18.577 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:19:18.938 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:23:29.655 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:24:01.205 [error] GitHubRepository> Unable to fetch PR: Error: Network error: request to https://api.github.com/graphql failed, reason: read ECONNRESET
+2023-12-23 14:24:01.205 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: no
+2023-12-23 14:24:01.205 [warning] Review+0> This PR is no longer valid
+2023-12-23 14:24:21.092 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:24:21.667 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:24:21.667 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:24:22.039 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:29:01.255 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:29:01.866 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:29:01.866 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:29:02.181 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:29:24.429 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:29:25.109 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:29:25.109 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:29:25.435 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:34:03.835 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:34:04.542 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:34:04.542 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:34:04.861 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:34:27.400 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:34:28.113 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:34:28.114 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:34:28.439 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:39:06.477 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:39:07.060 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:39:07.060 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:39:07.377 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:39:30.347 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:39:31.040 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:39:31.041 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:39:31.378 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:44:09.755 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:44:10.435 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:44:10.435 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:44:10.834 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:44:34.371 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:44:34.970 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:44:34.970 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:44:35.292 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:49:12.622 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:49:13.223 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:49:13.223 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:49:13.550 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:49:37.237 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:49:37.822 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:49:37.822 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:49:38.157 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:54:15.180 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:54:15.779 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:54:15.779 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:54:16.129 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:54:40.117 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:54:40.790 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:54:40.790 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:54:41.122 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:59:17.681 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 14:59:18.337 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 14:59:18.337 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:59:18.763 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 14:59:43.216 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 14:59:43.888 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 14:59:43.888 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 14:59:44.218 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:04:20.488 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:04:21.155 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:04:21.155 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:04:21.470 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:04:46.171 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:04:46.851 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:04:46.851 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:04:47.202 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:09:23.234 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:09:23.820 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:09:23.820 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:09:24.171 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:09:49.170 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:09:49.844 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:09:49.844 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:09:50.215 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:14:25.666 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:14:26.294 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:14:26.294 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:14:26.632 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:14:52.704 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:14:53.379 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:14:53.379 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:14:53.738 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:19:28.279 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:19:33.417 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:19:33.417 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:19:34.244 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:19:55.765 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:19:58.145 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:19:58.145 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:20:00.428 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:24:55.381 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:24:55.952 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:24:55.952 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:24:56.296 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:25:03.893 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:25:04.639 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:25:04.639 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:25:04.958 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:29:57.810 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:29:58.374 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:29:58.374 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:29:58.723 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:30:06.977 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:30:38.985 [error] GitHubRepository> Unable to fetch PR: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-23 15:30:38.985 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: no
+2023-12-23 15:30:38.985 [warning] Review+1> This PR is no longer valid
+2023-12-23 15:35:01.541 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:35:18.216 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:35:18.216 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:35:25.985 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:35:39.017 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:35:40.196 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:35:40.196 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:35:40.529 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:40:35.857 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:40:42.774 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:40:57.177 [error] GitHubRepository> Unable to fetch PR: Error: Network error: request to https://api.github.com/graphql failed, reason: read ECONNRESET
+2023-12-23 15:40:57.177 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: no
+2023-12-23 15:40:57.177 [warning] Review+0> This PR is no longer valid
+2023-12-23 15:41:14.412 [error] GitHubRepository> Unable to fetch PR: Error: Network error: request to https://api.github.com/graphql failed, reason: read ECONNRESET
+2023-12-23 15:41:14.412 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: no
+2023-12-23 15:41:14.412 [warning] Review+1> This PR is no longer valid
+2023-12-23 15:45:57.209 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:45:57.750 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:45:57.750 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:45:58.084 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:46:14.437 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:46:15.051 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:46:15.051 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:46:15.375 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:50:59.675 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:51:00.221 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:51:00.221 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:51:00.577 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:51:17.469 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:51:18.068 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:51:18.069 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:51:18.410 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:56:02.185 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 15:56:02.785 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 15:56:02.786 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:56:03.130 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 15:56:20.520 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 15:56:21.083 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 15:56:21.083 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 15:56:21.425 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 16:01:04.830 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 16:01:05.432 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 16:01:05.432 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 16:01:05.780 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 16:01:23.511 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 16:01:24.127 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 16:01:24.127 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 16:01:24.434 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 16:06:07.391 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 16:06:07.976 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 16:06:07.976 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 16:06:08.332 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 16:06:26.428 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 16:06:27.055 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 16:06:27.055 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 16:06:27.432 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:03:08.204 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:03:08.935 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:03:08.935 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:03:09.288 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:03:27.846 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:03:28.589 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:03:28.589 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:03:28.989 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:08:11.253 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:08:11.962 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:08:11.962 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:08:12.275 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:08:32.483 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:08:33.076 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:08:33.076 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:08:33.423 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:13:13.840 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:13:14.411 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:13:14.411 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:13:14.749 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:13:35.478 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:13:36.061 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:13:36.061 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:13:36.359 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:18:16.582 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:18:17.143 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:18:17.143 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:18:17.453 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:18:38.623 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:18:39.366 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:18:39.366 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:18:39.674 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:23:18.984 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:23:19.596 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:23:19.596 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:23:19.961 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:23:41.731 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:23:42.419 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:23:42.420 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:23:42.780 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:28:21.426 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:28:22.037 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:28:22.037 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:28:27.356 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:28:45.242 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:28:45.830 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:28:45.830 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:28:46.181 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:33:28.981 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:33:29.646 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:33:29.646 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:33:29.958 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:33:48.258 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:33:48.953 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:33:48.953 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:33:49.365 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:38:31.542 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:38:32.321 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:38:32.321 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:38:32.638 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:38:51.293 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:38:51.896 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:38:51.896 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:38:52.228 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:43:34.262 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:43:34.887 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:43:34.888 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:43:35.203 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:43:54.530 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:43:55.174 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:43:55.174 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:43:55.497 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:51:34.210 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:51:34.768 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:51:34.769 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:51:35.110 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:51:55.438 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:51:56.134 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:51:56.134 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:51:56.453 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:56:36.724 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 17:56:37.288 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 17:56:37.288 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:56:37.619 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 17:56:58.441 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 17:56:59.484 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 17:56:59.484 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 17:56:59.787 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:01:39.200 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:01:39.790 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:01:39.790 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:01:40.119 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:02:01.789 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:02:02.497 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:02:02.497 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:02:02.843 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:06:41.734 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:06:42.300 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:06:42.300 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:06:42.612 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:07:04.903 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:07:05.572 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:07:05.572 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:07:05.899 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:11:44.161 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:11:44.783 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:11:44.783 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:11:45.112 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:12:08.060 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:12:08.766 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:12:08.766 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:12:09.102 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:16:46.727 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:16:47.295 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:16:47.295 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:16:47.636 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:17:11.236 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:17:11.928 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:17:11.928 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:17:12.224 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:21:49.268 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:21:49.948 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:21:49.948 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:21:50.286 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:22:14.271 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:22:14.974 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:22:14.974 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:22:15.289 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:26:51.980 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:26:52.560 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:26:52.560 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:26:52.899 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:27:17.676 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:27:18.455 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:27:18.455 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:27:18.843 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:31:54.418 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:31:55.096 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:31:55.096 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:31:55.421 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:32:22.710 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:32:23.324 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:32:23.324 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:32:23.640 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:36:56.999 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:36:57.647 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:36:57.647 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:36:57.948 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:37:25.820 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:37:26.380 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:37:26.380 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:37:26.696 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:41:59.550 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:42:00.114 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:42:00.114 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:42:00.430 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:42:28.754 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:42:29.474 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:42:29.475 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:42:29.833 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:47:01.972 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:47:02.643 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:47:02.643 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:47:02.971 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:47:32.151 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:47:32.787 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:47:32.787 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:47:33.111 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:52:04.480 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:52:05.100 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:52:05.100 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:52:05.455 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:52:35.132 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:52:35.818 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:52:35.818 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:52:36.135 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:57:07.031 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 18:57:07.607 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 18:57:07.607 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:57:07.960 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 18:57:38.104 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 18:57:38.792 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 18:57:38.792 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 18:57:39.288 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 19:02:09.531 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 19:02:10.063 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 19:02:10.063 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 19:02:10.387 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 19:02:41.442 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 19:02:42.202 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 19:02:42.202 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 19:02:42.533 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 19:07:11.977 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 19:07:12.656 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 19:07:12.656 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 19:07:13.102 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 19:07:44.770 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 19:07:45.416 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 19:07:45.416 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 19:07:45.726 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 19:12:14.621 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 19:12:15.223 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 19:12:15.223 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 19:12:15.556 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 19:12:47.879 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 19:12:48.573 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 19:12:48.573 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 19:12:48.971 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 19:17:17.085 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 19:17:17.701 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 19:17:17.701 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 19:17:18.188 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 19:17:51.146 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 19:17:51.763 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 19:17:51.763 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 19:17:52.103 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 20:54:15.296 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 20:54:15.876 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 20:54:15.876 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 20:54:16.203 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 20:54:49.746 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 20:54:50.304 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 20:54:50.304 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 20:54:50.648 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 22:59:43.780 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 22:59:44.379 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 22:59:44.380 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 22:59:44.737 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:00:18.748 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:00:19.359 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:00:19.359 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:00:19.692 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:04:46.712 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:04:47.352 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:04:47.352 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:04:47.700 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:05:21.767 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:05:22.465 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:05:22.465 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:05:22.789 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:09:49.249 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:09:49.956 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:09:49.956 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:09:50.292 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:10:24.874 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:10:25.666 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:10:25.666 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:10:26.269 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:14:51.890 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:14:52.571 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:14:52.571 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:14:52.951 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:15:28.278 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:15:28.863 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:15:28.863 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:15:29.204 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:19:54.854 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:19:55.548 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:19:55.548 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:19:55.869 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:20:31.507 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:20:32.121 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:20:32.121 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:20:32.464 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:24:57.567 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:24:58.360 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:24:58.360 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:24:58.700 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:25:34.649 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:25:35.353 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:25:35.353 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:25:35.698 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:30:00.265 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:30:01.041 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:30:01.041 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:30:01.370 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:30:38.130 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:30:38.799 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:30:38.799 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:30:39.126 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:35:04.107 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:35:04.785 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:35:04.785 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:35:05.131 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:35:42.700 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:35:43.414 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:35:43.414 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:35:43.733 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:40:06.635 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:40:07.213 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:40:07.213 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:40:07.537 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:40:45.810 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:40:46.458 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:40:46.458 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:40:46.963 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:45:09.155 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:45:09.719 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:45:09.719 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:45:10.032 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:45:49.361 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:45:49.928 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:45:49.928 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:45:50.291 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:50:11.671 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:50:12.272 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:50:12.272 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:50:12.580 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:50:52.350 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:50:53.025 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:50:53.025 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:50:53.375 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:55:14.174 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-23 23:55:14.737 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-23 23:55:14.737 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:55:15.113 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-23 23:55:55.444 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-23 23:55:56.127 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-23 23:55:56.127 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-23 23:55:56.444 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:00:16.628 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-24 00:00:22.327 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-24 00:00:22.327 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:00:22.685 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:00:58.661 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-24 00:00:59.339 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-24 00:00:59.339 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:00:59.742 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:05:24.243 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-24 00:05:24.866 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-24 00:05:24.866 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:05:25.201 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:06:01.742 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-24 00:06:02.358 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-24 00:06:02.358 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:06:02.727 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:10:26.797 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-24 00:10:27.375 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-24 00:10:27.375 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:10:27.782 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:11:04.837 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-24 00:11:05.484 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-24 00:11:05.484 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:11:05.813 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:15:29.339 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-24 00:15:30.018 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-24 00:15:30.018 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:15:30.349 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:16:07.899 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-24 00:16:08.504 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-24 00:16:08.504 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:16:08.837 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:20:32.049 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-24 00:20:32.683 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-24 00:20:32.683 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:20:33.054 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:21:10.899 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-24 00:21:11.460 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-24 00:21:11.460 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:21:11.792 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:25:34.596 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-24 00:25:35.290 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-24 00:25:35.290 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:25:35.594 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:26:13.865 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-24 00:26:14.479 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-24 00:26:14.479 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:26:14.791 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:30:37.078 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-24 00:30:37.621 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-24 00:30:37.622 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:30:37.944 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-24 00:31:16.847 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-24 00:31:17.423 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-24 00:31:17.424 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-24 00:31:17.763 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:03:01.774 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:03:02.629 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:03:02.629 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:03:02.982 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:03:14.685 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:03:15.459 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:03:15.459 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:03:15.836 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:08:04.961 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:08:05.476 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:08:05.476 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:08:05.795 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:08:18.501 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:08:19.061 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:08:19.061 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:08:19.385 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:13:07.578 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:13:08.482 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:13:08.482 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:13:08.796 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:13:21.719 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:13:22.541 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:13:22.542 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:13:22.837 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:18:10.281 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:18:10.873 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:18:10.873 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:18:11.164 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:18:24.993 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:18:25.904 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:18:25.904 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:18:26.216 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:23:12.638 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:23:13.179 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:23:13.179 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:23:13.501 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:23:28.410 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:23:29.112 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:23:29.112 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:23:29.456 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:28:08.682 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:28:09.289 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:28:09.289 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:28:09.590 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:28:25.175 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:28:25.761 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:28:25.761 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:28:26.085 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:33:11.129 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:33:11.822 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:33:11.822 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:33:12.129 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:33:28.016 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:33:28.601 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:33:28.601 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:33:28.921 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:38:13.624 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:38:14.559 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:38:14.560 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:38:14.941 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:38:30.811 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:38:31.496 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:38:31.496 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:38:31.808 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:43:16.469 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:43:17.300 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:43:17.300 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:43:17.629 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:43:33.750 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:43:34.398 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:43:34.398 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:43:34.692 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:48:19.408 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:48:19.960 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:48:19.960 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:48:20.326 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:48:36.632 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:48:37.219 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:48:37.219 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:48:37.533 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:53:21.812 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:53:29.463 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 14:53:29.463 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:53:31.045 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:53:39.432 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:53:39.984 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:53:39.984 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:53:40.319 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 14:58:32.603 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 14:59:06.811 [error] GitHubRepository> Unable to fetch PR: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-25 14:59:06.812 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: no
+2023-12-25 14:59:06.812 [warning] Review+0> This PR is no longer valid
+2023-12-25 14:59:47.191 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 14:59:57.990 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 14:59:57.990 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 14:59:58.430 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:04:06.842 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 15:04:07.491 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 15:04:07.491 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:04:07.794 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:05:00.853 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 15:05:01.518 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 15:05:01.518 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:05:01.825 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:09:09.330 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 15:09:09.980 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 15:09:09.980 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:09:10.293 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:10:03.719 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 15:10:04.356 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 15:10:04.356 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:10:04.698 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:14:12.162 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 15:14:12.828 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 15:14:12.828 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:14:13.146 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:15:06.891 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 15:15:07.447 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 15:15:07.448 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:15:07.746 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:19:14.686 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 15:19:15.307 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 15:19:15.307 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:19:15.623 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:20:09.677 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 15:20:10.274 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 15:20:10.274 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:20:10.621 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:24:17.058 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 15:24:17.593 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 15:24:17.593 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:24:17.921 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 15:25:12.704 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 15:25:13.440 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 15:25:13.440 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 15:25:13.750 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:21:57.307 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 17:21:57.889 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 17:21:57.889 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:21:58.182 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:22:53.842 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 17:22:54.425 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 17:22:54.425 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:22:54.741 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:26:59.610 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 17:27:00.719 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 17:27:00.719 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:27:01.066 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:27:56.626 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 17:27:57.224 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 17:27:57.224 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:27:57.542 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:33:33.985 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 17:33:34.543 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 17:33:34.543 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:33:34.866 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:34:30.693 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 17:34:31.259 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 17:34:31.259 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:34:31.607 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:40:17.103 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 17:40:17.662 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 17:40:17.662 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:40:17.969 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:41:14.522 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 17:41:15.113 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 17:41:15.113 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:41:15.435 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:45:19.410 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-25 17:45:20.010 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-25 17:45:20.010 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:45:20.332 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-25 17:46:17.362 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-25 17:46:17.958 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-25 17:46:17.958 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-25 17:46:18.278 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:29:55.474 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-27 12:29:56.363 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-27 12:29:56.363 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:29:56.665 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:30:53.952 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-27 12:30:54.825 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-27 12:30:54.825 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:30:55.137 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:34:58.460 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-27 12:34:59.268 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-27 12:34:59.268 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:34:59.573 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:35:57.250 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-27 12:35:58.097 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-27 12:35:58.097 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:35:58.419 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:40:01.642 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-27 12:40:02.283 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-27 12:40:02.283 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:40:02.600 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:41:00.461 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-27 12:41:01.251 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-27 12:41:01.251 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:41:01.554 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:45:04.024 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-27 12:45:04.714 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-27 12:45:04.714 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:45:05.028 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:46:03.507 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-27 12:46:04.266 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-27 12:46:04.266 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:46:04.589 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:50:06.500 [info] FolderRepositoryManager+0> Found GitHub repo for pr #3: yes
+2023-12-27 12:50:07.086 [info] FolderRepositoryManager+0> Found GitHub pr repo for pr #3: yes
+2023-12-27 12:50:07.086 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:50:07.393 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:51:06.586 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2023-12-27 12:51:07.173 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2023-12-27 12:51:07.173 [info] GitHubRepository> Fetch branch submission - enter
+2023-12-27 12:51:07.480 [info] GitHubRepository> Fetch branch submission - done: true
+2023-12-27 12:54:30.325 [info] PullRequestTree> Removing PR #1 from tree

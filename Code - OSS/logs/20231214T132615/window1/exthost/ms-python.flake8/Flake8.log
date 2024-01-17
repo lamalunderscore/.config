@@ -1,0 +1,1856 @@
+2023-12-14 13:26:28.163 [info] Name: Flake8
+2023-12-14 13:26:28.163 [info] Module: flake8
+2023-12-14 13:26:28.163 [info] Python extension loading
+2023-12-14 13:26:28.163 [info] Waiting for interpreter from Python extension.
+2023-12-14 13:26:28.163 [info] No interpreter found from setting flake8.interpreter
+2023-12-14 13:26:28.163 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni
+2023-12-14 13:26:28.163 [info] Python extension loaded
+2023-12-14 13:26:28.163 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-14 13:26:28.163 [info] No interpreter found from setting flake8.interpreter
+2023-12-14 13:26:28.163 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni
+2023-12-14 13:26:28.163 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-14 13:26:28.163 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/tool/lsp_server.py
+2023-12-14 13:26:28.163 [info] Server: Start requested.
+2023-12-14 13:26:29.993 [info] CWD Server: /home/main/Desktop/uni
+2023-12-14 13:26:29.994 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-14 13:26:29.998 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni",
+        "workspace": "file:///home/main/Desktop/uni",
+        "args": [],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-14 13:26:29.999 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/main",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-14 13:26:29.999 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --version
+2023-12-14 13:26:29.999 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:30.156 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.10.13 on
+Linux
+
+
+2023-12-14 13:26:30.159 [info] Version info for linter running for /home/main/Desktop/uni:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.10.13 on
+Linux
+
+2023-12-14 13:26:30.159 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2023-12-14 13:26:30.208 [info] [Trace - 1:26:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:30.208 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:30.208 [info] [Trace - 1:26:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:30.208 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:30.225 [info] [Trace - 1:26:30 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-14 13:26:30.237 [info] [Trace - 1:26:30 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:30.308 [info] [Trace - 1:26:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:30.308 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:30.313 [info] [Trace - 1:26:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:30.327 [info] [Trace - 1:26:30 PM] Received response 'textDocument/codeAction - (1)' in 103ms.
+2023-12-14 13:26:30.334 [info] [Trace - 1:26:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:30.334 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:30.335 [info] [Trace - 1:26:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:30.335 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:30.442 [info] [Trace - 1:26:30 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-14 13:26:30.498 [info] [Trace - 1:26:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:30.498 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:30.503 [info] [Trace - 1:26:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:30.509 [info] [Trace - 1:26:30 PM] Received response 'textDocument/codeAction - (2)' in 67ms.
+2023-12-14 13:26:30.775 [info] [Trace - 1:26:30 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-14 13:26:30.780 [info] [Trace - 1:26:30 PM] Received response 'textDocument/codeAction - (3)' in 4ms.
+2023-12-14 13:26:31.903 [info] [Trace - 1:26:31 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:31.906 [info] [Trace - 1:26:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:31.907 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:31.907 [info] [Trace - 1:26:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:31.907 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:31.945 [info] [Trace - 1:26:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:31.945 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:31.946 [info] [Trace - 1:26:31 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:32.201 [info] [Trace - 1:26:32 PM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-14 13:26:32.203 [info] [Trace - 1:26:32 PM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2023-12-14 13:26:41.307 [info] [Trace - 1:26:41 PM] Sending request 'textDocument/codeAction - (5)'.
+2023-12-14 13:26:41.312 [info] [Trace - 1:26:41 PM] Received response 'textDocument/codeAction - (5)' in 5ms.
+2023-12-14 13:26:41.597 [info] [Trace - 1:26:41 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:41.600 [info] [Trace - 1:26:41 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:41.600 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:41.600 [info] [Trace - 1:26:41 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:41.600 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:41.640 [info] [Trace - 1:26:41 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:41.640 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:41.641 [info] [Trace - 1:26:41 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:41.897 [info] [Trace - 1:26:41 PM] Sending request 'textDocument/codeAction - (6)'.
+2023-12-14 13:26:41.900 [info] [Trace - 1:26:41 PM] Received response 'textDocument/codeAction - (6)' in 4ms.
+2023-12-14 13:26:42.028 [info] [Trace - 1:26:42 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:42.033 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.033 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:42.033 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.033 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:42.075 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.075 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:42.076 [info] [Trace - 1:26:42 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:42.248 [info] [Trace - 1:26:42 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:42.254 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.254 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:42.254 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.254 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:42.289 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.289 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:42.290 [info] [Trace - 1:26:42 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:42.450 [info] [Trace - 1:26:42 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:42.454 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.454 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:42.455 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.455 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:42.491 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.491 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:42.491 [info] [Trace - 1:26:42 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:42.665 [info] [Trace - 1:26:42 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:42.672 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.672 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:42.672 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.673 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:42.708 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.708 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:42.709 [info] [Trace - 1:26:42 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:42.822 [info] [Trace - 1:26:42 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:42.824 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.824 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:42.825 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.825 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:42.860 [info] [Trace - 1:26:42 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:42.860 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:42.861 [info] [Trace - 1:26:42 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:43.010 [info] [Trace - 1:26:43 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:26:43.013 [info] [Trace - 1:26:43 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:43.013 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:26:43.013 [info] [Trace - 1:26:43 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:43.013 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:26:43.054 [info] [Trace - 1:26:43 PM] Received notification 'window/logMessage'.
+2023-12-14 13:26:43.054 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:26:43.055 [info] [Trace - 1:26:43 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:26:43.311 [info] [Trace - 1:26:43 PM] Sending request 'textDocument/codeAction - (7)'.
+2023-12-14 13:26:43.313 [info] [Trace - 1:26:43 PM] Received response 'textDocument/codeAction - (7)' in 2ms.
+2023-12-14 13:27:21.277 [info] [Trace - 1:27:21 PM] Sending request 'textDocument/codeAction - (8)'.
+2023-12-14 13:27:21.280 [info] [Trace - 1:27:21 PM] Received response 'textDocument/codeAction - (8)' in 3ms.
+2023-12-14 13:27:21.575 [info] [Trace - 1:27:21 PM] Sending request 'textDocument/codeAction - (9)'.
+2023-12-14 13:27:21.579 [info] [Trace - 1:27:21 PM] Received response 'textDocument/codeAction - (9)' in 4ms.
+2023-12-14 13:27:22.614 [info] [Trace - 1:27:22 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:27:22.621 [info] [Trace - 1:27:22 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:22.622 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/model_saver.py
+2023-12-14 13:27:22.622 [info] [Trace - 1:27:22 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:22.622 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:22.631 [info] [Trace - 1:27:22 PM] Sending request 'textDocument/codeAction - (10)'.
+2023-12-14 13:27:22.667 [info] [Trace - 1:27:22 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:22.668 [info] [Trace - 1:27:22 PM] Received response 'textDocument/codeAction - (10)' in 37ms.
+2023-12-14 13:27:26.340 [info] [Trace - 1:27:26 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:26.344 [info] [Trace - 1:27:26 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:26.344 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/model_saver.py
+2023-12-14 13:27:26.344 [info] [Trace - 1:27:26 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:26.344 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:26.369 [info] [Trace - 1:27:26 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:27.943 [info] [Trace - 1:27:27 PM] Sending request 'textDocument/codeAction - (11)'.
+2023-12-14 13:27:27.948 [info] [Trace - 1:27:27 PM] Received response 'textDocument/codeAction - (11)' in 5ms.
+2023-12-14 13:27:28.217 [info] [Trace - 1:27:28 PM] Sending request 'textDocument/codeAction - (12)'.
+2023-12-14 13:27:28.220 [info] [Trace - 1:27:28 PM] Received response 'textDocument/codeAction - (12)' in 3ms.
+2023-12-14 13:27:30.644 [info] [Trace - 1:27:30 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:30.647 [info] [Trace - 1:27:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:30.647 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:30.648 [info] [Trace - 1:27:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:30.648 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:30.682 [info] [Trace - 1:27:30 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:30.682 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:30.683 [info] [Trace - 1:27:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:30.939 [info] [Trace - 1:27:30 PM] Sending request 'textDocument/codeAction - (13)'.
+2023-12-14 13:27:30.943 [info] [Trace - 1:27:30 PM] Received response 'textDocument/codeAction - (13)' in 4ms.
+2023-12-14 13:27:31.102 [info] [Trace - 1:27:31 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:31.106 [info] [Trace - 1:27:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:31.106 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:31.106 [info] [Trace - 1:27:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:31.106 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:31.142 [info] [Trace - 1:27:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:31.142 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:31.143 [info] [Trace - 1:27:31 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:31.398 [info] [Trace - 1:27:31 PM] Sending request 'textDocument/codeAction - (14)'.
+2023-12-14 13:27:31.403 [info] [Trace - 1:27:31 PM] Received response 'textDocument/codeAction - (14)' in 5ms.
+2023-12-14 13:27:31.796 [info] [Trace - 1:27:31 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:31.800 [info] [Trace - 1:27:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:31.800 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:31.800 [info] [Trace - 1:27:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:31.800 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:31.833 [info] [Trace - 1:27:31 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:31.834 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:31.834 [info] [Trace - 1:27:31 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:32.090 [info] [Trace - 1:27:32 PM] Sending request 'textDocument/codeAction - (15)'.
+2023-12-14 13:27:32.095 [info] [Trace - 1:27:32 PM] Received response 'textDocument/codeAction - (15)' in 5ms.
+2023-12-14 13:27:32.365 [info] [Trace - 1:27:32 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:32.368 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.368 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:32.369 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.369 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:32.404 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.404 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:32.405 [info] [Trace - 1:27:32 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:32.658 [info] [Trace - 1:27:32 PM] Sending request 'textDocument/codeAction - (16)'.
+2023-12-14 13:27:32.660 [info] [Trace - 1:27:32 PM] Received response 'textDocument/codeAction - (16)' in 2ms.
+2023-12-14 13:27:32.670 [info] [Trace - 1:27:32 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:32.673 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.673 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:32.673 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.673 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:32.708 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.708 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:32.709 [info] [Trace - 1:27:32 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:32.934 [info] [Trace - 1:27:32 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:32.938 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.938 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:32.938 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.938 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:32.963 [info] [Trace - 1:27:32 PM] Sending request 'textDocument/codeAction - (17)'.
+2023-12-14 13:27:32.975 [info] [Trace - 1:27:32 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:32.975 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:32.976 [info] [Trace - 1:27:32 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:32.977 [info] [Trace - 1:27:32 PM] Received response 'textDocument/codeAction - (17)' in 14ms.
+2023-12-14 13:27:33.151 [info] [Trace - 1:27:33 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:33.156 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.156 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:33.157 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.157 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:33.192 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.192 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:33.192 [info] [Trace - 1:27:33 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:33.350 [info] [Trace - 1:27:33 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:33.353 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.353 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:33.354 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.354 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:33.388 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.388 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:33.389 [info] [Trace - 1:27:33 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:33.530 [info] [Trace - 1:27:33 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:27:33.533 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.533 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:27:33.533 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.533 [info] CWD Linter: /home/main/Desktop/uni
+2023-12-14 13:27:33.569 [info] [Trace - 1:27:33 PM] Received notification 'window/logMessage'.
+2023-12-14 13:27:33.569 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:27:33.570 [info] [Trace - 1:27:33 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:27:33.825 [info] [Trace - 1:27:33 PM] Sending request 'textDocument/codeAction - (18)'.
+2023-12-14 13:27:33.827 [info] [Trace - 1:27:33 PM] Received response 'textDocument/codeAction - (18)' in 2ms.
+2023-12-14 13:34:22.705 [info] [Trace - 1:34:22 PM] Sending request 'shutdown - (19)'.
+2023-12-14 13:34:22.744 [info] [Trace - 1:34:22 PM] Received response 'shutdown - (19)' in 52ms.
+2023-12-14 13:34:22.744 [info] [Trace - 1:34:22 PM] Sending notification 'exit'.
+2023-12-14 13:35:11.353 [info] Name: Flake8
+2023-12-14 13:35:11.353 [info] Module: flake8
+2023-12-14 13:35:11.353 [info] Python extension loading
+2023-12-14 13:35:11.353 [info] Waiting for interpreter from Python extension.
+2023-12-14 13:35:12.907 [info] No interpreter found from setting flake8.interpreter
+2023-12-14 13:35:12.908 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-14 13:35:12.909 [info] Python extension loaded
+2023-12-14 13:35:12.911 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-14 13:35:12.912 [info] No interpreter found from setting flake8.interpreter
+2023-12-14 13:35:12.912 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-14 13:35:12.916 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-14 13:35:12.963 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/tool/lsp_server.py
+2023-12-14 13:35:12.965 [info] Server: Start requested.
+2023-12-14 13:35:14.160 [info] CWD Server: /home/main/Desktop/uni/oop
+2023-12-14 13:35:14.161 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.flake8-2023.10.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-14 13:35:14.162 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop",
+        "workspace": "file:///home/main/Desktop/uni/oop",
+        "args": [
+            "--max-line-length",
+            "79"
+        ],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-14 13:35:14.162 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/main",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-14 13:35:14.164 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --version
+2023-12-14 13:35:14.164 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:35:14.230 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.10.13 on
+Linux
+
+
+2023-12-14 13:35:14.230 [info] Version info for linter running for /home/main/Desktop/uni/oop:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.10.13 on
+Linux
+
+2023-12-14 13:35:14.231 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2023-12-14 13:35:14.261 [info] [Trace - 1:35:14 PM] Received notification 'window/logMessage'.
+2023-12-14 13:35:14.261 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:35:14.261 [info] [Trace - 1:35:14 PM] Received notification 'window/logMessage'.
+2023-12-14 13:35:14.261 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:35:14.314 [info] [Trace - 1:35:14 PM] Received notification 'window/logMessage'.
+2023-12-14 13:35:14.314 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'5,1,E,E302:expected 2 blank lines, found 1'
+'7,25,E,E231:missing whitespace after ':''
+'7,44,E,E231:missing whitespace after ':''
+'10,27,E,E231:missing whitespace after ':''
+'16,36,E,E231:missing whitespace after ':''
+'19,1,E,E302:expected 2 blank lines, found 1'
+
+2023-12-14 13:35:14.317 [info] [Trace - 1:35:14 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:35:15.916 [info] [Trace - 1:35:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:35:16.003 [info] [Trace - 1:35:16 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:35:16.009 [info] [Trace - 1:35:16 PM] Received notification 'window/logMessage'.
+2023-12-14 13:35:16.009 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:35:16.009 [info] [Trace - 1:35:16 PM] Received notification 'window/logMessage'.
+2023-12-14 13:35:16.009 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:35:16.058 [info] [Trace - 1:35:16 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:36:38.730 [info] [Trace - 1:36:38 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-14 13:36:38.753 [info] [Trace - 1:36:38 PM] Received response 'textDocument/codeAction - (1)' in 23ms.
+2023-12-14 13:36:47.665 [info] [Trace - 1:36:47 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-14 13:36:47.670 [info] [Trace - 1:36:47 PM] Received response 'textDocument/codeAction - (2)' in 5ms.
+2023-12-14 13:36:50.828 [info] [Trace - 1:36:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:36:53.286 [info] [Trace - 1:36:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:36:54.446 [info] [Trace - 1:36:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:36:54.697 [info] [Trace - 1:36:54 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-14 13:36:54.700 [info] [Trace - 1:36:54 PM] Received response 'textDocument/codeAction - (3)' in 3ms.
+2023-12-14 13:36:55.959 [info] [Trace - 1:36:55 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:36:58.126 [info] [Trace - 1:36:58 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:36:59.750 [info] [Trace - 1:36:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:37:00.003 [info] [Trace - 1:37:00 PM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-14 13:37:00.009 [info] [Trace - 1:37:00 PM] Received response 'textDocument/codeAction - (4)' in 6ms.
+2023-12-14 13:37:02.251 [info] [Trace - 1:37:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:37:03.726 [info] [Trace - 1:37:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:37:04.946 [info] [Trace - 1:37:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:37:05.199 [info] [Trace - 1:37:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:37:05.452 [info] [Trace - 1:37:05 PM] Sending request 'textDocument/codeAction - (5)'.
+2023-12-14 13:37:05.457 [info] [Trace - 1:37:05 PM] Received response 'textDocument/codeAction - (5)' in 5ms.
+2023-12-14 13:37:06.246 [info] [Trace - 1:37:06 PM] Sending request 'textDocument/codeAction - (6)'.
+2023-12-14 13:37:06.250 [info] [Trace - 1:37:06 PM] Received response 'textDocument/codeAction - (6)' in 4ms.
+2023-12-14 13:37:06.555 [info] [Trace - 1:37:06 PM] Sending request 'textDocument/codeAction - (7)'.
+2023-12-14 13:37:06.558 [info] [Trace - 1:37:06 PM] Received response 'textDocument/codeAction - (7)' in 3ms.
+2023-12-14 13:37:08.262 [info] [Trace - 1:37:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:37:08.300 [info] [Trace - 1:37:08 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:37:08.305 [info] [Trace - 1:37:08 PM] Received notification 'window/logMessage'.
+2023-12-14 13:37:08.305 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 13:37:08.305 [info] [Trace - 1:37:08 PM] Received notification 'window/logMessage'.
+2023-12-14 13:37:08.305 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:37:08.369 [info] [Trace - 1:37:08 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:37:08.516 [info] [Trace - 1:37:08 PM] Sending request 'textDocument/codeAction - (8)'.
+2023-12-14 13:37:08.520 [info] [Trace - 1:37:08 PM] Received response 'textDocument/codeAction - (8)' in 4ms.
+2023-12-14 13:43:26.670 [info] [Trace - 1:43:26 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:43:26.675 [info] [Trace - 1:43:26 PM] Received notification 'window/logMessage'.
+2023-12-14 13:43:26.675 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_1/main.py
+2023-12-14 13:43:26.675 [info] [Trace - 1:43:26 PM] Received notification 'window/logMessage'.
+2023-12-14 13:43:26.675 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:43:26.696 [info] [Trace - 1:43:26 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:43:37.048 [info] [Trace - 1:43:37 PM] Sending notification 'textDocument/didClose'.
+2023-12-14 13:43:37.053 [info] [Trace - 1:43:37 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:43:37.077 [info] [Trace - 1:43:37 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:43:37.086 [info] [Trace - 1:43:37 PM] Received notification 'window/logMessage'.
+2023-12-14 13:43:37.086 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+2023-12-14 13:43:37.100 [info] [Trace - 1:43:37 PM] Received notification 'window/logMessage'.
+2023-12-14 13:43:37.100 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:43:37.149 [info] [Trace - 1:43:37 PM] Sending request 'textDocument/codeAction - (9)'.
+2023-12-14 13:43:37.162 [info] [Trace - 1:43:37 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:43:37.163 [info] [Trace - 1:43:37 PM] Received response 'textDocument/codeAction - (9)' in 14ms.
+2023-12-14 13:43:39.779 [info] [Trace - 1:43:39 PM] Sending request 'textDocument/codeAction - (10)'.
+2023-12-14 13:43:39.784 [info] [Trace - 1:43:39 PM] Received response 'textDocument/codeAction - (10)' in 5ms.
+2023-12-14 13:43:40.204 [info] [Trace - 1:43:40 PM] Sending request 'textDocument/codeAction - (11)'.
+2023-12-14 13:43:40.209 [info] [Trace - 1:43:40 PM] Received response 'textDocument/codeAction - (11)' in 5ms.
+2023-12-14 13:44:04.176 [info] [Trace - 1:44:04 PM] Sending notification 'textDocument/didClose'.
+2023-12-14 13:44:04.179 [info] [Trace - 1:44:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:44:04.205 [info] [Trace - 1:44:04 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:44:04.208 [info] [Trace - 1:44:04 PM] Received notification 'window/logMessage'.
+2023-12-14 13:44:04.208 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 13:44:04.208 [info] [Trace - 1:44:04 PM] Received notification 'window/logMessage'.
+2023-12-14 13:44:04.208 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:44:04.232 [info] [Trace - 1:44:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:44:07.435 [info] [Trace - 1:44:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:12.488 [info] [Trace - 1:44:12 PM] Sending request 'textDocument/codeAction - (12)'.
+2023-12-14 13:44:12.491 [info] [Trace - 1:44:12 PM] Received response 'textDocument/codeAction - (12)' in 2ms.
+2023-12-14 13:44:13.220 [info] [Trace - 1:44:13 PM] Sending request 'textDocument/codeAction - (13)'.
+2023-12-14 13:44:13.222 [info] [Trace - 1:44:13 PM] Received response 'textDocument/codeAction - (13)' in 2ms.
+2023-12-14 13:44:14.225 [info] [Trace - 1:44:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:14.705 [info] [Trace - 1:44:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:14.963 [info] [Trace - 1:44:14 PM] Sending request 'textDocument/codeAction - (14)'.
+2023-12-14 13:44:14.969 [info] [Trace - 1:44:14 PM] Received response 'textDocument/codeAction - (14)' in 5ms.
+2023-12-14 13:44:30.301 [info] [Trace - 1:44:30 PM] Sending request 'textDocument/codeAction - (15)'.
+2023-12-14 13:44:30.305 [info] [Trace - 1:44:30 PM] Received response 'textDocument/codeAction - (15)' in 4ms.
+2023-12-14 13:44:33.688 [info] [Trace - 1:44:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:34.251 [info] [Trace - 1:44:34 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:34.567 [info] [Trace - 1:44:34 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:35.903 [info] [Trace - 1:44:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:36.159 [info] [Trace - 1:44:36 PM] Sending request 'textDocument/codeAction - (16)'.
+2023-12-14 13:44:36.164 [info] [Trace - 1:44:36 PM] Received response 'textDocument/codeAction - (16)' in 6ms.
+2023-12-14 13:44:36.772 [info] [Trace - 1:44:36 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:44:36.775 [info] [Trace - 1:44:36 PM] Received notification 'window/logMessage'.
+2023-12-14 13:44:36.775 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 13:44:36.775 [info] [Trace - 1:44:36 PM] Received notification 'window/logMessage'.
+2023-12-14 13:44:36.775 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:44:36.801 [info] [Trace - 1:44:36 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:44:57.391 [info] [Trace - 1:44:57 PM] Sending request 'textDocument/codeAction - (17)'.
+2023-12-14 13:44:57.393 [info] [Trace - 1:44:57 PM] Received response 'textDocument/codeAction - (17)' in 2ms.
+2023-12-14 13:44:58.452 [info] [Trace - 1:44:58 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:58.896 [info] [Trace - 1:44:58 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:44:59.152 [info] [Trace - 1:44:59 PM] Sending request 'textDocument/codeAction - (18)'.
+2023-12-14 13:44:59.158 [info] [Trace - 1:44:59 PM] Received response 'textDocument/codeAction - (18)' in 5ms.
+2023-12-14 13:45:00.965 [info] [Trace - 1:45:00 PM] Sending request 'textDocument/codeAction - (19)'.
+2023-12-14 13:45:00.970 [info] [Trace - 1:45:00 PM] Received response 'textDocument/codeAction - (19)' in 5ms.
+2023-12-14 13:45:04.630 [info] [Trace - 1:45:04 PM] Sending notification 'textDocument/didSave'.
+2023-12-14 13:45:04.633 [info] [Trace - 1:45:04 PM] Received notification 'window/logMessage'.
+2023-12-14 13:45:04.633 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 13:45:04.633 [info] [Trace - 1:45:04 PM] Received notification 'window/logMessage'.
+2023-12-14 13:45:04.633 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:45:04.654 [info] [Trace - 1:45:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-14 13:46:11.184 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/model_saver.py
+2023-12-14 13:46:11.184 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 13:46:13.530 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/model_saver.py
+2023-12-14 13:46:13.530 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:10:27.934 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:10:27.935 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:10:27.971 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'61,21,E,E999:SyntaxError: expected ':''
+
+2023-12-14 14:11:36.371 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:11:36.372 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:12:32.846 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:12:32.847 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:12:35.654 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:12:35.654 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:13:20.183 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:13:20.183 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:14:12.495 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:14:12.495 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:40:28.624 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:40:28.624 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:40:28.666 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'103,61,E,E999:SyntaxError: expected ':''
+
+2023-12-14 14:47:45.890 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:47:45.891 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:47:45.955 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'114,13,F,F821:undefined name 'X''
+'122,21,F,F821:undefined name 'X''
+'124,21,F,F821:undefined name 'y''
+'138,9,F,F821:undefined name '_check_numerical''
+'139,9,F,F821:undefined name '_check_compatible''
+
+2023-12-14 14:47:58.027 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:47:58.028 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:47:58.079 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'113,13,F,F821:undefined name 'X''
+'121,21,F,F821:undefined name 'X''
+'123,21,F,F821:undefined name 'y''
+'137,9,F,F821:undefined name '_check_numerical''
+'138,9,F,F821:undefined name '_check_compatible''
+
+2023-12-14 14:48:10.090 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:48:10.091 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:48:10.140 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'121,21,F,F821:undefined name 'X''
+'123,21,F,F821:undefined name 'y''
+'137,9,F,F821:undefined name '_check_numerical''
+'138,9,F,F821:undefined name '_check_compatible''
+
+2023-12-14 14:50:04.635 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:50:04.635 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:50:04.687 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'137,9,F,F821:undefined name '_check_numerical''
+'138,9,F,F821:undefined name '_check_compatible''
+
+2023-12-14 14:50:17.995 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:50:17.995 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:50:30.738 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:50:30.738 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:55:43.718 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:55:43.719 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:56:28.917 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:56:28.917 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:56:28.972 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'127,80,E,E501:line too long (85 > 79 characters)'
+
+2023-12-14 14:56:36.376 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 14:56:36.377 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 14:56:36.442 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'127,80,E,E501:line too long (80 > 79 characters)'
+
+2023-12-14 15:00:22.246 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:00:22.247 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:00:46.607 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:00:46.608 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:01:48.191 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:01:48.191 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:01:48.245 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'2,1,F,F401:'pandas as pd' imported but unused'
+
+2023-12-14 15:02:36.069 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:02:36.069 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:02:36.119 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'2,1,F,F401:'pandas as pd' imported but unused'
+
+2023-12-14 15:03:24.035 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:03:24.035 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:03:24.085 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'2,1,F,F401:'pandas as pd' imported but unused'
+
+2023-12-14 15:09:30.312 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:09:30.312 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:09:39.800 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:09:39.800 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:16:44.699 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/model_saver.py
+2023-12-14 15:16:44.699 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:20:03.030 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:20:03.030 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:20:03.059 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'201,2,E,E999:IndentationError: expected an indented block after class definition on line 199'
+
+2023-12-14 15:20:34.644 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:20:34.644 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:20:34.664 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'201,2,E,E999:IndentationError: expected an indented block after class definition on line 199'
+
+2023-12-14 15:21:29.418 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/model_saver.py
+2023-12-14 15:21:29.418 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:22:11.915 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:22:11.915 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:22:11.966 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'201,2,E,E999:IndentationError: expected an indented block after class definition on line 199'
+
+2023-12-14 15:22:21.427 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:22:21.427 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:23:16.796 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:23:16.796 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:23:16.856 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'19,5,F,F811:redefinition of unused 'parameters' from line 15'
+
+2023-12-14 15:23:26.751 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:23:26.752 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:24:59.735 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:24:59.736 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:25:47.747 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:25:47.747 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:25:47.765 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'19,27,E,E999:SyntaxError: expected ':''
+
+2023-12-14 15:25:49.949 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:25:49.949 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:25:49.961 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'19,27,E,E999:SyntaxError: expected ':''
+
+2023-12-14 15:25:51.382 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:25:51.383 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:25:51.406 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'20,27,E,E999:SyntaxError: expected ':''
+
+2023-12-14 15:26:41.805 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:26:41.805 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:26:46.765 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:26:46.765 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:26:55.832 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:26:55.832 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:28:03.016 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:28:03.016 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:28:03.041 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'pandas as pd' imported but unused'
+
+2023-12-14 15:28:11.684 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:28:11.685 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:28:11.710 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'pandas as pd' imported but unused'
+
+2023-12-14 15:28:20.793 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:28:20.793 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:29:10.799 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:29:10.800 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:29:21.917 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:29:21.917 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:30:39.690 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:30:39.690 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:31:13.098 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:31:13.098 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:33:45.746 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:33:45.746 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:33:45.772 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:34:31.068 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:34:31.068 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:34:31.099 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:35:38.459 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:35:38.459 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:38:08.414 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:38:08.414 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:39:27.296 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:39:27.297 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:39:27.326 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression.MultiLinearRegression' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+'10,11,F,F821:undefined name 'X''
+
+2023-12-14 15:39:33.103 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:39:33.103 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:39:33.122 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression.MultiLinearRegression' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:45:12.839 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:45:12.839 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:45:12.874 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression.MultiLinearRegression' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+'7,12,F,F821:undefined name 'load_iris''
+
+2023-12-14 15:45:28.359 [info] [Warn  - 3:45:28 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-14 15:45:28.532 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:45:28.532 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:45:28.556 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.multi_linear_regression.MultiLinearRegression' imported but unused'
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:45:42.865 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:45:42.865 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:45:42.889 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.multi_linear_regression.MultiLinearRegression' imported but unused'
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:46:58.259 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:46:58.259 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:47:11.734 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:47:11.734 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:47:11.762 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.multi_linear_regression.MultiLinearRegression' imported but unused'
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:47:20.928 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:47:20.928 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:47:20.948 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:47:32.267 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:47:32.267 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:47:32.301 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:48:04.718 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:48:04.718 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:48:04.745 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:49:22.914 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:49:22.914 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:49:22.940 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:49:51.469 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:49:51.469 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:50:11.880 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:50:11.880 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:50:11.919 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:50:27.810 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:50:27.810 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:50:42.701 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:50:42.701 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:50:42.736 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:50:49.795 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:50:49.795 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:50:53.264 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:50:53.264 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:50:53.286 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'4,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 15:51:19.768 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:51:19.768 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:51:43.271 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:51:43.271 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:53:15.594 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:53:15.594 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:53:23.945 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:53:23.945 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:53:37.701 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:53:37.701 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:55:43.833 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:55:43.833 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:56:22.631 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 15:56:22.631 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:57:09.051 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:57:09.051 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 15:58:03.560 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 15:58:03.560 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:05:01.751 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:05:01.752 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:05:01.780 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'206,54,E,E999:SyntaxError: expected ':''
+
+2023-12-14 16:05:09.920 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:05:09.921 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:05:09.953 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'206,54,E,E999:SyntaxError: expected ':''
+
+2023-12-14 16:07:37.005 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:07:37.005 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:09:29.155 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:09:29.155 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:09:29.284 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'218,6,E,E999:IndentationError: expected an indented block after function definition on line 216'
+
+2023-12-14 16:10:04.439 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:10:04.439 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:10:04.474 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'223,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:11:56.762 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:11:56.762 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:11:56.781 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'225,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:22:21.025 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:22:21.026 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:22:21.047 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'233,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:27:38.973 [info] [Warn  - 4:27:38 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-14 16:29:35.996 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:29:35.996 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:29:36.033 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'243,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:30:10.180 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:30:10.180 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:30:10.201 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'243,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:30:23.350 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:30:23.350 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:30:23.379 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'240,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:30:44.510 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:30:44.510 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:30:44.539 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'240,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:32:57.689 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:32:57.689 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:32:57.728 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'241,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:34:29.839 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:34:29.839 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:34:29.902 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'269,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:34:48.013 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 16:34:48.013 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 16:34:48.039 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'269,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 16:35:21.503 [info] [Warn  - 4:35:21 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-14 17:05:54.412 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:05:54.412 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:05:54.451 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'271,15,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:14:42.383 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:14:42.383 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:14:42.405 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'212,6,E,E999:IndentationError: expected an indented block after function definition on line 209'
+
+2023-12-14 17:14:46.498 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:14:46.498 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:14:46.513 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'212,6,E,E999:IndentationError: expected an indented block after function definition on line 209'
+
+2023-12-14 17:14:46.878 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:14:46.878 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:14:46.894 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'212,6,E,E999:IndentationError: expected an indented block after function definition on line 209'
+
+2023-12-14 17:14:51.128 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:14:51.128 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:14:51.143 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'212,6,E,E999:IndentationError: expected an indented block after function definition on line 209'
+
+2023-12-14 17:14:52.061 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:14:52.062 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:14:52.079 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'212,6,E,E999:IndentationError: expected an indented block after function definition on line 209'
+
+2023-12-14 17:14:52.414 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:14:52.415 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:14:52.430 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'212,6,E,E999:IndentationError: expected an indented block after function definition on line 209'
+
+2023-12-14 17:14:52.705 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:14:52.705 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:14:52.723 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'212,6,E,E999:IndentationError: expected an indented block after function definition on line 209'
+
+2023-12-14 17:15:09.132 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:15:09.132 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:15:09.155 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:15:11.013 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:15:11.013 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:15:11.029 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:15:11.284 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:15:11.284 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:15:11.303 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:15:11.483 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:15:11.483 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:15:11.499 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:15:11.708 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:15:11.709 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:15:11.724 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:15:13.963 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:15:13.963 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:15:13.987 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:15:14.711 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:15:14.711 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:15:14.728 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:15:15.033 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:15:15.035 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:15:15.051 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:16:44.763 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:16:44.763 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:16:44.785 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:16:45.940 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:16:45.940 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:16:45.969 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,26,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:17:25.905 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:17:25.905 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:17:25.942 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'275,2,E,E999:IndentationError: expected an indented block after function definition on line 274'
+
+2023-12-14 17:17:34.220 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:17:34.220 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:17:34.295 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'229,57,F,F821:undefined name 'array''
+'243,56,F,F821:undefined name 'array''
+'255,80,E,E501:line too long (95 > 79 characters)'
+
+2023-12-14 17:17:36.903 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:17:36.903 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:17:36.964 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'229,57,F,F821:undefined name 'array''
+'243,56,F,F821:undefined name 'array''
+'255,80,E,E501:line too long (95 > 79 characters)'
+
+2023-12-14 17:17:50.585 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:17:50.585 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:17:50.663 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'255,80,E,E501:line too long (95 > 79 characters)'
+
+2023-12-14 17:17:56.673 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:17:56.673 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:17:56.725 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'255,80,E,E501:line too long (95 > 79 characters)'
+
+2023-12-14 17:18:07.672 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:18:07.672 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:19:01.455 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:19:01.455 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:21:15.021 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:21:15.021 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:21:15.092 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'274,9,F,F841:local variable 'w' is assigned to but never used'
+
+2023-12-14 17:31:05.474 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:31:05.474 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:31:05.555 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'277,13,F,F841:local variable 'w' is assigned to but never used'
+
+2023-12-14 17:31:19.177 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:31:19.177 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:31:55.648 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:31:55.648 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:31:55.685 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression as m' imported but unused'
+'11,13,F,F821:undefined name 'MultiLinearRegression''
+'24,17,F,F821:undefined name 'MultiLinearRegression''
+
+2023-12-14 17:32:03.992 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:32:03.993 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:32:40.518 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:32:40.518 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:32:40.540 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 17:33:12.123 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:33:12.123 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:33:12.142 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression as m' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 17:33:38.033 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:33:38.033 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:33:38.061 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression as m' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 17:33:49.722 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:33:49.723 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:33:49.754 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression as m' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 17:33:55.563 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:33:55.563 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:34:12.184 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:34:12.184 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:34:12.210 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'279,14,E,E999:IndentationError: expected an indented block after 'for' statement on line 278'
+
+2023-12-14 17:35:10.493 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:35:10.493 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:35:10.524 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'280,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 279'
+
+2023-12-14 17:37:04.256 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:37:04.256 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:37:04.280 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'285,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 284'
+
+2023-12-14 17:42:35.918 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:42:35.918 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:42:35.947 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'289,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 287'
+
+2023-12-14 17:42:48.648 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:42:48.649 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:42:48.676 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'289,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 287'
+
+2023-12-14 17:44:43.300 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:44:43.300 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:44:43.324 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:44:53.510 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:44:53.510 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:44:53.546 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:12.076 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:12.076 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:12.095 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:13.375 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:13.375 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:13.398 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:13.869 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:13.869 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:13.887 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:14.909 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:14.909 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:14.932 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:15.167 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:15.168 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:15.184 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:15.348 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:15.348 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:15.366 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:15.551 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:15.552 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:15.577 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:15.735 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:15.735 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:15.763 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:15.926 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:15.926 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:15.943 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:16.123 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:16.124 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:16.140 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'290,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 288'
+
+2023-12-14 17:45:18.717 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:45:18.717 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:45:18.742 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'291,2,E,E999:IndentationError: expected an indented block after 'for' statement on line 289'
+
+2023-12-14 17:47:34.819 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:47:34.819 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:47:34.847 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 17:47:43.919 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:47:43.919 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:47:43.943 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 17:48:18.270 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:48:18.270 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:48:18.352 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'112,18,F,F821:undefined name 'y''
+'288,13,F,F841:local variable 'w' is assigned to but never used'
+'289,24,F,F821:undefined name 'iterations''
+
+2023-12-14 17:48:24.471 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:48:24.471 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:48:24.554 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'112,18,F,F821:undefined name 'y''
+'288,13,F,F841:local variable 'w' is assigned to but never used'
+
+2023-12-14 17:50:09.526 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:50:09.527 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:50:09.600 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'111,35,F,F821:undefined name 'truth''
+'112,18,F,F821:undefined name 'y''
+'288,13,F,F841:local variable 'w' is assigned to but never used'
+
+2023-12-14 17:50:15.097 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:50:15.097 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:50:15.178 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'112,18,F,F821:undefined name 'y''
+'288,13,F,F841:local variable 'w' is assigned to but never used'
+
+2023-12-14 17:50:23.392 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:50:23.392 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:50:23.464 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'288,13,F,F841:local variable 'w' is assigned to but never used'
+
+2023-12-14 17:50:47.349 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 17:50:47.349 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:50:47.371 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 17:51:20.299 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:51:20.299 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:51:20.417 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'288,13,F,F841:local variable 'w' is assigned to but never used'
+
+2023-12-14 17:52:02.738 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:52:02.739 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:52:02.810 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'288,13,F,F841:local variable 'w' is assigned to but never used'
+
+2023-12-14 17:55:50.849 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:55:50.849 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:55:50.894 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'209,16,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 17:56:29.800 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:56:29.800 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:56:29.830 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'291,14,E,E999:IndentationError: expected an indented block after 'for' statement on line 290'
+
+2023-12-14 17:57:28.714 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 17:57:28.714 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 17:57:28.741 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'305,14,E,E999:IndentationError: expected an indented block after 'for' statement on line 304'
+
+2023-12-14 18:00:29.536 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:00:29.537 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:00:29.629 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'307,13,F,F841:local variable 'w' is assigned to but never used'
+'308,9,F,F841:local variable 'x_t' is assigned to but never used'
+'308,15,F,F821:undefined name 'x''
+'310,13,F,F841:local variable 'loss' is assigned to but never used'
+
+2023-12-14 18:01:20.558 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:01:20.558 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:01:20.644 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'311,13,F,F841:local variable 'w' is assigned to but never used'
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,13,F,F841:local variable 'loss' is assigned to but never used'
+
+2023-12-14 18:05:54.800 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:05:54.801 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:05:54.935 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,21,F,F821:undefined name 'learning_rate''
+'314,37,F,F821:undefined name 'gradient''
+'315,13,F,F841:local variable 'loss' is assigned to but never used'
+
+2023-12-14 18:06:09.764 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:06:09.764 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:06:09.850 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,21,F,F821:undefined name 'learning_rate''
+'314,37,F,F821:undefined name 'gradient''
+'315,13,F,F841:local variable 'loss' is assigned to but never used'
+'315,45,F,F821:undefined name 'norm''
+
+2023-12-14 18:07:40.918 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:07:40.918 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:07:41.024 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,21,F,F821:undefined name 'learning_rate''
+'314,37,F,F821:undefined name 'gradient''
+'316,26,F,F821:undefined name 'norm''
+'318,41,F,F821:undefined name 'iterations''
+'318,76,F,F821:undefined name 'se''
+
+2023-12-14 18:07:46.116 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:07:46.121 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:07:46.256 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,21,F,F821:undefined name 'learning_rate''
+'314,37,F,F821:undefined name 'gradient''
+'316,26,F,F821:undefined name 'norm''
+'318,41,F,F821:undefined name 'iterations''
+'318,80,E,E501:line too long (80 > 79 characters)'
+
+2023-12-14 18:07:57.053 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:07:57.053 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:07:57.086 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'319,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 18:08:05.198 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:08:05.198 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:08:05.287 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,21,F,F821:undefined name 'learning_rate''
+'314,37,F,F821:undefined name 'gradient''
+'316,26,F,F821:undefined name 'norm''
+'318,80,E,E501:line too long (86 > 79 characters)'
+
+2023-12-14 18:08:18.116 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:08:18.116 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:08:18.215 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,21,F,F821:undefined name 'learning_rate''
+'318,80,E,E501:line too long (86 > 79 characters)'
+
+2023-12-14 18:08:34.380 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:08:34.380 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:08:34.456 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,21,F,F821:undefined name 'learning_rate''
+'318,80,E,E501:line too long (86 > 79 characters)'
+
+2023-12-14 18:08:44.058 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:08:44.059 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:08:44.083 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'318,18,E,E999:SyntaxError: unterminated string literal (detected at line 318)'
+
+2023-12-14 18:09:08.845 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:09:08.845 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:09:08.917 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'312,9,F,F841:local variable 'x_t' is assigned to but never used'
+'312,15,F,F821:undefined name 'x''
+'314,21,F,F821:undefined name 'learning_rate''
+
+2023-12-14 18:10:11.388 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:10:11.388 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:10:39.601 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:10:39.601 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:12:27.872 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:12:27.872 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:12:27.894 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'323,23,E,E999:SyntaxError: expected ':''
+
+2023-12-14 18:13:52.719 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:13:52.723 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:13:52.829 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'325,16,F,F821:undefined name 'numpy''
+'325,34,F,F821:undefined name 'w''
+
+2023-12-14 18:13:57.949 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:13:57.949 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:13:58.030 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'325,31,F,F821:undefined name 'w''
+
+2023-12-14 18:14:02.353 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:14:02.353 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:14:31.911 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:14:31.911 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:14:31.953 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'327,66,E,E999:IndentationError: expected an indented block after function definition on line 327'
+
+2023-12-14 18:15:25.609 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 18:15:25.610 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 18:15:25.643 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'327,71,E,E999:IndentationError: expected an indented block after function definition on line 327'
+
+2023-12-14 19:08:10.250 [info] [Warn  - 7:08:10 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-14 19:08:10.683 [info] [Warn  - 7:08:10 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-14 19:09:39.618 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:09:39.618 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:09:39.688 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'330,10,E,E999:IndentationError: expected an indented block after function definition on line 328'
+
+2023-12-14 19:10:05.283 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:10:05.283 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:10:05.314 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:10:55.411 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:10:55.411 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:10:55.445 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'329,10,E,E999:IndentationError: expected an indented block after function definition on line 327'
+
+2023-12-14 19:11:58.460 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:11:58.460 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:11:58.490 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'331,10,E,E999:IndentationError: expected an indented block after function definition on line 329'
+
+2023-12-14 19:13:10.660 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:13:10.660 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:13:10.705 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'331,10,E,E999:IndentationError: expected an indented block after function definition on line 329'
+
+2023-12-14 19:14:17.467 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:14:17.467 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:14:17.507 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'329,68,E,E999:SyntaxError: expected ':''
+
+2023-12-14 19:14:27.736 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:14:27.736 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:14:39.023 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:14:39.023 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:00.190 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:00.190 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:00.277 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'336,19,F,F821:undefined name 'factor''
+
+2023-12-14 19:15:25.126 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:25.126 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:25.163 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:15:37.519 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:37.520 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:37.546 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:15:51.309 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:51.309 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:51.328 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:15:51.747 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:51.747 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:51.784 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:15:51.790 [info] [Warn  - 7:15:51 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-14 19:15:52.526 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:52.527 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:52.553 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:15:52.794 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:52.794 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:52.866 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:15:53.111 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:53.111 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:53.131 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:15:54.185 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:15:54.185 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:15:54.210 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:16:00.581 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:16:00.581 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:16:00.621 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax'
+
+2023-12-14 19:16:31.502 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:16:31.502 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:16:31.533 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'335,14,E,E999:SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?'
+
+2023-12-14 19:17:13.139 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:17:13.140 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:17:13.169 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'337,13,E,E999:IndentationError: unexpected indent'
+
+2023-12-14 19:17:16.955 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:17:16.955 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:17:17.038 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'339,19,F,F821:undefined name 'factor''
+
+2023-12-14 19:17:26.904 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:17:26.904 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:17:26.995 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'339,19,F,F821:undefined name 'factor''
+'341,16,F,F821:undefined name 'gradient''
+
+2023-12-14 19:17:35.087 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:17:35.087 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:17:35.169 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'339,19,F,F821:undefined name 'self''
+
+2023-12-14 19:17:37.938 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:17:37.938 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:17:38.015 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'339,19,F,F821:undefined name 'self''
+
+2023-12-14 19:17:40.533 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:17:40.533 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:17:40.633 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'339,19,F,F821:undefined name 'self''
+
+2023-12-14 19:17:56.263 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:17:56.263 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:18:27.420 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:18:27.420 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:18:27.506 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'344,1,F,F811:redefinition of unused 'LassoRegression' from line 327'
+
+2023-12-14 19:18:29.014 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:18:29.014 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:18:29.086 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'344,1,F,F811:redefinition of unused 'LassoRegression' from line 327'
+
+2023-12-14 19:18:41.080 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:18:41.080 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:18:58.166 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:18:58.166 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:20:01.851 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:20:01.851 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:20:02.058 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'357,31,F,F821:undefined name 'numpy''
+
+2023-12-14 19:20:07.962 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:20:07.962 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:20:29.562 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:20:29.563 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:20:37.787 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:20:37.787 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:20:47.991 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:20:47.991 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:21:23.920 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:21:23.920 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:21:23.944 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:22:02.182 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:22:02.182 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:22:02.208 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:23:15.282 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:23:15.282 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:23:43.167 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:23:43.167 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:25:15.180 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:25:15.180 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:25:15.270 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'204,9,F,F841:local variable 'parameters' is assigned to but never used'
+
+2023-12-14 19:25:20.124 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:25:20.124 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:25:20.216 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'204,9,F,F841:local variable 'parameters' is assigned to but never used'
+
+2023-12-14 19:25:46.087 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:25:46.087 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:25:46.184 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'202,35,F,F821:undefined name 'x_with_intercept''
+
+2023-12-14 19:25:54.934 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:25:54.934 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:25:54.957 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:27:23.110 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:27:23.111 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:27:23.190 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'202,35,F,F821:undefined name 'x_with_intercept''
+
+2023-12-14 19:27:35.194 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:27:35.194 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:29:36.456 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:29:36.456 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:29:36.490 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:29:46.758 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:29:46.758 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:29:46.782 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:30:17.340 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:30:17.340 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:30:17.361 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:30:27.964 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:30:27.965 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:30:27.988 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:30:55.595 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:30:55.595 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:31:05.983 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:31:05.983 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:31:06.013 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:31:35.394 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:31:35.394 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:31:42.523 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:31:42.523 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:31:42.542 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:31:49.747 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:31:49.747 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:31:49.773 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:32:00.242 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:32:00.242 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:32:00.265 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:32:27.647 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:32:27.647 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:32:27.671 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:34:19.708 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:34:19.708 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:34:56.570 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:34:56.571 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:35:24.610 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:35:24.610 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:35:24.629 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression as m' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:35:25.235 [info] [Warn  - 7:35:25 PM] Skipping standard library file (stdlib excluded): /home/main/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/jedilsp/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2023-12-14 19:35:32.854 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:35:32.855 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:35:32.873 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression as m' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:35:39.818 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:35:39.818 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:35:39.836 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'2,1,F,F401:'src.multi_linear_regression as m' imported but unused'
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:37:31.937 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:37:31.937 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:37:31.962 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:38:41.246 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:38:41.246 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:40:35.786 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:40:35.786 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:42:50.545 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:42:50.545 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:43:07.019 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:43:07.019 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:43:10.966 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:43:10.966 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:43:45.616 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:43:45.617 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:51:19.984 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:51:19.984 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:51:34.365 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:51:34.365 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:52:33.023 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:52:33.023 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:53:57.941 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:53:57.941 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:53:58.036 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'316,9,F,F841:local variable 'X' is assigned to but never used'
+'316,27,F,F821:undefined name 'X''
+'316,40,F,F821:undefined name 'X''
+
+2023-12-14 19:54:08.913 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:54:08.913 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:56:12.995 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:56:12.995 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:56:13.089 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'316,9,F,F841:local variable 'data_with_intercept' is assigned to but never used'
+
+2023-12-14 19:56:56.595 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:56:56.595 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:58:22.194 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:58:22.194 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:58:22.218 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:58:26.770 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:58:26.770 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:58:26.790 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:58:29.204 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:58:29.204 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:58:29.225 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:58:42.066 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 19:58:42.066 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:59:05.994 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:59:05.994 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:59:06.014 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:59:26.064 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:59:26.064 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:59:26.083 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 19:59:43.803 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 19:59:43.803 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 19:59:43.824 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 20:00:36.300 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:00:36.300 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:00:36.328 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'344,10,E,E999:IndentationError: unexpected indent'
+
+2023-12-14 20:00:41.598 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:00:41.598 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:00:57.264 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:00:57.264 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:00:57.284 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 20:01:45.341 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:01:45.341 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:01:45.364 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 20:02:06.886 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:02:06.887 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:02:06.979 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 20:04:14.145 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:04:14.145 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:04:14.183 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py :
+'3,1,F,F401:'src.model_saver.ModelSaver' imported but unused'
+
+2023-12-14 20:04:51.684 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:04:51.684 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:05:21.110 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:05:21.110 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:07:09.991 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:07:09.991 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:07:10.073 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'208,28,F,F821:undefined name 'iterations''
+'209,31,F,F821:undefined name 'learning_rate''
+'210,31,F,F821:undefined name 'random_0_t0_1''
+'211,24,F,F821:undefined name 'factor''
+
+2023-12-14 20:07:58.282 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:07:58.282 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:08:06.590 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:08:06.590 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:09:28.150 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:09:28.150 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:10:21.626 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:10:21.626 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:10:41.116 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:10:41.116 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:11:26.717 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:11:26.717 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:11:30.736 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:11:30.736 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:13:46.948 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:13:46.948 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:14:10.344 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:14:10.344 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:14:13.873 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:14:13.874 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:14:24.609 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:14:24.610 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:14:30.050 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:14:30.050 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:14:34.127 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:14:34.127 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:15:07.128 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:15:07.128 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:15:07.202 [info] file:///home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py :
+'262,12,F,F821:undefined name 'random_0_to_1''
+
+2023-12-14 20:15:26.273 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:15:26.273 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:15:38.808 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:15:38.808 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:16:11.757 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:16:11.758 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:16:35.957 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:16:35.957 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:17:26.998 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:17:26.998 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:17:51.226 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:17:51.226 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:18:10.550 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:18:10.550 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:18:13.592 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:18:13.592 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:19:36.865 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:19:36.865 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:20:15.482 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:20:15.482 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:20:32.819 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/main.py
+2023-12-14 20:20:32.819 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:23:07.158 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:23:07.159 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:26:58.925 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:26:58.926 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:36:21.772 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/__init__.py
+2023-12-14 20:36:21.773 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:44:53.874 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:44:53.874 [info] CWD Linter: /home/main/Desktop/uni/oop
+2023-12-14 20:56:43.667 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' --max-line-length 79 /home/main/Desktop/uni/oop/assignment_2_OOP/part_2/src/multi_linear_regression.py
+2023-12-14 20:56:43.667 [info] CWD Linter: /home/main/Desktop/uni/oop

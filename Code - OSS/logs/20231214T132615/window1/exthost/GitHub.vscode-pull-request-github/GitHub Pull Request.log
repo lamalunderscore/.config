@@ -1,0 +1,243 @@
+2023-12-14 13:26:21.214 [info] Activation> Extension version: 0.76.1
+2023-12-14 13:26:21.396 [info] Looking for git repository
+2023-12-14 13:26:21.396 [info] Found 0 repositories during activation
+2023-12-14 13:26:21.396 [info] Git repository found, initializing review manager and pr tree view.
+2023-12-14 13:26:21.398 [info] Registering git provider
+2023-12-14 13:26:24.546 [info] Repository file:///home/main/Desktop/uni/oop/assignment_2_OOP has been opened
+2023-12-14 13:26:24.547 [info] Review> Validate state in progress
+2023-12-14 13:26:24.547 [info] Review> Validating state...
+2023-12-14 13:26:24.552 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-12-14 13:26:24.552 [info] No GitHub remotes found for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 13:26:24.627 [info] Review> Queuing additional validate state
+2023-12-14 13:26:24.627 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_2_OOP changed.
+2023-12-14 13:26:24.627 [info] Repo file:///home/main/Desktop/uni/oop/assignment_2_OOP has already been setup.
+2023-12-14 13:26:27.446 [info] Review> Validating state...
+2023-12-14 13:26:27.660 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 13:26:28.570 [info] Trying to use globalState for assignableUsers.
+2023-12-14 13:26:28.649 [info] Review> Branch main is ignored in ignoredPullRequestBranches.
+2023-12-14 13:26:28.930 [info] Using globalState assignableUsers for 1.
+2023-12-14 13:34:27.614 [info] Activation> Extension version: 0.76.1
+2023-12-14 13:34:27.788 [info] Looking for git repository
+2023-12-14 13:34:27.788 [info] Found 0 repositories during activation
+2023-12-14 13:34:27.788 [info] Git repository found, initializing review manager and pr tree view.
+2023-12-14 13:34:27.790 [info] Registering git provider
+2023-12-14 13:34:47.160 [info] Activation> Extension version: 0.76.1
+2023-12-14 13:34:47.520 [info] Looking for git repository
+2023-12-14 13:34:47.520 [info] Found 0 repositories during activation
+2023-12-14 13:34:47.520 [info] Git repository found, initializing review manager and pr tree view.
+2023-12-14 13:34:47.533 [info] Registering git provider
+2023-12-14 13:34:47.533 [info] Review> Validate state in progress
+2023-12-14 13:34:47.533 [info] Review> Validating state...
+2023-12-14 13:34:47.533 [info] Review> Validate state in progress
+2023-12-14 13:34:47.533 [info] Review> Validating state...
+2023-12-14 13:34:47.534 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-12-14 13:34:47.534 [info] No GitHub remotes found for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 13:34:47.552 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_1_OOP changed.
+2023-12-14 13:34:47.552 [info] Repo file:///home/main/Desktop/uni/oop/assignment_1_OOP has already been setup.
+2023-12-14 13:34:47.622 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-14 13:34:47.678 [info] Review> Queuing additional validate state
+2023-12-14 13:34:47.678 [info] Repo state for file:///home/main/Desktop/uni/oop/assignment_2_OOP changed.
+2023-12-14 13:34:47.678 [info] Repo file:///home/main/Desktop/uni/oop/assignment_2_OOP has already been setup.
+2023-12-14 13:34:47.779 [info] Review> Validating state...
+2023-12-14 13:34:47.838 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 13:34:48.194 [info] Trying to use globalState for assignableUsers.
+2023-12-14 13:34:48.219 [info] Using globalState assignableUsers for 1.
+2023-12-14 13:34:48.277 [info] Review> Found matching pull request metadata for current branch main. Repo: SerbanDumitru/assignment_1_OOP PR: 3
+2023-12-14 13:34:48.277 [info] Review> current branch main is associated with pull request #3
+2023-12-14 13:34:48.277 [info] Review> Resolving pull request
+2023-12-14 13:34:48.496 [info] Trying to use globalState for assignableUsers.
+2023-12-14 13:34:48.573 [info] Using globalState assignableUsers for 1.
+2023-12-14 13:34:48.956 [info] Review> No matching pull request metadata found locally for current branch main
+2023-12-14 13:34:49.507 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-12-14 13:34:50.920 [info] Review> Resolved PR #3, state is 0
+2023-12-14 13:34:50.920 [info] Review> Fetching pull request data
+2023-12-14 13:34:50.921 [info] PullRequestTree> Adding PR #3 to tree
+2023-12-14 13:34:50.969 [info] Review> Register comments provider
+2023-12-14 13:34:50.972 [info] Review> Register in memory content provider
+2023-12-14 13:34:57.359 [info] Review> Display pull request status bar indicator.
+2023-12-14 13:34:57.359 [info] Review> Using focus mode = true.
+2023-12-14 13:34:57.359 [info] Review> State validation silent = true.
+2023-12-14 13:34:57.359 [info] Review> PR show should show = false.
+2023-12-14 13:48:02.923 [info] Review> Validate state in progress
+2023-12-14 13:48:02.923 [info] Review> Validating state...
+2023-12-14 13:48:02.990 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 13:48:02.992 [info] Using in-memory cached assignable users.
+2023-12-14 13:48:03.166 [info] Review> No matching pull request metadata found locally for current branch main
+2023-12-14 13:48:03.863 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-12-14 13:48:13.344 [info] Review> Validate state in progress
+2023-12-14 13:48:13.344 [info] Review> Validating state...
+2023-12-14 13:48:13.358 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 13:48:13.359 [info] Using in-memory cached assignable users.
+2023-12-14 13:48:13.568 [info] Review> No matching pull request metadata found locally for current branch main
+2023-12-14 13:48:14.056 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-12-14 13:55:15.603 [error] GitHubRepository> Unable to fetch PR: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 13:55:15.603 [warning] Review> This PR is no longer valid
+2023-12-14 15:12:48.089 [info] Review> Validate state in progress
+2023-12-14 15:12:48.089 [info] Review> Validating state...
+2023-12-14 15:12:48.179 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 15:12:48.182 [info] Using in-memory cached assignable users.
+2023-12-14 15:12:48.377 [info] Review> No matching pull request metadata found locally for current branch part2
+2023-12-14 15:12:48.435 [info] Review> Failed to get upstream for branch part2 from git config.
+2023-12-14 15:12:48.437 [info] Review> No matching pull request metadata found on GitHub for current branch part2
+2023-12-14 15:12:58.142 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:12:58.142 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:12:58.142 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:12:58.142 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:12:58.142 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:12:58.142 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:12:58.276 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:08.147 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:08.283 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:18.154 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:18.154 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:18.154 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:18.154 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:18.289 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:28.159 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:28.159 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:28.296 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:28.296 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:34.123 [info] Review> Validate state in progress
+2023-12-14 15:13:34.123 [info] Review> Validating state...
+2023-12-14 15:13:34.490 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 15:13:34.491 [info] Using in-memory cached assignable users.
+2023-12-14 15:13:34.820 [info] Review> No matching pull request metadata found locally for current branch part2
+2023-12-14 15:13:35.021 [info] Review> Failed to get upstream for branch part2 from git config.
+2023-12-14 15:13:35.023 [info] Review> No matching pull request metadata found on GitHub for current branch part2
+2023-12-14 15:13:38.168 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:38.168 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:38.168 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:38.168 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:38.168 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:38.168 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:38.303 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:38.303 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:41.670 [info] Review> Validate state in progress
+2023-12-14 15:13:41.670 [info] Review> Validating state...
+2023-12-14 15:13:41.732 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 15:13:41.733 [info] Using in-memory cached assignable users.
+2023-12-14 15:13:41.847 [info] Review> No matching pull request metadata found locally for current branch part2
+2023-12-14 15:13:48.188 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.188 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.188 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.188 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.188 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.188 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.188 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.310 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.310 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.310 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.310 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.310 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.310 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:48.310 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.192 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.192 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.192 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.192 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.192 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.192 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.192 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.319 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:13:58.319 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:08.194 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:08.194 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:08.327 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:08.327 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:18.203 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:18.203 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:18.337 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:18.337 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:18.337 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:28.209 [error] GitHubRepository> Fetching pull requests for branch failed: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:28.343 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:28.343 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:28.343 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:28.343 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:28.343 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:28.343 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:28.343 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:38.221 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:14:38.221 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 15:15:41.673 [error] Review> Timeout occurred while validating state.
+2023-12-14 18:26:35.354 [info] Review> Queuing additional validate state
+2023-12-14 18:26:35.356 [info] Review> Validating state...
+2023-12-14 18:26:35.762 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 18:26:35.766 [info] Using in-memory cached assignable users.
+2023-12-14 18:26:36.002 [info] Review> No matching pull request metadata found locally for current branch part2
+2023-12-14 18:26:45.430 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:26:45.431 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:26:45.862 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:26:55.434 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:26:55.870 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:27:05.442 [error] GitHubRepository> Fetching pull requests for branch failed: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:27:05.880 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:27:15.448 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:27:15.448 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 18:28:35.367 [error] Review> Timeout occurred while validating state.
+2023-12-14 20:21:10.105 [info] Review> Queuing additional validate state
+2023-12-14 20:21:10.106 [info] Review> Validating state...
+2023-12-14 20:21:10.351 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 20:21:10.354 [info] Using in-memory cached assignable users.
+2023-12-14 20:21:10.558 [info] Review> No matching pull request metadata found locally for current branch part2
+2023-12-14 20:21:20.159 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:20.159 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:20.224 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:20.224 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:25.620 [info] Review> Queuing additional validate state
+2023-12-14 20:21:30.167 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:30.233 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:40.174 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:40.240 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:50.181 [error] GitHubRepository> Fetching pull requests for branch failed: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:50.248 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:21:50.248 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:22:00.188 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:22:10.278 [error] GitHubRepository> Unable to compare commits between SerbanDumitru:main and SerbanDumitru:part2: HttpError: request to https://api.github.com/repos/SerbanDumitru/assignment_2_OOP/compare/SerbanDumitru%3Amain...SerbanDumitru%3Apart2 failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:22:20.203 [error] GitHubRepository> Unable to fetch viewer permission: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:22:20.204 [info] CreatePullRequestViewProvider> Initializing "create" view: {"defaultBaseRemote":{"owner":"SerbanDumitru","repositoryName":"assignment_2_OOP"},"defaultBaseBranch":"main","defaultCompareRemote":{"owner":"SerbanDumitru","repositoryName":"assignment_2_OOP"},"defaultCompareBranch":"part2","defaultTitle":"finalized part 2","defaultDescription":"","defaultMergeMethod":"merge","remoteCount":1,"allowAutoMerge":false,"mergeMethodsAvailability":{"merge":true,"squash":true,"rebase":true},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true,"creating":false}
+2023-12-14 20:22:40.295 [error] GitHubRepository> Unable to fetch PR: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:10.108 [error] Review> Timeout occurred while validating state.
+2023-12-14 20:23:10.109 [info] Review> Validating state...
+2023-12-14 20:23:10.112 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 20:23:10.115 [info] Using in-memory cached assignable users.
+2023-12-14 20:23:10.268 [error] GitHubRepository> Unable to create PR: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:10.268 [error] FolderRepositoryManager> Creating pull requests failed: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:10.334 [error] PullRequestModel> Failed to get pull request review comments: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:10.340 [info] Review> No matching pull request metadata found locally for current branch part2
+2023-12-14 20:23:30.250 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:30.337 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:40.257 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:40.347 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:50.264 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:23:50.354 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:24:00.271 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:24:00.363 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:24:10.278 [error] GitHubRepository> Fetching pull requests for branch failed: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:24:20.377 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:24:30.298 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:25:10.116 [error] Review> Timeout occurred while validating state.
+2023-12-14 20:28:20.949 [info] Review> Queuing additional validate state
+2023-12-14 20:28:20.950 [info] Review> Validating state...
+2023-12-14 20:28:21.166 [info] Found GitHub remote for folder /home/main/Desktop/uni/oop/assignment_2_OOP
+2023-12-14 20:28:21.169 [info] Using in-memory cached assignable users.
+2023-12-14 20:28:21.666 [info] Review> No matching pull request metadata found locally for current branch part2
+2023-12-14 20:28:31.014 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:31.014 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:31.014 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:31.047 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:31.047 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:31.047 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:41.022 [error] GitHubRepository> Unable to compare commits between SerbanDumitru:main and SerbanDumitru:part2: HttpError: request to https://api.github.com/repos/SerbanDumitru/assignment_2_OOP/compare/SerbanDumitru%3Amain...SerbanDumitru%3Apart2 failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:41.053 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:51.030 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:28:51.061 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:29:01.038 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:29:01.068 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:29:01.068 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:29:11.044 [error] GitHubRepository> Fetching pull requests for branch failed: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:29:11.073 [error] GitHubRepository> Unable to fetch issues: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:29:21.051 [error] GitHubRepository> Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:29:21.081 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:29:31.059 [error] GitHubRepository> Unable to fetch issues without milestone: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2023-12-14 20:30:20.950 [error] Review> Timeout occurred while validating state.

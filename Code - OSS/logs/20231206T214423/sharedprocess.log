@@ -1,0 +1,15 @@
+2023-12-06 21:55:11.797 [info] Getting Manifest... mikoz.black-py
+2023-12-06 21:55:11.952 [info] Installing extension: mikoz.black-py
+2023-12-06 21:55:12.369 [info] Getting Manifest... ms-python.python
+2023-12-06 21:55:13.340 [info] Extension signature verification is not done: mikoz.black-py
+2023-12-06 21:55:13.436 [info] Extracted extension to file:///home/main/.vscode-oss/extensions/mikoz.black-py-1.0.3-universal: mikoz.black-py
+2023-12-06 21:55:13.444 [info] Renamed to /home/main/.vscode-oss/extensions/mikoz.black-py-1.0.3-universal
+2023-12-06 21:55:13.449 [info] Extracting extension completed. mikoz.black-py
+2023-12-06 21:55:13.469 [info] Extension installed successfully: mikoz.black-py
+2023-12-06 21:55:13.546 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/main/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/main/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)

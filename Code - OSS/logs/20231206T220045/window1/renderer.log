@@ -1,0 +1,83 @@
+2023-12-06 22:00:46.804 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/main/ms-toolsai.jupyter","scheme":"file"},"type":1,"exists":true,"options":{}},{"fileUri":{"$mid":1,"path":"/home/main/ms-python.python","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-12-06 22:00:47.996 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, saveEditor, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-12-06 22:00:47.996 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip, notebookExecution'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-12-06 22:00:47.997 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-12-06 22:00:48.166 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-12-06 22:00:51.164 [info] [perf] Render performance baseline is 54ms
+2023-12-06 22:01:01.838 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, saveEditor, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-12-06 22:01:01.843 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip, notebookExecution'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-12-06 22:01:01.845 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-12-06 22:01:02.018 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-12-06 22:01:08.204 [error] [Extension Host] extension activation failed Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:45185)
+	at Oc.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:43207)
+	at new Pk (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:500973)
+	at f (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1032729)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034619
+	at t.resolveInstance (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034646)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037678
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1038015
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037338
+	at v (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037370)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037232
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037166
+	at Array.map (<anonymous>)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037138
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1033977
+	at Array.reduce (<anonymous>)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1033949
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034276
+	at t.resolveInstance (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034646)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037678
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1038015
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037338
+	at v (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037370)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037232
+	at t.resolve (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1039202)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1008175
+	at e._get (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1007544)
+	at e._getButThrowIfAsync (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1007604)
+	at e.get (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1003299)
+	at Kp.get (/home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:35919)
+	at /home/main/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:649097
+2023-12-06 22:01:08.559 [info] [perf] Render performance baseline is 112ms
+2023-12-06 22:03:31.436 [error] [Extension Host] Stderr: /home/main/.conda/envs/assignment1/bin/python: No module named black
+
+2023-12-06 22:03:51.317 [error] [Extension Host] Stderr: /home/main/.conda/envs/assignment1/bin/python: No module named black
+
+2023-12-06 22:04:07.013 [error] Canceled: Canceled
+	at h.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:13096)
+	at c.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at R.cancel (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:5965)
+	at A.cancel (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:6375)
+	at Object.K (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:9665)
+	at n.N (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10148)
+	at n.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:8996)
+	at h.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:7565)
+	at c.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:14047)
+	at h.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:7918)
+	at c.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:14047)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6198)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-12-06 22:30:26.731 [error] Error: The editor could not be opened because the file was not found.
+    at O.fc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2396:24863)
+    at async O.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2396:23949)
+    at async c.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2394:22836)
+    at async c.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2394:21423)
+    at async c.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2394:20389)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2524:22288
+2023-12-06 22:30:33.695 [error] Error: The editor could not be opened because the file was not found.
+    at O.fc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2396:24863)
+    at async O.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2396:23949)
+    at async c.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2394:22836)
+    at async c.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2394:21423)
+    at async c.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2394:20389)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2524:22288

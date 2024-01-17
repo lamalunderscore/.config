@@ -1,0 +1,355 @@
+2023-12-14 13:16:14.170 [info] Name: Black Formatter
+2023-12-14 13:16:14.170 [info] Module: black
+2023-12-14 13:16:14.170 [info] Default formatter is set to ms-python.flake8 for workspace /home/main/Desktop/uni
+2023-12-14 13:16:14.170 [warning] Black Formatter is NOT set as the default formatter for workspace /home/main/Desktop/uni
+2023-12-14 13:16:14.170 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2023-12-14 13:16:14.170 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2023-12-14 13:16:14.170 [info] Python extension loading
+2023-12-14 13:16:14.170 [info] Waiting for interpreter from python extension.
+2023-12-14 13:16:14.170 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-14 13:16:14.170 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni
+2023-12-14 13:16:14.170 [info] Python extension loaded
+2023-12-14 13:16:14.170 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-14 13:16:14.170 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-14 13:16:14.170 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni
+2023-12-14 13:16:14.170 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-14 13:16:14.170 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py
+2023-12-14 13:16:14.170 [info] Server: Start requested.
+2023-12-14 13:16:15.675 [info] CWD Server: /home/main/Desktop/uni
+2023-12-14 13:16:15.676 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni",
+        "workspace": "file:///home/main/Desktop/uni",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-14 13:16:15.679 [info] Global settings:
+{
+    "cwd": "/home/main",
+    "workspace": "/home/main",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-14 13:16:15.679 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-14 13:16:15.689 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --version
+2023-12-14 13:16:15.689 [info] CWD formatter: /home/main/Desktop/uni
+2023-12-14 13:16:16.003 [info] Version info for formatter running for /home/main/Desktop/uni:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.10.13
+
+2023-12-14 13:16:16.006 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2023-12-14 13:16:31.207 [info] [Trace - 1:16:31 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:16:33.951 [info] [Trace - 1:16:33 PM] Sending notification 'textDocument/didClose'.
+2023-12-14 13:16:33.977 [info] [Trace - 1:16:33 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:16:40.468 [info] [Trace - 1:16:40 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:18:56.665 [info] [Trace - 1:18:56 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:18:57.589 [info] [Trace - 1:18:57 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:18:57.828 [info] [Trace - 1:18:57 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:18:59.075 [info] [Trace - 1:18:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:18:59.837 [info] [Trace - 1:18:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:00.660 [info] [Trace - 1:19:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:01.773 [info] [Trace - 1:19:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:01.954 [info] [Trace - 1:19:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:02.458 [info] [Trace - 1:19:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:02.840 [info] [Trace - 1:19:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:03.329 [info] [Trace - 1:19:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:03.539 [info] [Trace - 1:19:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:03.833 [info] [Trace - 1:19:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:03.999 [info] [Trace - 1:19:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:04.226 [info] [Trace - 1:19:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:04.618 [info] [Trace - 1:19:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:04.852 [info] [Trace - 1:19:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:04.955 [info] [Trace - 1:19:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:05.043 [info] [Trace - 1:19:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:05.123 [info] [Trace - 1:19:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:08.958 [info] [Trace - 1:19:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:09.061 [info] [Trace - 1:19:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:09.180 [info] [Trace - 1:19:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:09.266 [info] [Trace - 1:19:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:19:09.506 [info] [Trace - 1:19:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:36.142 [info] [Trace - 1:20:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:36.322 [info] [Trace - 1:20:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:38.780 [info] [Trace - 1:20:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:39.964 [info] [Trace - 1:20:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:40.262 [info] [Trace - 1:20:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:40.470 [info] [Trace - 1:20:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:40.632 [info] [Trace - 1:20:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:40.728 [info] [Trace - 1:20:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:40.825 [info] [Trace - 1:20:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:40.897 [info] [Trace - 1:20:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:41.614 [info] [Trace - 1:20:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:42.046 [info] [Trace - 1:20:42 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:42.183 [info] [Trace - 1:20:42 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:42.855 [info] [Trace - 1:20:42 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:43.030 [info] [Trace - 1:20:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:43.215 [info] [Trace - 1:20:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:43.710 [info] [Trace - 1:20:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:44.101 [info] [Trace - 1:20:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:44.233 [info] [Trace - 1:20:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:44.486 [info] [Trace - 1:20:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:45.340 [info] [Trace - 1:20:45 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:45.558 [info] [Trace - 1:20:45 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:46.437 [info] [Trace - 1:20:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:46.650 [info] [Trace - 1:20:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:52.806 [info] [Trace - 1:20:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:53.431 [info] [Trace - 1:20:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:53.592 [info] [Trace - 1:20:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:53.680 [info] [Trace - 1:20:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:54.483 [info] [Trace - 1:20:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:55.992 [info] [Trace - 1:20:55 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:56.208 [info] [Trace - 1:20:56 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:56.280 [info] [Trace - 1:20:56 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:56.648 [info] [Trace - 1:20:56 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:20:58.431 [info] [Trace - 1:20:58 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:50.608 [info] [Trace - 1:21:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:50.675 [info] [Trace - 1:21:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:50.810 [info] [Trace - 1:21:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:50.867 [info] [Trace - 1:21:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:53.694 [info] [Trace - 1:21:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:53.754 [info] [Trace - 1:21:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:53.874 [info] [Trace - 1:21:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:54.012 [info] [Trace - 1:21:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:54.174 [info] [Trace - 1:21:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:21:55.521 [info] [Trace - 1:21:55 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:03.654 [info] [Trace - 1:22:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:03.748 [info] [Trace - 1:22:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:03.883 [info] [Trace - 1:22:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:03.971 [info] [Trace - 1:22:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:04.093 [info] [Trace - 1:22:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:04.163 [info] [Trace - 1:22:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:18.598 [info] [Trace - 1:22:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:19.192 [info] [Trace - 1:22:19 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:19.695 [info] [Trace - 1:22:19 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:21.060 [info] [Trace - 1:22:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:23.367 [info] [Trace - 1:22:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:24.133 [info] [Trace - 1:22:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:24.598 [info] [Trace - 1:22:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:24.708 [info] [Trace - 1:22:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:24.888 [info] [Trace - 1:22:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:24.941 [info] [Trace - 1:22:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:26.600 [info] [Trace - 1:22:26 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:26.644 [info] [Trace - 1:22:26 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:28.823 [info] [Trace - 1:22:28 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:28.980 [info] [Trace - 1:22:28 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:29.057 [info] [Trace - 1:22:29 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:29.261 [info] [Trace - 1:22:29 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:29.408 [info] [Trace - 1:22:29 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:29.523 [info] [Trace - 1:22:29 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:32.359 [info] [Trace - 1:22:32 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:32.676 [info] [Trace - 1:22:32 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:33.291 [info] [Trace - 1:22:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:33.325 [info] [Trace - 1:22:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:33.451 [info] [Trace - 1:22:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:33.664 [info] [Trace - 1:22:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:33.873 [info] [Trace - 1:22:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:34.474 [info] [Trace - 1:22:34 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:35.257 [info] [Trace - 1:22:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:36.063 [info] [Trace - 1:22:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:36.258 [info] [Trace - 1:22:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:36.367 [info] [Trace - 1:22:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:36.512 [info] [Trace - 1:22:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:39.704 [info] [Trace - 1:22:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:39.812 [info] [Trace - 1:22:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:39.861 [info] [Trace - 1:22:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:40.071 [info] [Trace - 1:22:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:40.164 [info] [Trace - 1:22:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:40.259 [info] [Trace - 1:22:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:40.572 [info] [Trace - 1:22:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:40.931 [info] [Trace - 1:22:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:40.987 [info] [Trace - 1:22:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:41.781 [info] [Trace - 1:22:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:42.944 [info] [Trace - 1:22:42 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:43.093 [info] [Trace - 1:22:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:43.190 [info] [Trace - 1:22:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:43.277 [info] [Trace - 1:22:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:43.413 [info] [Trace - 1:22:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:43.493 [info] [Trace - 1:22:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:43.808 [info] [Trace - 1:22:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:44.008 [info] [Trace - 1:22:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:44.124 [info] [Trace - 1:22:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:44.229 [info] [Trace - 1:22:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:45.515 [info] [Trace - 1:22:45 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:46.238 [info] [Trace - 1:22:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:47.018 [info] [Trace - 1:22:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:47.816 [info] [Trace - 1:22:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:47.906 [info] [Trace - 1:22:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:48.005 [info] [Trace - 1:22:48 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:48.217 [info] [Trace - 1:22:48 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:48.377 [info] [Trace - 1:22:48 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:48.889 [info] [Trace - 1:22:48 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:49.603 [info] [Trace - 1:22:49 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:50.151 [info] [Trace - 1:22:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:50.341 [info] [Trace - 1:22:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:50.413 [info] [Trace - 1:22:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:50.965 [info] [Trace - 1:22:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:51.343 [info] [Trace - 1:22:51 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:51.478 [info] [Trace - 1:22:51 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:51.605 [info] [Trace - 1:22:51 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:52.439 [info] [Trace - 1:22:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:52.680 [info] [Trace - 1:22:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:52.805 [info] [Trace - 1:22:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:52.835 [info] [Trace - 1:22:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:53.001 [info] [Trace - 1:22:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:53.085 [info] [Trace - 1:22:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:53.224 [info] [Trace - 1:22:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:55.057 [info] [Trace - 1:22:55 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:55.656 [info] [Trace - 1:22:55 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:55.838 [info] [Trace - 1:22:55 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:55.956 [info] [Trace - 1:22:55 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:56.185 [info] [Trace - 1:22:56 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:58.408 [info] [Trace - 1:22:58 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:58.680 [info] [Trace - 1:22:58 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:59.169 [info] [Trace - 1:22:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:59.245 [info] [Trace - 1:22:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:59.341 [info] [Trace - 1:22:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:22:59.557 [info] [Trace - 1:22:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:00.089 [info] [Trace - 1:23:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:00.308 [info] [Trace - 1:23:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:01.306 [info] [Trace - 1:23:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:01.521 [info] [Trace - 1:23:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:01.705 [info] [Trace - 1:23:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:01.805 [info] [Trace - 1:23:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:02.674 [info] [Trace - 1:23:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:02.889 [info] [Trace - 1:23:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:03.537 [info] [Trace - 1:23:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:03.709 [info] [Trace - 1:23:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:03.969 [info] [Trace - 1:23:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:04.445 [info] [Trace - 1:23:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:04.614 [info] [Trace - 1:23:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:04.778 [info] [Trace - 1:23:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:04.959 [info] [Trace - 1:23:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:05.094 [info] [Trace - 1:23:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:05.236 [info] [Trace - 1:23:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:05.357 [info] [Trace - 1:23:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:05.831 [info] [Trace - 1:23:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:06.049 [info] [Trace - 1:23:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:06.118 [info] [Trace - 1:23:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:06.182 [info] [Trace - 1:23:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:06.353 [info] [Trace - 1:23:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:06.430 [info] [Trace - 1:23:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:06.542 [info] [Trace - 1:23:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:07.170 [info] [Trace - 1:23:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:08.105 [info] [Trace - 1:23:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:08.298 [info] [Trace - 1:23:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:08.381 [info] [Trace - 1:23:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:08.510 [info] [Trace - 1:23:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:08.689 [info] [Trace - 1:23:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:08.732 [info] [Trace - 1:23:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:10.833 [info] [Trace - 1:23:10 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:11.186 [info] [Trace - 1:23:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:11.329 [info] [Trace - 1:23:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:11.465 [info] [Trace - 1:23:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:11.954 [info] [Trace - 1:23:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:12.596 [info] [Trace - 1:23:12 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:13.320 [info] [Trace - 1:23:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:13.570 [info] [Trace - 1:23:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:13.744 [info] [Trace - 1:23:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:13.790 [info] [Trace - 1:23:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:14.009 [info] [Trace - 1:23:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:14.583 [info] [Trace - 1:23:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:14.785 [info] [Trace - 1:23:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:14.900 [info] [Trace - 1:23:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:14.998 [info] [Trace - 1:23:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:15.217 [info] [Trace - 1:23:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:22.420 [info] [Trace - 1:23:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:22.770 [info] [Trace - 1:23:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:22.994 [info] [Trace - 1:23:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:23.954 [info] [Trace - 1:23:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:24.231 [info] [Trace - 1:23:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:24.424 [info] [Trace - 1:23:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:24.611 [info] [Trace - 1:23:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:24.751 [info] [Trace - 1:23:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:24.902 [info] [Trace - 1:23:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:24.982 [info] [Trace - 1:23:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:25.769 [info] [Trace - 1:23:25 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:29.234 [info] [Trace - 1:23:29 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:29.466 [info] [Trace - 1:23:29 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:30.199 [info] [Trace - 1:23:30 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:30.688 [info] [Trace - 1:23:30 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:31.497 [info] [Trace - 1:23:31 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:31.756 [info] [Trace - 1:23:31 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:31.996 [info] [Trace - 1:23:31 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:32.256 [info] [Trace - 1:23:32 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:32.524 [info] [Trace - 1:23:32 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:32.639 [info] [Trace - 1:23:32 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:32.818 [info] [Trace - 1:23:32 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:33.110 [info] [Trace - 1:23:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:33.313 [info] [Trace - 1:23:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:33.408 [info] [Trace - 1:23:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:33.691 [info] [Trace - 1:23:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:36.383 [info] [Trace - 1:23:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:36.730 [info] [Trace - 1:23:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:36.943 [info] [Trace - 1:23:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:37.176 [info] [Trace - 1:23:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:38.066 [info] [Trace - 1:23:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:38.213 [info] [Trace - 1:23:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:38.683 [info] [Trace - 1:23:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:38.891 [info] [Trace - 1:23:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:39.058 [info] [Trace - 1:23:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:39.143 [info] [Trace - 1:23:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:39.377 [info] [Trace - 1:23:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:45.116 [info] [Trace - 1:23:45 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:45.713 [info] [Trace - 1:23:45 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:46.138 [info] [Trace - 1:23:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:46.310 [info] [Trace - 1:23:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:50.675 [info] [Trace - 1:23:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:52.147 [info] [Trace - 1:23:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:52.329 [info] [Trace - 1:23:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:52.456 [info] [Trace - 1:23:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:53.705 [info] [Trace - 1:23:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:53.886 [info] [Trace - 1:23:53 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:54.047 [info] [Trace - 1:23:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:54.198 [info] [Trace - 1:23:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:54.461 [info] [Trace - 1:23:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:54.558 [info] [Trace - 1:23:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:54.648 [info] [Trace - 1:23:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:54.899 [info] [Trace - 1:23:54 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:58.996 [info] [Trace - 1:23:58 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:59.097 [info] [Trace - 1:23:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:59.490 [info] [Trace - 1:23:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:59.624 [info] [Trace - 1:23:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:23:59.782 [info] [Trace - 1:23:59 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:00.055 [info] [Trace - 1:24:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:00.186 [info] [Trace - 1:24:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:00.274 [info] [Trace - 1:24:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:00.824 [info] [Trace - 1:24:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:01.112 [info] [Trace - 1:24:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:01.671 [info] [Trace - 1:24:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:01.762 [info] [Trace - 1:24:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:01.809 [info] [Trace - 1:24:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:02.011 [info] [Trace - 1:24:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:02.213 [info] [Trace - 1:24:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:02.779 [info] [Trace - 1:24:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:03.123 [info] [Trace - 1:24:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:03.940 [info] [Trace - 1:24:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:04.016 [info] [Trace - 1:24:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-14 13:24:16.651 [info] [Trace - 1:24:16 PM] Sending notification 'textDocument/didClose'.
+2023-12-14 13:24:50.337 [info] [Trace - 1:24:50 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:25:00.096 [info] [Trace - 1:25:00 PM] Sending notification 'textDocument/didClose'.
+2023-12-14 13:25:05.132 [info] [Trace - 1:25:05 PM] Sending notification 'textDocument/didOpen'.
+2023-12-14 13:26:11.559 [info] [Trace - 1:26:11 PM] Sending request 'shutdown - (1)'.
+2023-12-14 13:26:11.634 [info] [Trace - 1:26:11 PM] Received response 'shutdown - (1)' in 91ms.
+2023-12-14 13:26:11.634 [info] [Trace - 1:26:11 PM] Sending notification 'exit'.

@@ -1,0 +1,6 @@
+{
+    "redhat.telemetry.enabled": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Gruvbox Dark Medium"
+}

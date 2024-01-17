@@ -1,0 +1,61 @@
+2023-12-18 14:32:36.326 [info] Name: Black Formatter
+2023-12-18 14:32:36.326 [info] Module: black
+2023-12-18 14:32:36.326 [info] Default formatter is set to ms-python.black-formatter for workspace /home/main/Desktop/uni/oop
+2023-12-18 14:32:36.326 [info] Python extension loading
+2023-12-18 14:32:36.326 [info] Waiting for interpreter from python extension.
+2023-12-18 14:32:36.326 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-18 14:32:36.326 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-18 14:32:36.326 [info] Python extension loaded
+2023-12-18 14:32:36.326 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-18 14:32:36.326 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-18 14:32:36.326 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-18 14:32:36.326 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-18 14:32:36.326 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py
+2023-12-18 14:32:36.326 [info] Server: Start requested.
+2023-12-18 14:32:38.047 [info] CWD Server: /home/main/Desktop/uni/oop
+2023-12-18 14:32:38.047 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop",
+        "workspace": "file:///home/main/Desktop/uni/oop",
+        "args": [
+            "--line-length",
+            "79"
+        ],
+        "path": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-18 14:32:38.047 [info] Global settings:
+{
+    "cwd": "/home/main/Desktop/uni/oop/assignment_2_OOP",
+    "workspace": "/home/main/Desktop/uni/oop/assignment_2_OOP",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-18 14:32:38.047 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-18 14:32:38.049 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --version
+2023-12-18 14:32:38.049 [info] CWD formatter: /home/main/Desktop/uni/oop
+2023-12-18 14:32:38.248 [info] Version info for formatter running for /home/main/Desktop/uni/oop:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.10.13
+
+2023-12-18 14:32:38.248 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2023-12-19 12:32:33.977 [info] [Trace - 12:32:33 PM] Sending notification 'textDocument/didClose'.

@@ -1,0 +1,884 @@
+2023-12-06 22:10:22.493 [info] Name: Black Formatter
+2023-12-06 22:10:22.494 [info] Module: black
+2023-12-06 22:10:22.494 [info] Default formatter is set to ms-python.flake8 for workspace /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:10:22.494 [warning] Black Formatter is NOT set as the default formatter for workspace /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:10:22.494 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2023-12-06 22:10:22.494 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2023-12-06 22:10:22.494 [info] Python extension loading
+2023-12-06 22:10:22.494 [info] Waiting for interpreter from python extension.
+2023-12-06 22:10:22.494 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-06 22:10:22.494 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:10:22.494 [info] Python extension loaded
+2023-12-06 22:10:22.494 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop/assignment_1_OOP: /home/main/.conda/envs/assignment1/bin/python
+2023-12-06 22:10:22.494 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-06 22:10:22.494 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:10:22.494 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop/assignment_1_OOP: /home/main/.conda/envs/assignment1/bin/python
+2023-12-06 22:10:22.494 [info] Server run command: /home/main/.conda/envs/assignment1/bin/python /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py
+2023-12-06 22:10:22.494 [info] Server: Start requested.
+2023-12-06 22:10:24.206 [info] CWD Server: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:10:24.206 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop/assignment_1_OOP",
+        "workspace": "file:///home/main/Desktop/uni/oop/assignment_1_OOP",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/home/main/.conda/envs/assignment1/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-06 22:10:24.206 [info] Global settings:
+{
+    "cwd": "/home/main",
+    "workspace": "/home/main",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-06 22:10:24.206 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool
+   /home/main/.conda/envs/assignment1/lib/python310.zip
+   /home/main/.conda/envs/assignment1/lib/python3.10
+   /home/main/.conda/envs/assignment1/lib/python3.10/lib-dynload
+   /home/main/.conda/envs/assignment1/lib/python3.10/site-packages
+2023-12-06 22:10:24.215 [info] /home/main/.conda/envs/assignment1/bin/python -m black --version
+2023-12-06 22:10:24.215 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:10:24.574 [info] Version info for formatter running for /home/main/Desktop/uni/oop/assignment_1_OOP:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.10.13
+
+2023-12-06 22:10:24.574 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2023-12-06 22:10:45.295 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:10:45.295 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:10:45.491 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:10:49.337 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:10:49.337 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:10:49.515 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:11:06.995 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:11:06.995 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:11:07.042 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:11:08.499 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:11:08.499 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:11:08.555 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:11:11.234 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:11:11.234 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:11:11.282 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:11:15.010 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:11:15.010 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:11:15.121 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:16:03.343 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:16:03.344 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:16:03.393 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:16:04.682 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:16:04.683 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:16:04.760 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:16:05.613 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:16:05.614 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:16:05.783 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:17:09.768 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:17:09.768 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:17:09.823 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:17:21.558 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:17:21.558 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:17:21.617 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:17:32.708 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:17:32.709 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:17:32.763 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:17:36.364 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:17:36.364 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:17:36.413 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:17:48.139 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:17:48.139 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:17:48.195 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:17:56.519 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:17:56.519 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:17:56.588 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:18:07.841 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:18:07.841 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:18:07.886 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:18:25.480 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:18:25.480 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:18:25.531 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:18:33.913 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:18:33.913 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:18:33.970 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:18:40.919 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:18:40.920 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:18:40.982 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:18:48.522 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:18:48.523 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:18:48.574 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:19:22.217 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:19:22.218 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:19:22.447 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:19:35.628 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:19:35.628 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:19:35.680 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:19:47.437 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:19:47.437 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:19:47.499 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:19:54.087 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:19:54.087 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:19:54.166 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:20:53.404 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:20:53.405 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:20:53.455 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:21:02.031 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:21:02.031 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:21:02.087 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:21:11.701 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:21:11.701 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:21:11.738 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:21:19.634 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:21:19.634 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:21:19.696 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:21:25.905 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:21:25.905 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:21:25.977 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:21:38.179 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:21:38.179 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:21:38.230 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:21:44.346 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:21:44.346 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:21:44.405 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:21:47.672 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:21:47.673 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:21:47.722 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:22:05.580 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:22:05.580 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:22:05.632 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:22:11.155 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:22:11.156 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:22:11.210 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:22:56.595 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:22:56.595 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:22:56.634 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:22:59.564 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:22:59.565 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:22:59.618 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:23:11.899 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:23:11.900 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:23:12.110 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:23:20.151 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:23:20.151 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:23:20.286 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:23:21.851 [info] /home/main/.conda/envs/assignment1/bin/python -m black --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:23:21.851 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:23:21.893 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:24:03.733 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-06 22:24:03.733 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:24:03.736 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop/assignment_1_OOP: /home/main/.conda/envs/assignment1/bin/python
+2023-12-06 22:24:03.740 [info] Server: Stop requested
+2023-12-06 22:24:03.747 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-06 22:24:03.747 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:24:03.749 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop/assignment_1_OOP: /home/main/.conda/envs/assignment1/bin/python
+2023-12-06 22:24:03.762 [info] Server run command: /home/main/.conda/envs/assignment1/bin/python /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py
+2023-12-06 22:24:03.764 [info] Server: Start requested.
+2023-12-06 22:24:05.146 [info] CWD Server: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:24:05.146 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop/assignment_1_OOP",
+        "workspace": "file:///home/main/Desktop/uni/oop/assignment_1_OOP",
+        "args": [
+            "--line-length",
+            "79"
+        ],
+        "path": [],
+        "interpreter": [
+            "/home/main/.conda/envs/assignment1/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-06 22:24:05.146 [info] Global settings:
+{
+    "cwd": "/home/main",
+    "workspace": "/home/main",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-06 22:24:05.146 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool
+   /home/main/.conda/envs/assignment1/lib/python310.zip
+   /home/main/.conda/envs/assignment1/lib/python3.10
+   /home/main/.conda/envs/assignment1/lib/python3.10/lib-dynload
+   /home/main/.conda/envs/assignment1/lib/python3.10/site-packages
+2023-12-06 22:24:05.152 [info] /home/main/.conda/envs/assignment1/bin/python -m black --version
+2023-12-06 22:24:05.152 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:24:05.325 [info] Version info for formatter running for /home/main/Desktop/uni/oop/assignment_1_OOP:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.10.13
+
+2023-12-06 22:24:05.325 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2023-12-06 22:24:08.080 [info] [Trace - 10:24:08 PM] Sending request 'textDocument/formatting - (1)'.
+2023-12-06 22:24:08.089 [info] [Trace - 10:24:08 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:08.089 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:24:08.089 [info] [Trace - 10:24:08 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:08.089 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:24:08.175 [info] [Trace - 10:24:08 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:08.175 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:24:08.176 [info] [Trace - 10:24:08 PM] Received response 'textDocument/formatting - (1)' in 96ms.
+2023-12-06 22:24:15.847 [info] [Trace - 10:24:15 PM] Sending request 'textDocument/formatting - (2)'.
+2023-12-06 22:24:15.851 [info] [Trace - 10:24:15 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:15.851 [info] [Error - 10:24:15 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/.conda/envs/assignment1/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 19
+    raise AttributeError("Data and target do not
+                         ^
+SyntaxError: unterminated string literal (detected at line 19)
+
+2023-12-06 22:24:15.851 [info] [Trace - 10:24:15 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:15.851 [info] [Warn  - 10:24:15 PM] Skipping non python code: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:24:15.851 [info] [Trace - 10:24:15 PM] Received response 'textDocument/formatting - (2)' in 4ms.
+2023-12-06 22:24:16.534 [info] [Trace - 10:24:16 PM] Sending request 'textDocument/formatting - (3)'.
+2023-12-06 22:24:16.538 [info] [Trace - 10:24:16 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:16.538 [info] [Error - 10:24:16 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/.conda/envs/assignment1/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 19
+    raise AttributeError("Data and target do not
+                         ^
+SyntaxError: unterminated string literal (detected at line 19)
+
+2023-12-06 22:24:16.538 [info] [Trace - 10:24:16 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:16.538 [info] [Warn  - 10:24:16 PM] Skipping non python code: /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+2023-12-06 22:24:16.538 [info] [Trace - 10:24:16 PM] Received response 'textDocument/formatting - (3)' in 4ms.
+2023-12-06 22:24:17.675 [info] [Trace - 10:24:17 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:24:17.856 [info] [Trace - 10:24:17 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:24:18.137 [info] [Trace - 10:24:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:24:18.472 [info] [Trace - 10:24:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:24:19.152 [info] [Trace - 10:24:19 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:24:19.466 [info] [Trace - 10:24:19 PM] Sending request 'textDocument/formatting - (4)'.
+2023-12-06 22:24:19.470 [info] [Trace - 10:24:19 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:19.470 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:24:19.470 [info] [Trace - 10:24:19 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:19.470 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:24:19.611 [info] [Trace - 10:24:19 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:19.611 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:24:19.619 [info] [Trace - 10:24:19 PM] Received response 'textDocument/formatting - (4)' in 152ms.
+2023-12-06 22:24:19.623 [info] [Trace - 10:24:19 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:24:24.687 [info] [Trace - 10:24:24 PM] Sending request 'textDocument/formatting - (5)'.
+2023-12-06 22:24:24.690 [info] [Trace - 10:24:24 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:24.690 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:24:24.690 [info] [Trace - 10:24:24 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:24.690 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:24:24.761 [info] [Trace - 10:24:24 PM] Received notification 'window/logMessage'.
+2023-12-06 22:24:24.761 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:24:24.761 [info] [Trace - 10:24:24 PM] Received response 'textDocument/formatting - (5)' in 74ms.
+2023-12-06 22:25:16.137 [info] [Trace - 10:25:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:16.373 [info] [Trace - 10:25:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:17.804 [info] [Trace - 10:25:17 PM] Sending request 'textDocument/formatting - (6)'.
+2023-12-06 22:25:17.807 [info] [Trace - 10:25:17 PM] Received notification 'window/logMessage'.
+2023-12-06 22:25:17.807 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:25:17.807 [info] [Trace - 10:25:17 PM] Received notification 'window/logMessage'.
+2023-12-06 22:25:17.807 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:25:17.848 [info] [Trace - 10:25:17 PM] Received notification 'window/logMessage'.
+2023-12-06 22:25:17.848 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:25:17.848 [info] [Trace - 10:25:17 PM] Received response 'textDocument/formatting - (6)' in 45ms.
+2023-12-06 22:25:21.402 [info] [Trace - 10:25:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:21.656 [info] [Trace - 10:25:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:22.198 [info] [Trace - 10:25:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:22.856 [info] [Trace - 10:25:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:22.897 [info] [Trace - 10:25:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:22.936 [info] [Trace - 10:25:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:22.976 [info] [Trace - 10:25:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.016 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.057 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.096 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.137 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.178 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.215 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.257 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.296 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.337 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.379 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.416 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.457 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.497 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.537 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.578 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.619 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.658 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:23.698 [info] [Trace - 10:25:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:24.099 [info] [Trace - 10:25:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:24.421 [info] [Trace - 10:25:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:24.833 [info] [Trace - 10:25:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:25:25.276 [info] [Trace - 10:25:25 PM] Sending request 'textDocument/formatting - (7)'.
+2023-12-06 22:25:25.280 [info] [Trace - 10:25:25 PM] Received notification 'window/logMessage'.
+2023-12-06 22:25:25.280 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:25:25.280 [info] [Trace - 10:25:25 PM] Received notification 'window/logMessage'.
+2023-12-06 22:25:25.280 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:25:25.324 [info] [Trace - 10:25:25 PM] Received notification 'window/logMessage'.
+2023-12-06 22:25:25.324 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:25:25.324 [info] [Trace - 10:25:25 PM] Received response 'textDocument/formatting - (7)' in 48ms.
+2023-12-06 22:26:07.253 [info] [Trace - 10:26:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:26:07.264 [info] [Trace - 10:26:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:26:10.782 [info] [Trace - 10:26:10 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:26:17.285 [info] [Trace - 10:26:17 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:26:22.511 [info] [Trace - 10:26:22 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:26:28.031 [info] [Trace - 10:26:28 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:26:35.308 [info] [Trace - 10:26:35 PM] Sending request 'textDocument/formatting - (8)'.
+2023-12-06 22:26:35.314 [info] [Trace - 10:26:35 PM] Received notification 'window/logMessage'.
+2023-12-06 22:26:35.314 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:26:35.315 [info] [Trace - 10:26:35 PM] Received notification 'window/logMessage'.
+2023-12-06 22:26:35.315 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:26:35.365 [info] [Trace - 10:26:35 PM] Received notification 'window/logMessage'.
+2023-12-06 22:26:35.365 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:26:35.365 [info] [Trace - 10:26:35 PM] Received response 'textDocument/formatting - (8)' in 57ms.
+2023-12-06 22:27:18.596 [info] [Trace - 10:27:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:20.416 [info] [Trace - 10:27:20 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:20.839 [info] [Trace - 10:27:20 PM] Sending request 'textDocument/formatting - (9)'.
+2023-12-06 22:27:20.845 [info] [Trace - 10:27:20 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:20.845 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:27:20.845 [info] [Trace - 10:27:20 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:20.845 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:27:20.894 [info] [Trace - 10:27:20 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:20.894 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:27:20.894 [info] [Trace - 10:27:20 PM] Received response 'textDocument/formatting - (9)' in 55ms.
+2023-12-06 22:27:28.232 [info] [Trace - 10:27:28 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:29.642 [info] [Trace - 10:27:29 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:30.539 [info] [Trace - 10:27:30 PM] Sending request 'textDocument/formatting - (10)'.
+2023-12-06 22:27:30.543 [info] [Trace - 10:27:30 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:30.543 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:27:30.543 [info] [Trace - 10:27:30 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:30.543 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:27:30.590 [info] [Trace - 10:27:30 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:30.590 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:27:30.590 [info] [Trace - 10:27:30 PM] Received response 'textDocument/formatting - (10)' in 51ms.
+2023-12-06 22:27:36.229 [info] [Trace - 10:27:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:36.881 [info] [Trace - 10:27:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:37.125 [info] [Trace - 10:27:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:37.260 [info] [Trace - 10:27:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:37.299 [info] [Trace - 10:27:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:37.354 [info] [Trace - 10:27:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:37.618 [info] [Trace - 10:27:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:38.266 [info] [Trace - 10:27:38 PM] Sending request 'textDocument/formatting - (11)'.
+2023-12-06 22:27:38.269 [info] [Trace - 10:27:38 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:38.269 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:27:38.269 [info] [Trace - 10:27:38 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:38.269 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:27:38.401 [info] [Trace - 10:27:38 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:38.401 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:27:38.405 [info] [Trace - 10:27:38 PM] Received response 'textDocument/formatting - (11)' in 139ms.
+2023-12-06 22:27:38.408 [info] [Trace - 10:27:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:40.353 [info] [Trace - 10:27:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:40.619 [info] [Trace - 10:27:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:40.721 [info] [Trace - 10:27:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:40.809 [info] [Trace - 10:27:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:41.947 [info] [Trace - 10:27:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:42.263 [info] [Trace - 10:27:42 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:27:42.948 [info] [Trace - 10:27:42 PM] Sending request 'textDocument/formatting - (12)'.
+2023-12-06 22:27:42.956 [info] [Trace - 10:27:42 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:42.956 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/regression_plotter.py -
+2023-12-06 22:27:42.956 [info] [Trace - 10:27:42 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:42.956 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:27:43.000 [info] [Trace - 10:27:43 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:43.000 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:27:43.000 [info] [Trace - 10:27:43 PM] Received response 'textDocument/formatting - (12)' in 52ms.
+2023-12-06 22:27:59.095 [info] [Trace - 10:27:59 PM] Sending request 'textDocument/formatting - (13)'.
+2023-12-06 22:27:59.162 [info] [Trace - 10:27:59 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:59.162 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:27:59.162 [info] [Trace - 10:27:59 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:59.162 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:27:59.208 [info] [Trace - 10:27:59 PM] Received notification 'window/logMessage'.
+2023-12-06 22:27:59.208 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:27:59.208 [info] [Trace - 10:27:59 PM] Received response 'textDocument/formatting - (13)' in 113ms.
+2023-12-06 22:28:00.274 [info] [Trace - 10:28:00 PM] Sending request 'textDocument/formatting - (14)'.
+2023-12-06 22:28:00.279 [info] [Trace - 10:28:00 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:00.279 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:28:00.279 [info] [Trace - 10:28:00 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:00.279 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:28:00.353 [info] [Trace - 10:28:00 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:00.353 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:28:00.353 [info] [Trace - 10:28:00 PM] Received response 'textDocument/formatting - (14)' in 79ms.
+2023-12-06 22:28:05.779 [info] [Trace - 10:28:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:07.106 [info] [Trace - 10:28:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:07.967 [info] [Trace - 10:28:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:08.804 [info] [Trace - 10:28:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:09.799 [info] [Trace - 10:28:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:10.041 [info] [Trace - 10:28:10 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:10.899 [info] [Trace - 10:28:10 PM] Sending request 'textDocument/formatting - (15)'.
+2023-12-06 22:28:10.904 [info] [Trace - 10:28:10 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:10.904 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:28:10.904 [info] [Trace - 10:28:10 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:10.904 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:28:11.169 [info] [Trace - 10:28:11 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:11.169 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:28:11.176 [info] [Trace - 10:28:11 PM] Received response 'textDocument/formatting - (15)' in 277ms.
+2023-12-06 22:28:11.179 [info] [Trace - 10:28:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:15.330 [info] [Trace - 10:28:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:15.899 [info] [Trace - 10:28:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:15.973 [info] [Trace - 10:28:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:16.404 [info] [Trace - 10:28:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:16.489 [info] [Trace - 10:28:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:16.569 [info] [Trace - 10:28:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:30.812 [info] [Trace - 10:28:30 PM] Sending request 'textDocument/formatting - (16)'.
+2023-12-06 22:28:30.820 [info] [Trace - 10:28:30 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:30.820 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:28:30.820 [info] [Trace - 10:28:30 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:30.820 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:28:30.875 [info] [Trace - 10:28:30 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:30.875 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:28:30.875 [info] [Trace - 10:28:30 PM] Received response 'textDocument/formatting - (16)' in 63ms.
+2023-12-06 22:28:36.544 [info] [Trace - 10:28:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:37.165 [info] [Trace - 10:28:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:38.279 [info] [Trace - 10:28:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:38.501 [info] [Trace - 10:28:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:39.956 [info] [Trace - 10:28:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:40.820 [info] [Trace - 10:28:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:41.044 [info] [Trace - 10:28:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:41.751 [info] [Trace - 10:28:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:43.560 [info] [Trace - 10:28:43 PM] Sending request 'textDocument/formatting - (17)'.
+2023-12-06 22:28:43.570 [info] [Trace - 10:28:43 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:43.570 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:28:43.571 [info] [Trace - 10:28:43 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:43.571 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:28:43.769 [info] [Trace - 10:28:43 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:43.769 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:28:43.776 [info] [Trace - 10:28:43 PM] Received response 'textDocument/formatting - (17)' in 216ms.
+2023-12-06 22:28:43.779 [info] [Trace - 10:28:43 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:49.951 [info] [Trace - 10:28:49 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:50.133 [info] [Trace - 10:28:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:50.388 [info] [Trace - 10:28:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:50.783 [info] [Trace - 10:28:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:50.830 [info] [Trace - 10:28:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:50.935 [info] [Trace - 10:28:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:28:51.713 [info] [Trace - 10:28:51 PM] Sending request 'textDocument/formatting - (18)'.
+2023-12-06 22:28:51.716 [info] [Trace - 10:28:51 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:51.716 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:28:51.716 [info] [Trace - 10:28:51 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:51.716 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:28:51.767 [info] [Trace - 10:28:51 PM] Received notification 'window/logMessage'.
+2023-12-06 22:28:51.767 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:28:51.767 [info] [Trace - 10:28:51 PM] Received response 'textDocument/formatting - (18)' in 54ms.
+2023-12-06 22:30:00.063 [info] [Trace - 10:30:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:00.225 [info] [Trace - 10:30:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:00.383 [info] [Trace - 10:30:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:00.633 [info] [Trace - 10:30:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:00.739 [info] [Trace - 10:30:00 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:01.733 [info] [Trace - 10:30:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:01.906 [info] [Trace - 10:30:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:02.081 [info] [Trace - 10:30:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:02.492 [info] [Trace - 10:30:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:02.713 [info] [Trace - 10:30:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:02.826 [info] [Trace - 10:30:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:02.987 [info] [Trace - 10:30:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:03.237 [info] [Trace - 10:30:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:03.717 [info] [Trace - 10:30:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:03.932 [info] [Trace - 10:30:03 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:04.119 [info] [Trace - 10:30:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:04.399 [info] [Trace - 10:30:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:04.796 [info] [Trace - 10:30:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:04.969 [info] [Trace - 10:30:04 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:06.526 [info] [Trace - 10:30:06 PM] Sending request 'textDocument/formatting - (19)'.
+2023-12-06 22:30:06.535 [info] [Trace - 10:30:06 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:06.535 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:30:06.535 [info] [Trace - 10:30:06 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:06.535 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:30:06.588 [info] [Trace - 10:30:06 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:06.588 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:30:06.588 [info] [Trace - 10:30:06 PM] Received response 'textDocument/formatting - (19)' in 63ms.
+2023-12-06 22:30:09.064 [info] [Trace - 10:30:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:09.249 [info] [Trace - 10:30:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:09.412 [info] [Trace - 10:30:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:09.650 [info] [Trace - 10:30:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:10.066 [info] [Trace - 10:30:10 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:30:10.302 [info] [Trace - 10:30:10 PM] Sending request 'textDocument/formatting - (20)'.
+2023-12-06 22:30:10.322 [info] [Trace - 10:30:10 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:10.322 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:30:10.322 [info] [Trace - 10:30:10 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:10.322 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:30:10.387 [info] [Trace - 10:30:10 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:10.387 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:30:10.389 [info] [Trace - 10:30:10 PM] Received response 'textDocument/formatting - (20)' in 88ms.
+2023-12-06 22:30:31.998 [info] [Trace - 10:30:31 PM] Sending notification 'textDocument/didOpen'.
+2023-12-06 22:30:39.658 [info] [Trace - 10:30:39 PM] Sending request 'textDocument/formatting - (21)'.
+2023-12-06 22:30:39.661 [info] [Trace - 10:30:39 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:39.662 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/main.py -
+2023-12-06 22:30:39.662 [info] [Trace - 10:30:39 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:39.662 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:30:39.733 [info] [Trace - 10:30:39 PM] Received notification 'window/logMessage'.
+2023-12-06 22:30:39.733 [info] reformatted /home/main/Desktop/uni/oop/assignment_1_OOP/main.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-06 22:30:39.735 [info] [Trace - 10:30:39 PM] Received response 'textDocument/formatting - (21)' in 78ms.
+2023-12-06 22:30:39.744 [info] [Trace - 10:30:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:11.083 [info] [Trace - 10:31:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:11.631 [info] [Trace - 10:31:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:11.775 [info] [Trace - 10:31:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:11.862 [info] [Trace - 10:31:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:11.991 [info] [Trace - 10:31:11 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:12.102 [info] [Trace - 10:31:12 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:12.703 [info] [Trace - 10:31:12 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:12.951 [info] [Trace - 10:31:12 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:13.136 [info] [Trace - 10:31:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:13.295 [info] [Trace - 10:31:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:13.384 [info] [Trace - 10:31:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:14.947 [info] [Trace - 10:31:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:15.177 [info] [Trace - 10:31:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:15.352 [info] [Trace - 10:31:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:15.412 [info] [Trace - 10:31:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:15.477 [info] [Trace - 10:31:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:15.582 [info] [Trace - 10:31:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:31:17.446 [info] [Trace - 10:31:17 PM] Sending request 'textDocument/formatting - (22)'.
+2023-12-06 22:31:17.449 [info] [Trace - 10:31:17 PM] Received notification 'window/logMessage'.
+2023-12-06 22:31:17.449 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/main.py -
+2023-12-06 22:31:17.449 [info] [Trace - 10:31:17 PM] Received notification 'window/logMessage'.
+2023-12-06 22:31:17.449 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:31:17.479 [info] [Trace - 10:31:17 PM] Received notification 'window/logMessage'.
+2023-12-06 22:31:17.479 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:31:17.480 [info] [Trace - 10:31:17 PM] Received response 'textDocument/formatting - (22)' in 33ms.
+2023-12-06 22:32:06.530 [info] [Trace - 10:32:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:32:06.783 [info] [Trace - 10:32:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:32:06.992 [info] [Trace - 10:32:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:32:07.450 [info] [Trace - 10:32:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:32:07.614 [info] [Trace - 10:32:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:32:07.783 [info] [Trace - 10:32:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:32:08.632 [info] [Trace - 10:32:08 PM] Sending request 'textDocument/formatting - (23)'.
+2023-12-06 22:32:08.655 [info] [Trace - 10:32:08 PM] Received notification 'window/logMessage'.
+2023-12-06 22:32:08.655 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:32:08.655 [info] [Trace - 10:32:08 PM] Received notification 'window/logMessage'.
+2023-12-06 22:32:08.656 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:32:08.709 [info] [Trace - 10:32:08 PM] Received notification 'window/logMessage'.
+2023-12-06 22:32:08.709 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:32:08.710 [info] [Trace - 10:32:08 PM] Received response 'textDocument/formatting - (23)' in 78ms.
+2023-12-06 22:32:16.872 [info] [Trace - 10:32:16 PM] Sending request 'textDocument/formatting - (24)'.
+2023-12-06 22:32:16.875 [info] [Trace - 10:32:16 PM] Received notification 'window/logMessage'.
+2023-12-06 22:32:16.875 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/multi_linear_regression.py -
+2023-12-06 22:32:16.875 [info] [Trace - 10:32:16 PM] Received notification 'window/logMessage'.
+2023-12-06 22:32:16.875 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:32:16.991 [info] [Trace - 10:32:16 PM] Received notification 'window/logMessage'.
+2023-12-06 22:32:16.991 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:32:16.991 [info] [Trace - 10:32:16 PM] Received response 'textDocument/formatting - (24)' in 119ms.
+2023-12-06 22:33:13.081 [info] [Trace - 10:33:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:13.272 [info] [Trace - 10:33:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:13.359 [info] [Trace - 10:33:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:13.453 [info] [Trace - 10:33:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:13.565 [info] [Trace - 10:33:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:13.653 [info] [Trace - 10:33:13 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:14.342 [info] [Trace - 10:33:14 PM] Sending request 'textDocument/formatting - (25)'.
+2023-12-06 22:33:14.346 [info] [Trace - 10:33:14 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:14.346 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/main.py -
+2023-12-06 22:33:14.346 [info] [Trace - 10:33:14 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:14.346 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:33:14.369 [info] [Trace - 10:33:14 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:14.369 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:33:14.369 [info] [Trace - 10:33:14 PM] Received response 'textDocument/formatting - (25)' in 28ms.
+2023-12-06 22:33:21.835 [info] [Trace - 10:33:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:22.808 [info] [Trace - 10:33:22 PM] Sending request 'textDocument/formatting - (26)'.
+2023-12-06 22:33:22.816 [info] [Trace - 10:33:22 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:22.816 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/main.py -
+2023-12-06 22:33:22.817 [info] [Trace - 10:33:22 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:22.817 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:33:22.839 [info] [Trace - 10:33:22 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:22.839 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:33:22.840 [info] [Trace - 10:33:22 PM] Received response 'textDocument/formatting - (26)' in 32ms.
+2023-12-06 22:33:35.112 [info] [Trace - 10:33:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:35.204 [info] [Trace - 10:33:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:35.292 [info] [Trace - 10:33:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:35.516 [info] [Trace - 10:33:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:35.628 [info] [Trace - 10:33:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:35.724 [info] [Trace - 10:33:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:35.950 [info] [Trace - 10:33:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:36.404 [info] [Trace - 10:33:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:36.548 [info] [Trace - 10:33:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:36.787 [info] [Trace - 10:33:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:37.014 [info] [Trace - 10:33:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:37.111 [info] [Trace - 10:33:37 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:37.845 [info] [Trace - 10:33:37 PM] Sending request 'textDocument/formatting - (27)'.
+2023-12-06 22:33:37.848 [info] [Trace - 10:33:37 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:37.848 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:33:37.849 [info] [Trace - 10:33:37 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:37.849 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:33:37.907 [info] [Trace - 10:33:37 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:37.907 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:33:37.907 [info] [Trace - 10:33:37 PM] Received response 'textDocument/formatting - (27)' in 62ms.
+2023-12-06 22:33:50.157 [info] [Trace - 10:33:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:33:50.864 [info] [Trace - 10:33:50 PM] Sending request 'textDocument/formatting - (28)'.
+2023-12-06 22:33:50.870 [info] [Trace - 10:33:50 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:50.870 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/main.py -
+2023-12-06 22:33:50.870 [info] [Trace - 10:33:50 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:50.870 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:33:50.906 [info] [Trace - 10:33:50 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:50.906 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:33:50.906 [info] [Trace - 10:33:50 PM] Received response 'textDocument/formatting - (28)' in 42ms.
+2023-12-06 22:33:53.752 [info] [Trace - 10:33:53 PM] Sending request 'textDocument/formatting - (29)'.
+2023-12-06 22:33:53.756 [info] [Trace - 10:33:53 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:53.756 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:33:53.757 [info] [Trace - 10:33:53 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:53.757 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:33:53.838 [info] [Trace - 10:33:53 PM] Received notification 'window/logMessage'.
+2023-12-06 22:33:53.838 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:33:53.838 [info] [Trace - 10:33:53 PM] Received response 'textDocument/formatting - (29)' in 87ms.
+2023-12-06 22:37:18.294 [info] [Trace - 10:37:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:18.446 [info] [Trace - 10:37:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:18.598 [info] [Trace - 10:37:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:18.779 [info] [Trace - 10:37:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:19.399 [info] [Trace - 10:37:19 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:19.679 [info] [Trace - 10:37:19 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:19.753 [info] [Trace - 10:37:19 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:23.686 [info] [Trace - 10:37:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:24.234 [info] [Trace - 10:37:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:24.379 [info] [Trace - 10:37:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:24.466 [info] [Trace - 10:37:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:24.818 [info] [Trace - 10:37:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:25.283 [info] [Trace - 10:37:25 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:25.572 [info] [Trace - 10:37:25 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:25.650 [info] [Trace - 10:37:25 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:25.752 [info] [Trace - 10:37:25 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:25.857 [info] [Trace - 10:37:25 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:25.977 [info] [Trace - 10:37:25 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:34.149 [info] [Trace - 10:37:34 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:35.493 [info] [Trace - 10:37:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:35.942 [info] [Trace - 10:37:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:38.153 [info] [Trace - 10:37:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:38.389 [info] [Trace - 10:37:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:38.644 [info] [Trace - 10:37:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:38.890 [info] [Trace - 10:37:38 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:39.257 [info] [Trace - 10:37:39 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:40.787 [info] [Trace - 10:37:40 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:41.023 [info] [Trace - 10:37:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:41.263 [info] [Trace - 10:37:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:41.612 [info] [Trace - 10:37:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:41.945 [info] [Trace - 10:37:41 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:44.073 [info] [Trace - 10:37:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:44.242 [info] [Trace - 10:37:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:44.379 [info] [Trace - 10:37:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:44.537 [info] [Trace - 10:37:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:44.676 [info] [Trace - 10:37:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:44.835 [info] [Trace - 10:37:44 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:45.026 [info] [Trace - 10:37:45 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:45.667 [info] [Trace - 10:37:45 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:46.051 [info] [Trace - 10:37:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:46.459 [info] [Trace - 10:37:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:46.722 [info] [Trace - 10:37:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:46.821 [info] [Trace - 10:37:46 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:47.143 [info] [Trace - 10:37:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:47.259 [info] [Trace - 10:37:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:47.394 [info] [Trace - 10:37:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:47.473 [info] [Trace - 10:37:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:47.579 [info] [Trace - 10:37:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:48.936 [info] [Trace - 10:37:48 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:49.187 [info] [Trace - 10:37:49 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:49.570 [info] [Trace - 10:37:49 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:49.610 [info] [Trace - 10:37:49 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:49.747 [info] [Trace - 10:37:49 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:49.801 [info] [Trace - 10:37:49 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:49.931 [info] [Trace - 10:37:49 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:50.014 [info] [Trace - 10:37:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:50.483 [info] [Trace - 10:37:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:50.659 [info] [Trace - 10:37:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:50.788 [info] [Trace - 10:37:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:50.889 [info] [Trace - 10:37:50 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:52.550 [info] [Trace - 10:37:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:37:52.946 [info] [Trace - 10:37:52 PM] Sending request 'textDocument/formatting - (30)'.
+2023-12-06 22:37:52.950 [info] [Trace - 10:37:52 PM] Received notification 'window/logMessage'.
+2023-12-06 22:37:52.951 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:37:52.951 [info] [Trace - 10:37:52 PM] Received notification 'window/logMessage'.
+2023-12-06 22:37:52.951 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:37:53.009 [info] [Trace - 10:37:53 PM] Received notification 'window/logMessage'.
+2023-12-06 22:37:53.009 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:37:53.009 [info] [Trace - 10:37:53 PM] Received response 'textDocument/formatting - (30)' in 63ms.
+2023-12-06 22:39:26.913 [info] [Trace - 10:39:26 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:27.250 [info] [Trace - 10:39:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:33.078 [info] [Trace - 10:39:33 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:36.675 [info] [Trace - 10:39:36 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:42.157 [info] [Trace - 10:39:42 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:45.030 [info] [Trace - 10:39:45 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:47.744 [info] [Trace - 10:39:47 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:48.222 [info] [Trace - 10:39:48 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:48.538 [info] [Trace - 10:39:48 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:48.942 [info] [Trace - 10:39:48 PM] Sending notification 'textDocument/didChange'.
+2023-12-06 22:39:50.759 [info] [Trace - 10:39:50 PM] Sending request 'textDocument/formatting - (31)'.
+2023-12-06 22:39:50.764 [info] [Trace - 10:39:50 PM] Received notification 'window/logMessage'.
+2023-12-06 22:39:50.764 [info] /home/main/.conda/envs/assignment1/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_1_OOP/src/model_saver.py -
+2023-12-06 22:39:50.764 [info] [Trace - 10:39:50 PM] Received notification 'window/logMessage'.
+2023-12-06 22:39:50.764 [info] CWD formatter: /home/main/Desktop/uni/oop/assignment_1_OOP
+2023-12-06 22:39:50.809 [info] [Trace - 10:39:50 PM] Received notification 'window/logMessage'.
+2023-12-06 22:39:50.809 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-06 22:39:50.809 [info] [Trace - 10:39:50 PM] Received response 'textDocument/formatting - (31)' in 50ms.
+2023-12-06 22:41:53.120 [info] [Trace - 10:41:53 PM] Sending request 'shutdown - (32)'.
+2023-12-06 22:41:53.156 [info] [Trace - 10:41:53 PM] Received response 'shutdown - (32)' in 52ms.
+2023-12-06 22:41:53.156 [info] [Trace - 10:41:53 PM] Sending notification 'exit'.

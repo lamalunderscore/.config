@@ -1,0 +1,504 @@
+2024-01-17 15:47:23.185 [info] Name: Black Formatter
+2024-01-17 15:47:23.185 [info] Module: black
+2024-01-17 15:47:23.185 [info] Default formatter is set to ms-python.black-formatter for workspace /home/main/Desktop/uni/oop
+2024-01-17 15:47:23.185 [info] Default formatter is set to ms-python.black-formatter for workspace /home/main/Desktop/uni/sigsys
+2024-01-17 15:47:23.185 [info] Python extension loading
+2024-01-17 15:47:23.185 [info] Waiting for interpreter from python extension.
+2024-01-17 15:47:23.185 [info] Python extension loaded
+2024-01-17 15:47:23.185 [info] No interpreter found from setting black-formatter.interpreter
+2024-01-17 15:47:23.185 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2024-01-17 15:47:23.185 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2024-01-17 15:47:23.185 [info] No interpreter found from setting black-formatter.interpreter
+2024-01-17 15:47:23.185 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2024-01-17 15:47:23.185 [info] No interpreter found from setting black-formatter.interpreter
+2024-01-17 15:47:23.185 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/sigsys
+2024-01-17 15:47:23.185 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2024-01-17 15:47:23.185 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/sigsys: /bin/python
+2024-01-17 15:47:23.185 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py
+2024-01-17 15:47:23.185 [info] Server: Start requested.
+2024-01-17 15:47:25.457 [info] CWD Server: /home/main/Desktop/uni/oop
+2024-01-17 15:47:25.458 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop",
+        "workspace": "file:///home/main/Desktop/uni/oop",
+        "args": [
+            "--line-length",
+            "79"
+        ],
+        "path": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "cwd": "/home/main/Desktop/uni/sigsys",
+        "workspace": "file:///home/main/Desktop/uni/sigsys",
+        "args": [
+            "--line-length",
+            "79"
+        ],
+        "path": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2024-01-17 15:47:25.458 [info] Global settings:
+{
+    "cwd": "/home/main",
+    "workspace": "/home/main",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2024-01-17 15:47:25.458 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2024-01-17 15:47:25.468 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --version
+2024-01-17 15:47:25.468 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 15:47:25.710 [info] Version info for formatter running for /home/main/Desktop/uni/oop:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.10.13
+
+2024-01-17 15:47:25.711 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2024-01-17 15:47:25.711 [info] /bin/python -m black --version
+2024-01-17 15:47:25.711 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2024-01-17 15:47:26.209 [info] Version info for formatter running for /home/main/Desktop/uni/sigsys:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.11.6
+
+2024-01-17 15:47:26.209 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2024-01-17 15:47:31.365 [info] [Trace - 3:47:31 PM] Sending notification 'textDocument/didClose'.
+2024-01-17 15:47:31.405 [info] [Trace - 3:47:31 PM] Sending notification 'textDocument/didOpen'.
+2024-01-17 15:54:24.698 [info] [Trace - 3:54:24 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 15:54:27.318 [info] [Trace - 3:54:27 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 15:56:29.526 [info] [Trace - 3:56:29 PM] Sending notification 'textDocument/didOpen'.
+2024-01-17 15:56:45.718 [info] [Trace - 3:56:45 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 15:56:45.929 [info] [Trace - 3:56:45 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 15:56:46.163 [info] [Trace - 3:56:46 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 15:59:22.811 [info] [Trace - 3:59:22 PM] Sending notification 'textDocument/didOpen'.
+2024-01-17 15:59:28.303 [info] [Trace - 3:59:28 PM] Sending notification 'textDocument/didClose'.
+2024-01-17 15:59:28.428 [info] [Trace - 3:59:28 PM] Sending notification 'textDocument/didOpen'.
+2024-01-17 15:59:39.770 [info] [Trace - 3:59:39 PM] Sending notification 'textDocument/didOpen'.
+2024-01-17 16:00:11.054 [info] [Trace - 4:00:11 PM] Sending notification 'textDocument/didOpen'.
+2024-01-17 16:00:21.078 [info] [Trace - 4:00:21 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:21.097 [info] [Trace - 4:00:21 PM] Sending request 'textDocument/rangeFormatting - (1)'.
+2024-01-17 16:00:21.104 [info] [Trace - 4:00:21 PM] Received notification 'window/logMessage'.
+2024-01-17 16:00:21.104 [info] [Warn  - 4:00:21 PM] Black does not support range formatting. Formatting entire document.
+2024-01-17 16:00:21.108 [info] [Trace - 4:00:21 PM] Received notification 'window/logMessage'.
+2024-01-17 16:00:21.108 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py -
+2024-01-17 16:00:21.108 [info] [Trace - 4:00:21 PM] Received notification 'window/logMessage'.
+2024-01-17 16:00:21.108 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 16:00:21.217 [info] [Trace - 4:00:21 PM] Received notification 'window/logMessage'.
+2024-01-17 16:00:21.217 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2024-01-17 16:00:21.218 [info] [Trace - 4:00:21 PM] Received response 'textDocument/rangeFormatting - (1)' in 121ms.
+2024-01-17 16:00:25.891 [info] [Trace - 4:00:25 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:26.626 [info] [Trace - 4:00:26 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:28.864 [info] [Trace - 4:00:28 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:28.996 [info] [Trace - 4:00:28 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:29.325 [info] [Trace - 4:00:29 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:29.608 [info] [Trace - 4:00:29 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:29.912 [info] [Trace - 4:00:29 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:30.050 [info] [Trace - 4:00:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:30.140 [info] [Trace - 4:00:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:30.249 [info] [Trace - 4:00:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:30.356 [info] [Trace - 4:00:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:30.418 [info] [Trace - 4:00:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:34.246 [info] [Trace - 4:00:34 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:35.955 [info] [Trace - 4:00:35 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:36.348 [info] [Trace - 4:00:36 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:36.658 [info] [Trace - 4:00:36 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:36.933 [info] [Trace - 4:00:36 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:39.358 [info] [Trace - 4:00:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:39.465 [info] [Trace - 4:00:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:39.686 [info] [Trace - 4:00:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:39.895 [info] [Trace - 4:00:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:43.420 [info] [Trace - 4:00:43 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:43.898 [info] [Trace - 4:00:43 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:44.563 [info] [Trace - 4:00:44 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:44.792 [info] [Trace - 4:00:44 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:46.026 [info] [Trace - 4:00:46 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:46.216 [info] [Trace - 4:00:46 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:47.431 [info] [Trace - 4:00:47 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:47.611 [info] [Trace - 4:00:47 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:47.742 [info] [Trace - 4:00:47 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:48.016 [info] [Trace - 4:00:48 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:49.056 [info] [Trace - 4:00:49 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:49.767 [info] [Trace - 4:00:49 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:49.860 [info] [Trace - 4:00:49 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:50.067 [info] [Trace - 4:00:50 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:50.285 [info] [Trace - 4:00:50 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:52.105 [info] [Trace - 4:00:52 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:52.414 [info] [Trace - 4:00:52 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:52.893 [info] [Trace - 4:00:52 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:53.113 [info] [Trace - 4:00:53 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:53.189 [info] [Trace - 4:00:53 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:53.374 [info] [Trace - 4:00:53 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:53.469 [info] [Trace - 4:00:53 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:53.644 [info] [Trace - 4:00:53 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:53.879 [info] [Trace - 4:00:53 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:55.207 [info] [Trace - 4:00:55 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:55.556 [info] [Trace - 4:00:55 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:56.399 [info] [Trace - 4:00:56 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:56.555 [info] [Trace - 4:00:56 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:56.962 [info] [Trace - 4:00:56 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:57.324 [info] [Trace - 4:00:57 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:57.621 [info] [Trace - 4:00:57 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:58.019 [info] [Trace - 4:00:58 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:58.447 [info] [Trace - 4:00:58 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:58.565 [info] [Trace - 4:00:58 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:58.715 [info] [Trace - 4:00:58 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:58.769 [info] [Trace - 4:00:58 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:58.999 [info] [Trace - 4:00:58 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:59.215 [info] [Trace - 4:00:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:59.654 [info] [Trace - 4:00:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:59.731 [info] [Trace - 4:00:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:00:59.854 [info] [Trace - 4:00:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:00.077 [info] [Trace - 4:01:00 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:00.138 [info] [Trace - 4:01:00 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:00.593 [info] [Trace - 4:01:00 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:02.209 [info] [Trace - 4:01:02 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:02.383 [info] [Trace - 4:01:02 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:02.743 [info] [Trace - 4:01:02 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:02.863 [info] [Trace - 4:01:02 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:03.022 [info] [Trace - 4:01:03 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:03.100 [info] [Trace - 4:01:03 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:04.173 [info] [Trace - 4:01:04 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:04.348 [info] [Trace - 4:01:04 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:04.671 [info] [Trace - 4:01:04 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:04.844 [info] [Trace - 4:01:04 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:04.924 [info] [Trace - 4:01:04 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:05.839 [info] [Trace - 4:01:05 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:07.030 [info] [Trace - 4:01:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:07.223 [info] [Trace - 4:01:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:07.621 [info] [Trace - 4:01:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:07.797 [info] [Trace - 4:01:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:08.262 [info] [Trace - 4:01:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:08.364 [info] [Trace - 4:01:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:08.492 [info] [Trace - 4:01:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:08.580 [info] [Trace - 4:01:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:08.732 [info] [Trace - 4:01:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:09.520 [info] [Trace - 4:01:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:10.062 [info] [Trace - 4:01:10 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:10.180 [info] [Trace - 4:01:10 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:10.581 [info] [Trace - 4:01:10 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:10.763 [info] [Trace - 4:01:10 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:10.919 [info] [Trace - 4:01:10 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:11.036 [info] [Trace - 4:01:11 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:11.712 [info] [Trace - 4:01:11 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:12.303 [info] [Trace - 4:01:12 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:12.512 [info] [Trace - 4:01:12 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:14.101 [info] [Trace - 4:01:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:14.277 [info] [Trace - 4:01:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:14.445 [info] [Trace - 4:01:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:14.605 [info] [Trace - 4:01:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:14.791 [info] [Trace - 4:01:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:17.383 [info] [Trace - 4:01:17 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:17.565 [info] [Trace - 4:01:17 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:18.200 [info] [Trace - 4:01:18 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:18.332 [info] [Trace - 4:01:18 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:18.420 [info] [Trace - 4:01:18 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:18.501 [info] [Trace - 4:01:18 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:18.572 [info] [Trace - 4:01:18 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:18.747 [info] [Trace - 4:01:18 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:20.364 [info] [Trace - 4:01:20 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:22.232 [info] [Trace - 4:01:22 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:22.782 [info] [Trace - 4:01:22 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:22.862 [info] [Trace - 4:01:22 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:22.903 [info] [Trace - 4:01:22 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.012 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.078 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.235 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.333 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.429 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.509 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.660 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.741 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.944 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:23.972 [info] [Trace - 4:01:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:24.171 [info] [Trace - 4:01:24 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:24.236 [info] [Trace - 4:01:24 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:24.371 [info] [Trace - 4:01:24 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:24.413 [info] [Trace - 4:01:24 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:25.588 [info] [Trace - 4:01:25 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:26.019 [info] [Trace - 4:01:26 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:27.556 [info] [Trace - 4:01:27 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:29.004 [info] [Trace - 4:01:29 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:29.134 [info] [Trace - 4:01:29 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:29.319 [info] [Trace - 4:01:29 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:29.652 [info] [Trace - 4:01:29 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:32.577 [info] [Trace - 4:01:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:32.678 [info] [Trace - 4:01:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:32.789 [info] [Trace - 4:01:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:32.920 [info] [Trace - 4:01:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:33.003 [info] [Trace - 4:01:33 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:35.353 [info] [Trace - 4:01:35 PM] Sending request 'textDocument/formatting - (2)'.
+2024-01-17 16:01:35.362 [info] [Trace - 4:01:35 PM] Received notification 'window/logMessage'.
+2024-01-17 16:01:35.362 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py -
+2024-01-17 16:01:35.362 [info] [Trace - 4:01:35 PM] Received notification 'window/logMessage'.
+2024-01-17 16:01:35.362 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 16:01:35.374 [info] [Trace - 4:01:35 PM] Received notification 'window/logMessage'.
+2024-01-17 16:01:35.374 [info] reformatted /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2024-01-17 16:01:35.378 [info] [Trace - 4:01:35 PM] Received response 'textDocument/formatting - (2)' in 26ms.
+2024-01-17 16:01:35.384 [info] [Trace - 4:01:35 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:50.980 [info] [Trace - 4:01:50 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:51.104 [info] [Trace - 4:01:51 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:51.222 [info] [Trace - 4:01:51 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:51.324 [info] [Trace - 4:01:51 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:52.431 [info] [Trace - 4:01:52 PM] Sending request 'textDocument/formatting - (3)'.
+2024-01-17 16:01:52.433 [info] [Trace - 4:01:52 PM] Received notification 'window/logMessage'.
+2024-01-17 16:01:52.433 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py -
+2024-01-17 16:01:52.433 [info] [Trace - 4:01:52 PM] Received notification 'window/logMessage'.
+2024-01-17 16:01:52.433 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 16:01:52.439 [info] [Trace - 4:01:52 PM] Received notification 'window/logMessage'.
+2024-01-17 16:01:52.439 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2024-01-17 16:01:52.439 [info] [Trace - 4:01:52 PM] Received response 'textDocument/formatting - (3)' in 8ms.
+2024-01-17 16:01:57.909 [info] [Trace - 4:01:57 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:58.858 [info] [Trace - 4:01:58 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:59.089 [info] [Trace - 4:01:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:59.266 [info] [Trace - 4:01:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:59.344 [info] [Trace - 4:01:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:01:59.416 [info] [Trace - 4:01:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:01.393 [info] [Trace - 4:02:01 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:01.523 [info] [Trace - 4:02:01 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:01.590 [info] [Trace - 4:02:01 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:01.703 [info] [Trace - 4:02:01 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:01.814 [info] [Trace - 4:02:01 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:04.555 [info] [Trace - 4:02:04 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:05.520 [info] [Trace - 4:02:05 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:05.810 [info] [Trace - 4:02:05 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:05.893 [info] [Trace - 4:02:05 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:06.414 [info] [Trace - 4:02:06 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:07.804 [info] [Trace - 4:02:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:08.576 [info] [Trace - 4:02:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:09.078 [info] [Trace - 4:02:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:11.526 [info] [Trace - 4:02:11 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:13.357 [info] [Trace - 4:02:13 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:30.888 [info] [Trace - 4:02:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:30.891 [info] [Trace - 4:02:30 PM] Sending request 'textDocument/rangeFormatting - (4)'.
+2024-01-17 16:02:30.893 [info] [Trace - 4:02:30 PM] Received notification 'window/logMessage'.
+2024-01-17 16:02:30.893 [info] [Warn  - 4:02:30 PM] Black does not support range formatting. Formatting entire document.
+2024-01-17 16:02:30.896 [info] [Trace - 4:02:30 PM] Received notification 'window/logMessage'.
+2024-01-17 16:02:30.896 [info] [Error - 4:02:30 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 4
+    if __name__ == "__main__":
+                              ^
+IndentationError: expected an indented block after 'if' statement on line 4
+
+2024-01-17 16:02:30.896 [info] [Trace - 4:02:30 PM] Received notification 'window/logMessage'.
+2024-01-17 16:02:30.896 [info] [Warn  - 4:02:30 PM] Skipping non python code: /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py
+2024-01-17 16:02:30.896 [info] [Trace - 4:02:30 PM] Received response 'textDocument/rangeFormatting - (4)' in 5ms.
+2024-01-17 16:02:32.332 [info] [Trace - 4:02:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:34.439 [info] [Trace - 4:02:34 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:02:59.968 [info] [Trace - 4:02:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:00.118 [info] [Trace - 4:03:00 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:00.160 [info] [Trace - 4:03:00 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:00.293 [info] [Trace - 4:03:00 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:00.402 [info] [Trace - 4:03:00 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:02.505 [info] [Trace - 4:03:02 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:02.712 [info] [Trace - 4:03:02 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:07.618 [info] [Trace - 4:03:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:07.778 [info] [Trace - 4:03:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:07.898 [info] [Trace - 4:03:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:07.986 [info] [Trace - 4:03:07 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:08.090 [info] [Trace - 4:03:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:08.179 [info] [Trace - 4:03:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:08.715 [info] [Trace - 4:03:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:08.876 [info] [Trace - 4:03:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.023 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.204 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.363 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.442 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.560 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.648 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.730 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.883 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:09.980 [info] [Trace - 4:03:09 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:10.125 [info] [Trace - 4:03:10 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:10.773 [info] [Trace - 4:03:10 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:10.942 [info] [Trace - 4:03:10 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:11.277 [info] [Trace - 4:03:11 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:12.070 [info] [Trace - 4:03:12 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:13.357 [info] [Trace - 4:03:13 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:13.526 [info] [Trace - 4:03:13 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:13.603 [info] [Trace - 4:03:13 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:13.742 [info] [Trace - 4:03:13 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:13.861 [info] [Trace - 4:03:13 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:14.306 [info] [Trace - 4:03:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:14.468 [info] [Trace - 4:03:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:14.590 [info] [Trace - 4:03:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:14.685 [info] [Trace - 4:03:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:14.755 [info] [Trace - 4:03:14 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:15.161 [info] [Trace - 4:03:15 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:15.745 [info] [Trace - 4:03:15 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:16.106 [info] [Trace - 4:03:16 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:16.742 [info] [Trace - 4:03:16 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:18.176 [info] [Trace - 4:03:18 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:19.859 [info] [Trace - 4:03:19 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:19.916 [info] [Trace - 4:03:19 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:20.036 [info] [Trace - 4:03:20 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:20.387 [info] [Trace - 4:03:20 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:20.804 [info] [Trace - 4:03:20 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:21.003 [info] [Trace - 4:03:21 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:21.831 [info] [Trace - 4:03:21 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:22.020 [info] [Trace - 4:03:22 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:22.134 [info] [Trace - 4:03:22 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:23.149 [info] [Trace - 4:03:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:23.310 [info] [Trace - 4:03:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:23.379 [info] [Trace - 4:03:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:23.566 [info] [Trace - 4:03:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:23.667 [info] [Trace - 4:03:23 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:24.510 [info] [Trace - 4:03:24 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:25.237 [info] [Trace - 4:03:25 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:25.431 [info] [Trace - 4:03:25 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:26.475 [info] [Trace - 4:03:26 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:26.731 [info] [Trace - 4:03:26 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:27.065 [info] [Trace - 4:03:27 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:27.132 [info] [Trace - 4:03:27 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:27.275 [info] [Trace - 4:03:27 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:27.468 [info] [Trace - 4:03:27 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:27.548 [info] [Trace - 4:03:27 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:28.676 [info] [Trace - 4:03:28 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:28.772 [info] [Trace - 4:03:28 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:29.705 [info] [Trace - 4:03:29 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:30.755 [info] [Trace - 4:03:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:30.849 [info] [Trace - 4:03:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:31.009 [info] [Trace - 4:03:31 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:31.562 [info] [Trace - 4:03:31 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:31.725 [info] [Trace - 4:03:31 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:32.247 [info] [Trace - 4:03:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:32.305 [info] [Trace - 4:03:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:32.413 [info] [Trace - 4:03:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:32.639 [info] [Trace - 4:03:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:33.160 [info] [Trace - 4:03:33 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:33.465 [info] [Trace - 4:03:33 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:33.679 [info] [Trace - 4:03:33 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:33.844 [info] [Trace - 4:03:33 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:33.987 [info] [Trace - 4:03:33 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:34.148 [info] [Trace - 4:03:34 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:34.548 [info] [Trace - 4:03:34 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:34.626 [info] [Trace - 4:03:34 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:34.885 [info] [Trace - 4:03:34 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:35.021 [info] [Trace - 4:03:35 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:35.305 [info] [Trace - 4:03:35 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:35.471 [info] [Trace - 4:03:35 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:35.530 [info] [Trace - 4:03:35 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:35.679 [info] [Trace - 4:03:35 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:35.756 [info] [Trace - 4:03:35 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:37.006 [info] [Trace - 4:03:37 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:39.102 [info] [Trace - 4:03:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:39.263 [info] [Trace - 4:03:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:39.348 [info] [Trace - 4:03:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:39.507 [info] [Trace - 4:03:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:39.655 [info] [Trace - 4:03:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:40.255 [info] [Trace - 4:03:40 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:41.270 [info] [Trace - 4:03:41 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:41.323 [info] [Trace - 4:03:41 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:03:43.941 [info] [Trace - 4:03:43 PM] Sending request 'textDocument/formatting - (5)'.
+2024-01-17 16:03:43.943 [info] [Trace - 4:03:43 PM] Received notification 'window/logMessage'.
+2024-01-17 16:03:43.943 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py -
+2024-01-17 16:03:43.943 [info] [Trace - 4:03:43 PM] Received notification 'window/logMessage'.
+2024-01-17 16:03:43.943 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 16:03:43.954 [info] [Trace - 4:03:43 PM] Received notification 'window/logMessage'.
+2024-01-17 16:03:43.954 [info] reformatted /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2024-01-17 16:03:43.955 [info] [Trace - 4:03:43 PM] Received response 'textDocument/formatting - (5)' in 14ms.
+2024-01-17 16:03:43.959 [info] [Trace - 4:03:43 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:04:06.765 [info] [Trace - 4:04:06 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:04:10.119 [info] [Trace - 4:04:10 PM] Sending request 'textDocument/formatting - (6)'.
+2024-01-17 16:04:10.125 [info] [Trace - 4:04:10 PM] Received notification 'window/logMessage'.
+2024-01-17 16:04:10.125 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py -
+2024-01-17 16:04:10.125 [info] [Trace - 4:04:10 PM] Received notification 'window/logMessage'.
+2024-01-17 16:04:10.125 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 16:04:10.131 [info] [Trace - 4:04:10 PM] Received notification 'window/logMessage'.
+2024-01-17 16:04:10.131 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2024-01-17 16:04:10.131 [info] [Trace - 4:04:10 PM] Received response 'textDocument/formatting - (6)' in 12ms.
+2024-01-17 16:04:31.862 [info] [Trace - 4:04:31 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:04:32.152 [info] [Trace - 4:04:32 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:04:32.158 [info] [Trace - 4:04:32 PM] Sending request 'textDocument/rangeFormatting - (7)'.
+2024-01-17 16:04:32.160 [info] [Trace - 4:04:32 PM] Received notification 'window/logMessage'.
+2024-01-17 16:04:32.160 [info] [Warn  - 4:04:32 PM] Black does not support range formatting. Formatting entire document.
+2024-01-17 16:04:32.162 [info] [Trace - 4:04:32 PM] Received notification 'window/logMessage'.
+2024-01-17 16:04:32.162 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py -
+2024-01-17 16:04:32.162 [info] [Trace - 4:04:32 PM] Received notification 'window/logMessage'.
+2024-01-17 16:04:32.162 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 16:04:32.171 [info] [Trace - 4:04:32 PM] Received notification 'window/logMessage'.
+2024-01-17 16:04:32.171 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2024-01-17 16:04:32.171 [info] [Trace - 4:04:32 PM] Received response 'textDocument/rangeFormatting - (7)' in 13ms.
+2024-01-17 16:05:08.697 [info] [Trace - 4:05:08 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:16.356 [info] [Trace - 4:05:16 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:16.393 [info] [Trace - 4:05:16 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:30.583 [info] [Trace - 4:05:30 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:34.751 [info] [Trace - 4:05:34 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:37.083 [info] [Trace - 4:05:37 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:37.777 [info] [Trace - 4:05:37 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:37.940 [info] [Trace - 4:05:37 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:38.055 [info] [Trace - 4:05:38 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:38.236 [info] [Trace - 4:05:38 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:38.289 [info] [Trace - 4:05:38 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:39.890 [info] [Trace - 4:05:39 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:05:40.973 [info] [Trace - 4:05:40 PM] Sending request 'textDocument/formatting - (8)'.
+2024-01-17 16:05:40.977 [info] [Trace - 4:05:40 PM] Received notification 'window/logMessage'.
+2024-01-17 16:05:40.977 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py -
+2024-01-17 16:05:40.977 [info] [Trace - 4:05:40 PM] Received notification 'window/logMessage'.
+2024-01-17 16:05:40.977 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 16:05:40.988 [info] [Trace - 4:05:40 PM] Received notification 'window/logMessage'.
+2024-01-17 16:05:40.988 [info] reformatted /home/main/Desktop/uni/oop/assignment_2_OOP/testing/src/test.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2024-01-17 16:05:40.989 [info] [Trace - 4:05:40 PM] Received response 'textDocument/formatting - (8)' in 16ms.
+2024-01-17 16:05:40.993 [info] [Trace - 4:05:40 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:07:52.201 [info] [Trace - 4:07:52 PM] Sending request 'textDocument/formatting - (9)'.
+2024-01-17 16:07:52.206 [info] [Trace - 4:07:52 PM] Received notification 'window/logMessage'.
+2024-01-17 16:07:52.206 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/oop/assignment_2_OOP/testing/main.py -
+2024-01-17 16:07:52.206 [info] [Trace - 4:07:52 PM] Received notification 'window/logMessage'.
+2024-01-17 16:07:52.206 [info] CWD formatter: /home/main/Desktop/uni/oop
+2024-01-17 16:07:52.213 [info] [Trace - 4:07:52 PM] Received notification 'window/logMessage'.
+2024-01-17 16:07:52.213 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2024-01-17 16:07:52.214 [info] [Trace - 4:07:52 PM] Received response 'textDocument/formatting - (9)' in 12ms.
+2024-01-17 16:07:53.475 [info] [Trace - 4:07:53 PM] Sending notification 'textDocument/didClose'.
+2024-01-17 16:07:59.345 [info] [Trace - 4:07:59 PM] Sending notification 'textDocument/didChange'.
+2024-01-17 16:07:59.394 [info] [Trace - 4:07:59 PM] Sending notification 'textDocument/didClose'.
+2024-01-17 16:08:00.670 [info] [Trace - 4:08:00 PM] Sending request 'shutdown - (10)'.
+2024-01-17 16:08:00.715 [info] [Trace - 4:08:00 PM] Received response 'shutdown - (10)' in 59ms.
+2024-01-17 16:08:00.715 [info] [Trace - 4:08:00 PM] Sending notification 'exit'.

@@ -1,0 +1,1403 @@
+2023-12-22 12:36:35.317 [info] Name: Black Formatter
+2023-12-22 12:36:35.317 [info] Module: black
+2023-12-22 12:36:35.317 [info] Default formatter is set to ms-python.black-formatter for workspace /home/main/Desktop/uni/oop
+2023-12-22 12:36:35.317 [info] Default formatter is set to ms-python.flake8 for workspace /home/main/Desktop/uni/sigsys
+2023-12-22 12:36:35.317 [warning] Black Formatter is NOT set as the default formatter for workspace /home/main/Desktop/uni/sigsys
+2023-12-22 12:36:35.317 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2023-12-22 12:36:35.317 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2023-12-22 12:36:35.317 [info] Python extension loading
+2023-12-22 12:36:35.317 [info] Waiting for interpreter from python extension.
+2023-12-22 12:36:35.317 [info] Python extension loaded
+2023-12-22 12:36:35.317 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-22 12:36:35.317 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-22 12:36:35.317 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 12:36:35.317 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-22 12:36:35.317 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-22 12:36:35.317 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-22 12:36:35.317 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/sigsys
+2023-12-22 12:36:35.317 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 12:36:35.317 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/sigsys: /bin/python
+2023-12-22 12:36:35.317 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py
+2023-12-22 12:36:35.317 [info] Server: Start requested.
+2023-12-22 12:36:36.872 [info] CWD Server: /home/main/Desktop/uni/oop
+2023-12-22 12:36:36.873 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop",
+        "workspace": "file:///home/main/Desktop/uni/oop",
+        "args": [
+            "--line-length",
+            "79"
+        ],
+        "path": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "cwd": "/home/main/Desktop/uni/sigsys",
+        "workspace": "file:///home/main/Desktop/uni/sigsys",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-22 12:36:36.873 [info] Global settings:
+{
+    "cwd": "/home/main",
+    "workspace": "/home/main",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-22 12:36:36.873 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-22 12:36:36.876 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --version
+2023-12-22 12:36:36.876 [info] CWD formatter: /home/main/Desktop/uni/oop
+2023-12-22 12:36:37.099 [info] Version info for formatter running for /home/main/Desktop/uni/oop:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.10.13
+
+2023-12-22 12:36:37.101 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2023-12-22 12:36:37.101 [info] /bin/python -m black --version
+2023-12-22 12:36:37.101 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 12:36:37.732 [info] Version info for formatter running for /home/main/Desktop/uni/sigsys:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.11.6
+
+2023-12-22 12:36:37.733 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2023-12-22 12:37:00.856 [info] [Trace - 12:37:00 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 12:37:13.564 [info] [Trace - 12:37:13 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 12:37:31.130 [info] [Trace - 12:37:31 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 12:37:31.161 [info] [Trace - 12:37:31 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 12:45:35.590 [info] [Trace - 12:45:35 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:31:58.774 [info] [Trace - 2:31:58 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:32:01.953 [info] [Trace - 2:32:01 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.067 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.155 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.280 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.363 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:02.872 [info] [Trace - 2:32:02 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.448 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.517 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.659 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.737 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:05.819 [info] [Trace - 2:32:05 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:06.605 [info] [Trace - 2:32:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:06.910 [info] [Trace - 2:32:06 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:07.446 [info] [Trace - 2:32:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:07.620 [info] [Trace - 2:32:07 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:08.078 [info] [Trace - 2:32:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:08.282 [info] [Trace - 2:32:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:08.530 [info] [Trace - 2:32:08 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:09.058 [info] [Trace - 2:32:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:09.757 [info] [Trace - 2:32:09 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:10.813 [info] [Trace - 2:32:10 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.196 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.407 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.496 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.594 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:21.906 [info] [Trace - 2:32:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:24.554 [info] [Trace - 2:32:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:32:32.364 [info] [Trace - 2:32:32 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 14:32:32.402 [info] [Trace - 2:32:32 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:32:36.438 [info] [Trace - 2:32:36 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 14:32:36.460 [info] [Trace - 2:32:36 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:33:49.170 [info] [Trace - 2:33:49 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 14:33:49.190 [info] [Trace - 2:33:49 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:34:00.011 [info] [Trace - 2:34:00 PM] Sending notification 'textDocument/didClose'.
+2023-12-22 14:34:00.036 [info] [Trace - 2:34:00 PM] Sending notification 'textDocument/didOpen'.
+2023-12-22 14:34:14.875 [info] [Trace - 2:34:14 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.456 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.645 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.713 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.867 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:15.922 [info] [Trace - 2:34:15 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:16.139 [info] [Trace - 2:34:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:16.828 [info] [Trace - 2:34:16 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:17.994 [info] [Trace - 2:34:17 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:18.082 [info] [Trace - 2:34:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:18.701 [info] [Trace - 2:34:18 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:20.284 [info] [Trace - 2:34:20 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:20.345 [info] [Trace - 2:34:20 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:21.675 [info] [Trace - 2:34:21 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:23.574 [info] [Trace - 2:34:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:23.816 [info] [Trace - 2:34:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:23.963 [info] [Trace - 2:34:23 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.075 [info] [Trace - 2:34:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.155 [info] [Trace - 2:34:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.332 [info] [Trace - 2:34:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:24.343 [info] [Trace - 2:34:24 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:27.023 [info] [Trace - 2:34:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:27.224 [info] [Trace - 2:34:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:27.724 [info] [Trace - 2:34:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 14:34:27.777 [info] [Trace - 2:34:27 PM] Sending notification 'textDocument/didChange'.
+2023-12-22 16:12:20.729 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:12:20.730 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:12:21.108 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:12:44.546 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:12:44.547 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:12:44.559 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:13:40.970 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:13:40.971 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:13:40.986 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:14:12.281 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:14:12.281 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:14:12.296 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:14:44.478 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:14:44.479 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:14:44.541 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:14:45.718 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:14:45.718 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:14:45.732 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:14:46.654 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:14:46.654 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:14:46.667 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:15:24.908 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:15:24.908 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:15:24.925 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:15:41.234 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:15:41.234 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:15:41.251 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:16:34.277 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:16:34.277 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:16:34.308 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:17:17.194 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:17:17.194 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:17:17.211 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:18:24.425 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:18:24.425 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:18:24.441 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:19:13.949 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:19:13.949 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:19:13.997 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:19:42.933 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:19:42.933 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:19:42.953 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:20:21.699 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:20:21.699 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:20:21.765 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:21:03.348 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:21:03.348 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:21:03.529 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:21:13.844 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:21:13.844 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:21:13.861 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:24:34.867 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:24:34.868 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:24:34.886 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:24:38.406 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:24:38.406 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:24:38.421 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:25:11.112 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:25:11.112 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:25:11.130 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:25:34.130 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:25:34.130 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:25:34.148 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:26:13.212 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:26:13.212 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:26:13.230 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:26:41.460 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:26:41.460 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:26:41.481 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:27:13.165 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:27:13.166 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:27:13.186 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:27:51.684 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:27:51.684 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:27:51.701 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:28:13.345 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:28:13.345 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:28:13.363 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:28:34.002 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:28:34.002 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:28:34.042 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:28:38.006 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:28:38.007 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:28:38.044 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:28:54.866 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:28:54.866 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:28:54.882 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:29:02.172 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:29:02.172 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:29:02.194 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:29:24.669 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:29:24.669 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:29:24.702 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:30:11.382 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:30:11.382 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:30:11.399 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:30:38.222 [info] [Error - 4:30:38 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 36
+    h_len = y_len - x _len + 1
+                      ^^^^
+SyntaxError: invalid syntax
+
+2023-12-22 16:30:38.223 [info] [Warn  - 4:30:38 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:30:43.138 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:30:43.139 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:30:43.196 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:30:49.817 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:30:49.817 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:30:49.880 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:33:04.207 [info] [Error - 4:33:04 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 26
+    if any h[h_len:]:
+           ^
+SyntaxError: invalid syntax
+
+2023-12-22 16:33:04.207 [info] [Warn  - 4:33:04 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:22.602 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:33:22.602 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:33:22.618 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:33:43.657 [info] [Error - 4:33:43 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 26
+    return not any(h[h_len:]):
+                             ^
+SyntaxError: invalid syntax
+
+2023-12-22 16:33:43.657 [info] [Warn  - 4:33:43 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:46.098 [info] [Error - 4:33:46 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 27
+    return False
+IndentationError: unexpected indent
+
+2023-12-22 16:33:46.099 [info] [Warn  - 4:33:46 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:33:48.275 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:33:48.275 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:33:48.293 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:34:23.388 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:34:23.388 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:34:23.410 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:35:31.383 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:35:31.383 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:35:31.399 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:37:17.460 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/test.py -
+2023-12-22 16:37:17.461 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:37:17.468 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/test.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:37:26.068 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/test.py -
+2023-12-22 16:37:26.068 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:37:26.074 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:37:36.254 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/test.py -
+2023-12-22 16:37:36.254 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:37:36.259 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:37:54.441 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/test.py -
+2023-12-22 16:37:54.441 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:37:54.445 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:38:23.601 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:38:23.601 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:38:23.627 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:39:04.357 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:39:04.357 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:39:04.374 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:39:24.736 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:39:24.736 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:39:24.767 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:41:10.325 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem3.py -
+2023-12-22 16:41:10.326 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:41:10.387 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:41:55.588 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem3.py -
+2023-12-22 16:41:55.588 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:41:55.664 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:42:12.345 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem3.py -
+2023-12-22 16:42:12.345 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:42:12.363 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:45:24.106 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem3.py -
+2023-12-22 16:45:24.106 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:45:24.163 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/problem3.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 16:45:37.552 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem3.py -
+2023-12-22 16:45:37.552 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:45:37.572 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:46:42.915 [info] [Error - 4:46:42 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 36
+    print(f"{h_len}:", h[:h_len]:.0f)
+                                  ^
+SyntaxError: invalid decimal literal
+
+2023-12-22 16:46:42.915 [info] [Warn  - 4:46:42 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:46:51.003 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:46:51.003 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:46:51.022 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:47:05.411 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:47:05.412 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:47:05.428 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:47:21.375 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:47:21.376 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:47:21.393 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:48:20.764 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:48:20.764 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:48:20.780 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:48:29.528 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:48:29.528 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:48:29.543 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:48:49.865 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:48:49.865 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:48:49.881 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:48:59.105 [info] [Error - 4:48:59 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 35
+    print(f"{h_len}:", int(i) for i in h[:h_len]))
+                                                 ^
+SyntaxError: unmatched ')'
+
+2023-12-22 16:48:59.105 [info] [Warn  - 4:48:59 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:01.358 [info] [Error - 4:49:01 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 35
+    print(f"{h_len}:", int(i) for i in h[:h_len])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Generator expression must be parenthesized
+
+2023-12-22 16:49:01.358 [info] [Warn  - 4:49:01 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:03.780 [info] [Error - 4:49:03 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 35
+    print(f"{h_len}:", int(i) for i in h[:h_len])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Generator expression must be parenthesized
+
+2023-12-22 16:49:03.780 [info] [Warn  - 4:49:03 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+2023-12-22 16:49:11.138 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:49:11.138 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:49:11.156 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:50:56.154 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:50:56.154 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:50:56.171 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:51:08.029 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:51:08.029 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:51:08.045 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 16:51:26.774 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 16:51:26.774 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 16:51:26.797 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 17:11:37.253 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 17:11:37.253 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:11:37.306 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 17:12:55.605 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 17:12:55.605 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:12:55.653 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 17:14:37.373 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 17:14:37.374 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:14:37.393 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 17:15:18.967 [info] /bin/python -m black --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 17:15:18.967 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 17:15:18.983 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:27:27.829 [info] [Error - 6:27:27 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:27.830 [info] [Warn  - 6:27:27 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:29.231 [info] [Error - 6:27:29 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:29.231 [info] [Warn  - 6:27:29 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:43.413 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-22 18:27:43.413 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-22 18:27:43.416 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 18:27:43.423 [info] Server: Stop requested
+2023-12-22 18:27:43.880 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-22 18:27:43.880 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/oop
+2023-12-22 18:27:43.882 [info] No interpreter found from setting black-formatter.interpreter
+2023-12-22 18:27:43.882 [info] Getting interpreter from ms-python.python extension for workspace /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:43.884 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/oop: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python
+2023-12-22 18:27:43.884 [info] Interpreter from ms-python.python extension for /home/main/Desktop/uni/sigsys: /bin/python
+2023-12-22 18:27:43.967 [info] Server run command: /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py
+2023-12-22 18:27:43.968 [info] Server: Start requested.
+2023-12-22 18:27:45.666 [info] CWD Server: /home/main/Desktop/uni/oop
+2023-12-22 18:27:45.666 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/main/Desktop/uni/oop",
+        "workspace": "file:///home/main/Desktop/uni/oop",
+        "args": [
+            "--line-length",
+            "79"
+        ],
+        "path": [],
+        "interpreter": [
+            "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "cwd": "/home/main/Desktop/uni/sigsys",
+        "workspace": "file:///home/main/Desktop/uni/sigsys",
+        "args": [
+            "--line-length",
+            "79"
+        ],
+        "path": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-22 18:27:45.666 [info] Global settings:
+{
+    "cwd": "/home/main",
+    "workspace": "/home/main",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-22 18:27:45.666 [info] sys.path used to run Server:
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/libs
+   /home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python310.zip
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/lib-dynload
+   /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/site-packages
+2023-12-22 18:27:45.682 [info] /home/main/Desktop/uni/oop/assignment_1_OOP/.conda/bin/python -m black --version
+2023-12-22 18:27:45.683 [info] CWD formatter: /home/main/Desktop/uni/oop
+2023-12-22 18:27:45.945 [info] Version info for formatter running for /home/main/Desktop/uni/oop:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.10.13
+
+2023-12-22 18:27:45.945 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2023-12-22 18:27:45.945 [info] /bin/python -m black --version
+2023-12-22 18:27:45.946 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:27:46.294 [info] Version info for formatter running for /home/main/Desktop/uni/sigsys:
+black, 23.10.1 (compiled: no)
+Python (CPython) 3.11.6
+
+2023-12-22 18:27:46.294 [info] SUPPORTED black>=22.3.0
+FOUND black==23.10.1
+
+2023-12-22 18:27:46.500 [info] [Trace - 6:27:46 PM] Sending request 'textDocument/formatting - (1)'.
+2023-12-22 18:27:46.507 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.507 [info] [Error - 6:27:46 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:46.507 [info] [Trace - 6:27:46 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:46.507 [info] [Warn  - 6:27:46 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:46.508 [info] [Trace - 6:27:46 PM] Received response 'textDocument/formatting - (1)' in 7ms.
+2023-12-22 18:27:47.283 [info] [Trace - 6:27:47 PM] Sending request 'textDocument/formatting - (2)'.
+2023-12-22 18:27:47.286 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.286 [info] [Error - 6:27:47 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:47.286 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.286 [info] [Warn  - 6:27:47 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:47.286 [info] [Trace - 6:27:47 PM] Received response 'textDocument/formatting - (2)' in 3ms.
+2023-12-22 18:27:47.500 [info] [Trace - 6:27:47 PM] Sending request 'textDocument/formatting - (3)'.
+2023-12-22 18:27:47.502 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.502 [info] [Error - 6:27:47 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:47.502 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.502 [info] [Warn  - 6:27:47 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:47.502 [info] [Trace - 6:27:47 PM] Received response 'textDocument/formatting - (3)' in 2ms.
+2023-12-22 18:27:47.691 [info] [Trace - 6:27:47 PM] Sending request 'textDocument/formatting - (4)'.
+2023-12-22 18:27:47.696 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.696 [info] [Error - 6:27:47 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:47.696 [info] [Trace - 6:27:47 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:47.696 [info] [Warn  - 6:27:47 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:47.696 [info] [Trace - 6:27:47 PM] Received response 'textDocument/formatting - (4)' in 5ms.
+2023-12-22 18:27:48.284 [info] [Trace - 6:27:48 PM] Sending request 'textDocument/formatting - (5)'.
+2023-12-22 18:27:48.286 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.286 [info] [Error - 6:27:48 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:48.287 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.287 [info] [Warn  - 6:27:48 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:48.287 [info] [Trace - 6:27:48 PM] Received response 'textDocument/formatting - (5)' in 3ms.
+2023-12-22 18:27:48.569 [info] [Trace - 6:27:48 PM] Sending request 'textDocument/formatting - (6)'.
+2023-12-22 18:27:48.572 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.572 [info] [Error - 6:27:48 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:48.573 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.573 [info] [Warn  - 6:27:48 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:48.573 [info] [Trace - 6:27:48 PM] Received response 'textDocument/formatting - (6)' in 4ms.
+2023-12-22 18:27:48.766 [info] [Trace - 6:27:48 PM] Sending request 'textDocument/formatting - (7)'.
+2023-12-22 18:27:48.771 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.771 [info] [Error - 6:27:48 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:48.771 [info] [Trace - 6:27:48 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:48.771 [info] [Warn  - 6:27:48 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:48.771 [info] [Trace - 6:27:48 PM] Received response 'textDocument/formatting - (7)' in 5ms.
+2023-12-22 18:27:49.007 [info] [Trace - 6:27:49 PM] Sending request 'textDocument/formatting - (8)'.
+2023-12-22 18:27:49.012 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.012 [info] [Error - 6:27:49 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:49.013 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.013 [info] [Warn  - 6:27:49 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:49.013 [info] [Trace - 6:27:49 PM] Received response 'textDocument/formatting - (8)' in 6ms.
+2023-12-22 18:27:49.477 [info] [Trace - 6:27:49 PM] Sending request 'textDocument/formatting - (9)'.
+2023-12-22 18:27:49.484 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.484 [info] [Error - 6:27:49 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:27:49.484 [info] [Trace - 6:27:49 PM] Received notification 'window/logMessage'.
+2023-12-22 18:27:49.484 [info] [Warn  - 6:27:49 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:27:49.485 [info] [Trace - 6:27:49 PM] Received response 'textDocument/formatting - (9)' in 8ms.
+2023-12-22 18:29:24.115 [info] [Error - 6:29:24 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:24.115 [info] [Warn  - 6:29:24 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:24.947 [info] [Error - 6:29:24 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:24.947 [info] [Warn  - 6:29:24 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:38.266 [info] [Error - 6:29:38 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:38.266 [info] [Warn  - 6:29:38 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:39.138 [info] [Error - 6:29:39 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:39.138 [info] [Warn  - 6:29:39 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:39.425 [info] [Error - 6:29:39 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:39.425 [info] [Warn  - 6:29:39 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:42.549 [info] [Error - 6:29:42 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:42.550 [info] [Warn  - 6:29:42 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:43.332 [info] [Error - 6:29:43 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:43.332 [info] [Warn  - 6:29:43 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:43.573 [info] [Error - 6:29:43 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:43.573 [info] [Warn  - 6:29:43 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:29:43.891 [info] [Error - 6:29:43 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 16
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 12
+
+2023-12-22 18:29:43.891 [info] [Warn  - 6:29:43 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:02.962 [info] [Error - 6:30:02 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 20
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 15
+
+2023-12-22 18:30:02.963 [info] [Warn  - 6:30:02 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:04.707 [info] [Error - 6:30:04 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 20
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 15
+
+2023-12-22 18:30:04.707 [info] [Warn  - 6:30:04 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:04.982 [info] [Error - 6:30:04 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 20
+    def output_frequency(a_x, p_x, radian, h) -> str:
+    ^^^
+IndentationError: expected an indented block after function definition on line 15
+
+2023-12-22 18:30:04.986 [info] [Warn  - 6:30:04 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:30:24.889 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:30:24.889 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:30:24.934 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:31:31.039 [info] [Error - 6:31:31 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 19
+    response = 
+               ^
+SyntaxError: invalid syntax
+
+2023-12-22 18:31:31.039 [info] [Warn  - 6:31:31 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+2023-12-22 18:32:03.565 [info] [Warn  - 6:32:03 PM] Black does not support range formatting. Formatting entire document.
+2023-12-22 18:32:03.566 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:32:03.566 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:32:03.645 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:32:07.338 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:32:07.338 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:32:07.354 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:32:27.238 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:32:27.238 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:32:27.253 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:32:35.453 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:32:35.453 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:32:35.468 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:33:23.551 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:33:23.552 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:33:23.568 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:33:47.122 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:33:47.122 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:33:47.139 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:34:30.370 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:34:30.370 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:34:30.385 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:34:39.673 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:34:39.673 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:34:39.692 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:36:31.371 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:36:31.372 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:36:31.389 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:36:46.066 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:36:46.066 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:36:46.081 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:37:22.350 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:37:22.350 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:37:22.368 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:38:36.643 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:38:36.643 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:38:36.722 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:40:02.833 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:40:02.833 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:40:02.869 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:41:12.745 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:41:12.746 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:41:12.853 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:42:33.516 [info] [Warn  - 6:42:33 PM] Black does not support range formatting. Formatting entire document.
+2023-12-22 18:42:33.518 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:42:33.518 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:42:33.579 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:42:57.560 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:42:57.560 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:42:57.574 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:44:39.715 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:44:39.716 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:44:39.766 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:44:43.956 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:44:43.956 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:44:43.970 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:44:51.606 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:44:51.606 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:44:51.623 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:45:02.495 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:45:02.495 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:45:02.511 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:45:27.192 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:45:27.192 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:45:27.208 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:45:46.631 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:45:46.631 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:45:46.676 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:47:28.806 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:47:28.806 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:47:28.855 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:48:19.534 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:48:19.534 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:48:19.562 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:48:25.922 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:48:25.923 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:48:25.965 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:48:58.700 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:48:58.700 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:48:58.717 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:49:00.054 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:49:00.054 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:49:00.075 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:49:41.198 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:49:41.199 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:49:41.220 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:49:53.403 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:49:53.403 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:49:53.420 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:50:33.633 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:50:33.633 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:50:33.649 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:51:02.160 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:51:02.160 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:51:02.180 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:51:16.501 [info] [Warn  - 6:51:16 PM] Black does not support range formatting. Formatting entire document.
+2023-12-22 18:51:16.502 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem4.py -
+2023-12-22 18:51:16.502 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:51:16.586 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:51:21.954 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem4.py -
+2023-12-22 18:51:21.954 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:51:22.014 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:51:53.347 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:51:53.348 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:51:53.418 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:52:15.671 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem4.py -
+2023-12-22 18:52:15.671 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:52:15.727 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/problem4.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:52:26.378 [info] [Warn  - 6:52:26 PM] Black does not support range formatting. Formatting entire document.
+2023-12-22 18:52:26.379 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:52:26.379 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:52:26.458 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 18:52:28.050 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:52:28.050 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:52:28.070 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:52:29.386 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:52:29.386 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:52:29.429 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:53:05.841 [info] [Warn  - 6:53:05 PM] Black does not support range formatting. Formatting entire document.
+2023-12-22 18:53:05.843 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:53:05.843 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:53:05.880 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:53:07.239 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:53:07.239 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:53:07.270 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:53:52.226 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:53:52.226 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:53:52.243 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:54:15.936 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:54:15.937 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:54:15.958 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:54:21.810 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:54:21.810 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:54:21.830 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:54:26.918 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:54:26.919 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:54:26.938 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:55:41.970 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:55:41.971 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:55:41.988 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:56:42.974 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:56:42.975 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:56:42.998 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 18:56:57.880 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 18:56:57.880 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 18:56:57.900 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:01:59.132 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr copy.py -
+2023-12-22 19:01:59.132 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:01:59.152 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:02:34.183 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 19:02:34.183 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:02:34.206 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:03:16.897 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 19:03:16.897 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:03:16.916 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:03:35.034 [info] [Error - 7:03:35 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 52
+    if __name__ == "__main__":
+    ^^
+IndentationError: expected an indented block after function definition on line 49
+
+2023-12-22 19:03:35.034 [info] [Warn  - 7:03:35 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:03:36.188 [info] [Error - 7:03:36 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 52
+    if __name__ == "__main__":
+    ^^
+IndentationError: expected an indented block after function definition on line 49
+
+2023-12-22 19:03:36.189 [info] [Warn  - 7:03:36 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:18.391 [info] [Error - 7:04:18 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 50
+    for n in max(len(h1), len(h2))
+                                  ^
+SyntaxError: expected ':'
+
+2023-12-22 19:04:18.391 [info] [Warn  - 7:04:18 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:26.659 [info] [Error - 7:04:26 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 54
+    if __name__ == "__main__":
+IndentationError: expected an indented block after 'for' statement on line 50
+
+2023-12-22 19:04:26.659 [info] [Warn  - 7:04:26 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:04:33.414 [info] [Error - 7:04:33 PM] Syntax error in code: Traceback (most recent call last):
+  File "/home/main/.vscode-oss/extensions/ms-python.black-formatter-2023.6.0-universal/bundled/tool/lsp_server.py", line 117, in is_python
+    ast.parse(code)
+  File "/home/main/Desktop/uni/oop/assignment_1_OOP/.conda/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 54
+    if __name__ == "__main__":
+IndentationError: expected an indented block after 'for' statement on line 50
+
+2023-12-22 19:04:33.414 [info] [Warn  - 7:04:33 PM] Skipping non python code: /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+2023-12-22 19:05:59.035 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 19:05:59.035 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:05:59.142 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 19:06:07.843 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 19:06:07.843 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:06:07.867 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:47:47.541 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 19:47:47.541 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:47:47.564 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:47:54.547 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 19:47:54.547 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:47:54.579 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:48:50.988 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 19:48:50.988 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:48:51.010 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:48:51.718 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 19:48:51.718 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:48:51.739 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:49:19.836 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 19:49:19.837 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:49:19.908 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 19:51:25.663 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 19:51:25.663 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 19:51:25.689 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 20:06:52.868 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/problem3.py -
+2023-12-22 20:06:52.868 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:06:52.888 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 20:19:30.811 [info] [Warn  - 8:19:30 PM] Black does not support range formatting. Formatting entire document.
+2023-12-22 20:19:30.811 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 20:19:30.811 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:30.876 [info] reformatted /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-12-22 20:19:45.141 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_reverse.py -
+2023-12-22 20:19:45.142 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:45.158 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 20:19:51.512 [info] [Warn  - 8:19:51 PM] Black does not support range formatting. Formatting entire document.
+2023-12-22 20:19:51.514 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 20:19:51.514 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:51.550 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 20:19:53.259 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 20:19:53.259 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:53.281 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 20:19:58.009 [info] [Warn  - 8:19:58 PM] Black does not support range formatting. Formatting entire document.
+2023-12-22 20:19:58.011 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 20:19:58.011 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:58.049 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 20:19:59.157 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 20:19:59.157 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:19:59.182 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 20:20:20.256 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr_parallel.py -
+2023-12-22 20:20:20.256 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:20:20.278 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2023-12-22 20:20:30.918 [info] /bin/python -m black --line-length 79 --stdin-filename /home/main/Desktop/uni/sigsys/assignment2/FIR_fr.py -
+2023-12-22 20:20:30.919 [info] CWD formatter: /home/main/Desktop/uni/sigsys
+2023-12-22 20:20:30.938 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+

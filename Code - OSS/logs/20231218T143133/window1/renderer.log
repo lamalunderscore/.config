@@ -1,0 +1,5 @@
+2023-12-18 14:31:35.175 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/main/Desktop/uni/oop/assignment_2_OOP/ms-toolsai.jupyter","scheme":"file"},"type":1,"exists":false},{"fileUri":{"$mid":1,"path":"/home/main/Desktop/uni/oop/assignment_2_OOP/ms-python.python","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2023-12-18 14:31:36.188 [info] Started local extension host with pid 1929.
+2023-12-18 14:31:37.407 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, saveEditor, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-12-18 14:31:37.610 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-12-18 14:31:41.822 [info] [perf] Render performance baseline is 99ms
